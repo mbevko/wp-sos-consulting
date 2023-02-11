@@ -797,18 +797,23 @@ footer {
     justify-content: space-around;
 }
 
-.contact_info_left img {
+.contact_page_icons {
     width: 30px;
-    margin-right: 20px;
+}
+
+.contact_info_right img{
+    width: 30px;
 }
 
 .contact_info_right {
-    height: 200px;
+    /* height: 200px;
     display: flex;
     flex-direction:column;
     justify-content: space-around;
     font-size: 14pt;
-    color: var(--main-bg-color);
+    align-items: center;
+    color: var(--main-bg-color); */
+    border: solid red;
 }
 
 .contact_title {

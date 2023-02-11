@@ -13,14 +13,14 @@ Template Name: Contact
                 <div class="back_banner">
                     <div class="contact_container_left">
                         <div class="contact_info_left">
-                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/phone.png">
-                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/mail.png">
-                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png">
+                            <p>Call Us</p>
+                            <p>Email</p>
+                            <p>Linkedin</p>
                         </div>
                         <div class="contact_info_right">
-                            <p>555.987.6543</p>
-                            <p>info@sosconsultingservices.net</p>
-                            <p>linkedin.com/sosconsultingservices</p>   
+                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/phone.png" /><p>555.987.6543</p>
+                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/mail.png" /><p>info@sosconsultingservices.net</p>
+                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" /><p>linkedin.com/sosconsultingservices</p>   
                         </div>  
                     </div>
                     <div class="contact_container_right">
@@ -36,7 +36,7 @@ Template Name: Contact
                     </div>
                 </div>
             </div>
-    </section>
+    </section> 
 
 <?php get_footer();?>
 
