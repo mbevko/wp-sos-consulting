@@ -12,16 +12,20 @@ Template Name: Contact
                 
                 <div class="back_banner">
                     <div class="contact_container_left">
-                        <div class="contact_info_left">
-                            <p>Call Us</p>
-                            <p>Email</p>
-                            <p>Linkedin</p>
-                        </div>
-                        <div class="contact_info_right">
+                        <p>Call Us</p>
+                        <div class="contact_page_info">
                             <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/phone.png" /><p>555.987.6543</p>
-                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/mail.png" /><p>info@sosconsultingservices.net</p>
-                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" /><p>linkedin.com/sosconsultingservices</p>   
-                        </div>  
+                        </div>
+                        <p>Email</p>
+                        <div class="contact_page_info">
+                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/mail.png" />
+                            <p>info@sosconsultingservices.net</p>
+                        </div>
+                        <p>Linkedin</p>
+                        <div class="contact_page_info">
+                            <img class="contact_page_icons" src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" />
+                            <p>linkedin.com/sosconsultingservices</p>
+                        </div>
                     </div>
                     <div class="contact_container_right">
                         <h2 class="contact_title"><?php the_title();?></h2>

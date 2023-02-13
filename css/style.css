@@ -790,20 +790,11 @@ footer {
     justify-content: center;
 }
 
-.contact_info_left {
-    height: 200px;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-}
-
 .contact_page_icons {
     width: 30px;
 }
 
-.contact_info_right img{
-    width: 30px;
-}
+
 
 .contact_info_right {
     /* height: 200px;
@@ -861,6 +852,13 @@ footer {
     width: 400px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+}
+
+.contact_page_info {
+    display: flex;
+    width: 200px;
+    height: 40px;
 }
 
 .contact_container_right {
