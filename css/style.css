@@ -893,3 +893,25 @@ footer {
     cursor: pointer;
 }
 
+/*-------------------------------- Blog Archive --------------------------------------- */
+
+
+.card {
+    margin: 150px;
+}
+
+.card_body {
+    width: 100%;
+    border: solid 1px; 
+}
+
+.archive_header {
+    color: var(--heading-color);
+}
+
+.archive_btn {
+    text-decoration: none;
+    color:rgb(220, 221, 224);
+    background: var(--sos-red);
+
+}
