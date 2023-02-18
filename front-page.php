@@ -74,12 +74,7 @@
 
             <article class="sos_info">
                 <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nihil,
-                    fugiat, possimus nobis hic soluta atque at rem deserunt aliquam ut natus tenetur
-                    eligendi vitae maxime ipsa quibusdam molestiae vero? Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Eius, minima. Dignissimos, tempore perferendis.
-                    Debitis blanditiis omnis quibusdam repellat id porro, eum eveniet quaerat
-                    doloremque. Sunt alias maxime debitis nam expedita.</p>
+                <p>SOS Consulting Services is a boutique consulting practice made up of a team of accountants, software engineers/programmers, I.T. professionals, and project management specialists with over 25 years’ experience in their respective fields.  We provide our services to a select clientele representing many different industries including financial services, manufacturing/distribution, retail, agricultural, food services, electronics, real estate, maintenance, and health care to name a few.</p>
             </article>
             <article class="articles">
                 <h2 class="articles_heading">Articles</h2>
