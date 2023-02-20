@@ -895,19 +895,31 @@ footer {
 
 /*-------------------------------- Blog Archive --------------------------------------- */
 
-
-.card {
+.archive_page {
     margin: 150px;
+}
+
+.blog_thumbnails{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card_body {
-    width: 500;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 420;
     border: solid rgb(202, 200, 200) 1px; 
     padding: 10px;
     display: inline-block;
+    height: 560px;
+}
+
+.card_body p {
+    font-size: 10pt;
 }
 
 .archive_header {
@@ -916,11 +928,24 @@ footer {
 
 .archive_btn {
     text-decoration: none;
-    color:rgb(220, 221, 224);
-    background: var(--sos-red);
-    padding: 10px;
+    color: var(--sos-red);
 }
 
 .article_body {
-    margin: 150px;
+    margin: 80px auto;
+    width: 800px;
+}
+
+.article_tags {
+    color: #fff;
+    text-decoration: none;
+    background: rgb(20, 177, 20);
+    padding: 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.post_img {
+    border: none;
+    margin: 0;
 }
