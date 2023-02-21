@@ -754,7 +754,7 @@ footer {
 .subject_title {
     color: var(--heading-color);
     font-weight: 700;
-    font-size: 24pt;
+    font-size: 40pt;
     text-align: center;
     height: 200px;
     margin-top: 5px;
@@ -911,15 +911,20 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: space-around;
-    width: 420;
-    border: solid rgb(202, 200, 200) 1px; 
-    padding: 10px;
+    width: 400px;
     display: inline-block;
     height: 560px;
+    font-size: 10pt;
+    font-weight: bold;
 }
 
-.card_body p {
-    font-size: 10pt;
+.card_bottom {
+    padding: 10px;
+    height: max-content;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .archive_header {
@@ -947,5 +952,36 @@ footer {
 
 .post_img {
     border: none;
+    margin: 0;
+}
+
+.subpage_archive {
+    background: #E2E4E4;
+    width: 100vw;
+    padding: 100px 0 ;
+}
+
+.subpage_archive h2 {
+    color: var(--heading-color);
+    font-size: 40pt;
+    text-align: center;
+}
+
+.subpage_article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.thumbnail_titles {
+    color: var(--heading-color);
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;   
+    font-size: 14pt;
+    padding: 0; 
     margin: 0;
 }

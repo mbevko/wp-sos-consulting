@@ -33,7 +33,6 @@ Template Name: Contact
                             <input type="text" name="name" class="name" placeholder="Name"/>
                             <input type="text" name="comp_name" class="comp_name"  placeholder="Company Name"/>
                             <input type="text" name="contact_email" class="contact_email"  placeholder="Email"/>
-                            <input type="text" name="contact_phone" class="contact_phone"  placeholder="Phone"/>
                             <textarea name="message" class="message" placeholder="Write us a Message"></textarea>
                             <button class="form_submit">Send Message</button>
                         </form>

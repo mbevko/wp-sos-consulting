@@ -24,6 +24,7 @@ add_action('wp_enqueue_scripts', 'load_js');
 //Theme Options
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
+add_post_type_support( 'page', 'excerpt' );
 
 
 //Menus
@@ -41,6 +42,20 @@ register_nav_menus(
 add_image_size('blog-large', 800, 400, true);
 add_image_size('blog-small', 400, 250, true);
 
+//widgets
 
+function wpb_widgets_init() {
+ 
+    register_sidebar( array(
+        'name'          => 'Custom Header Widget Area',
+        'id'            => 'custom-header-widget',
+        'before_widget' => '<div class="chw-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="chw-title">',
+        'after_title'   => '</h2>',
+    ) );
+ 
+}
+add_action( 'widgets_init', 'wpb_widgets_init' );
 
 ?>
