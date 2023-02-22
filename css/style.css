@@ -3,7 +3,7 @@ Theme URI: http://sosconsultingservices.net/
 Github Theme URI: https://github.com/mbevko/wp-sos-consulting
 Description: Theme for SOS Consulting Services
 Author: Devko
-Version: v1.1.0
+Version: v1.2.0
 */
 
 :root {
@@ -21,7 +21,6 @@ body {
     background-color: var(--main-bg-color);
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background: red;
 }
 
 /*-------------------------------- CONTACT HEADER --------------------------------------- */
