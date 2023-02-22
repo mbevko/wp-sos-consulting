@@ -4,7 +4,7 @@
             <div class="overlay">
                 <h1 class="header_title">Enterprise Management Software & Technology Provider</h1>
                 <p>Providing end-to-end solutions for business looking for greater efficiency,
-                    flexability, and insight</p>
+                    flexability, and insight TESTING</p>
                 <div class="more_info_btns">
                     <button class="header_learn_more_btn">Learn More</button>
                     <button class="header_contact_us_btn">Contact Us</button>
