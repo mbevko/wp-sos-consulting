@@ -21,6 +21,7 @@ body {
     background-color: var(--main-bg-color);
     margin: 0;
     font-family: 'Inter', sans-serif;
+    background: red;
 }
 
 /*-------------------------------- CONTACT HEADER --------------------------------------- */
