@@ -4,7 +4,7 @@
             <div class="overlay">
                 <h1 class="header_title">Enterprise Management Software & Technology Provider</h1>
                 <p>Providing end-to-end solutions for business looking for greater efficiency,
-                    flexability, and insight TESTING</p>
+                    flexability, and insight.</p>
                 <div class="more_info_btns">
                     <button class="header_learn_more_btn">Learn More</button>
                     <button class="header_contact_us_btn">Contact Us</button>
@@ -73,8 +73,10 @@
             </article>
 
             <article class="sos_info">
-                <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
-                <p>SOS Consulting Services is a boutique consulting practice made up of a team of accountants, software engineers/programmers, I.T. professionals, and project management specialists with over 25 years’ experience in their respective fields.  We provide our services to a select clientele representing many different industries including financial services, manufacturing/distribution, retail, agricultural, food services, electronics, real estate, maintenance, and health care to name a few.</p>
+                <div class="sos_info_content">
+                    <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
+                    <p>SOS Consulting Services is a boutique consulting practice made up of a team of accountants, software engineers/programmers, I.T. professionals, and project management specialists with over 25 years’ experience in their respective fields.  We provide our services to a select clientele representing many different industries including financial services, manufacturing/distribution, retail, agricultural, food services, electronics, real estate, maintenance, and health care to name a few.</p>
+                </div>
             </article>
             <article class="articles">
                 <h2 class="articles_heading">Articles</h2>
