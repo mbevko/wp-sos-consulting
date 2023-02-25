@@ -24,38 +24,47 @@
                 <div class="software_links">
                     <a href="#" title="Accounting and Financials"> 
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.png">
-                        <p>Accounting and Financials</p>
+                        <p class="software_links_p">Accounting and Financials</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Project and Job Costing">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/projectjobcosting.PNG">
-                        <p>Project and Job Costing</p>
+                        <p class="software_links_p">Project and Job Costing</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Distribution Manufacturing Barcoding"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/distributionmanufacturing.PNG">
-                        <p>Distribution Manufacturing Barcoding</p>
+                        <p class="software_links_p">Distribution Manufacturing Barcoding</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Fixed Assets"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
                         <p>Fixed Assets</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Alerts"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/alerts.PNG">
-                        <p>Alerts</p>
+                        <p>Alerts & Workflow</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Reporting Dashboards and Intelligence"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/reportingdashbaords.PNG">
                         <p>Reporting Dashboards & Intelligence</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                 </div>
                 <div class="software_links2_closed">
                     <a href="#" title="Multi-Currency">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/multicurrency.PNG">
                         <p>Multi-Currency</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Warehouse Management">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemangement.PNG">
                         <p>Warehouse Management</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                     <a href="#" title="Workflow Analysis"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow analysis.PNG">
                         <p>Workflow Analysis</p>
+                        <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Custom Forms"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/customforms.PNG">
+                   <!--  <a href="#" title="Custom Forms"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/customforms.PNG">
                         <p>Custom Forms</p>
                     </a>
                     <a href="#" title="Process Automation"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG">
@@ -63,9 +72,9 @@
                     </a>
                     <a href="#" title="Commerce Integration"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/commerceintegration.PNG">
                         <p>Commerce Integration</p>
-                    </a>
+                    </a> -->
                 </div>
-                <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button>
+                <!-- <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button> -->
 
                 <p class="mobile_software_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea facere similique odio animi earum, accusamus corrupti! Aspernatur dignissimos fuga, quibusdam ducimus delectus dolores deserunt harum voluptates voluptatibus quisquam non.</p>
 
@@ -76,10 +85,11 @@
                 <div class="sos_info_content">
                     <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
                     <p>SOS Consulting Services is a boutique consulting practice made up of a team of accountants, software engineers/programmers, I.T. professionals, and project management specialists with over 25 years’ experience in their respective fields.  We provide our services to a select clientele representing many different industries including financial services, manufacturing/distribution, retail, agricultural, food services, electronics, real estate, maintenance, and health care to name a few.</p>
+                    <a href="#" class="sos_info_link">See More</a>
                 </div>
             </article>
             <article class="articles">
-                <h2 class="articles_heading">Articles</h2>
+                <!-- <h2 class="articles_heading"></h2> -->
                 <div class="subpage_article">
         <?php   $args = array(
             'post_type' => array( 'post' ),
