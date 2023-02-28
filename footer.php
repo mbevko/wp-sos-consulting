@@ -3,7 +3,7 @@
     <img
         src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"
         class="footer_logo"/>
-        <div class="footer_sitemap">
+    <div class="footer_sitemap">
         <ul class="footer_sitemap_container1">
             <li>
                 <a href="#" class="sitemap_first_link">Home</a>
@@ -54,12 +54,12 @@
                 <a href="#" class="sitemap_first_link">Archive</a>
             </li>
         </ul>
-        </div>
+    </div>
     <p class="footer_form_title">Send Us a Message</p>
     <form class="footer_form">
-        <input type="text" placeholder="Name" class="footer_form_input" />
-        <input type="text" placeholder="Email" class="footer_form_input" />
-        <input type="textarea" placeholder="Message" class="footer_form_input" />
+        <input type="text" placeholder="Name" class="footer_form_input"/>
+        <input type="text" placeholder="Email" class="footer_form_input"/>
+        <input type="textarea" placeholder="Message" class="footer_form_input"/>
         <button class="footer_form_sbmt">Submit</button>
     </form>
 

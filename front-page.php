@@ -22,45 +22,45 @@
             <article class="software">
                 <h2 class="software_heading">Sage 300 ERP Accounting Software</h2>
                 <div class="software_links">
-                    <a href="#" title="Accounting and Financials"> 
+                    <a href="#" title="Accounting and Financials" class="sf_link_cont"> 
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.png">
                         <p class="software_links_p">Accounting and Financials</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Project and Job Costing">
+                    <a href="#" title="Project and Job Costing" class="sf_link_cont">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/projectjobcosting.PNG">
                         <p class="software_links_p">Project and Job Costing</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Distribution Manufacturing Barcoding"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/distributionmanufacturing.PNG">
+                    <a href="#" title="Distribution Manufacturing Barcoding" class="sf_link_cont"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/distributionmanufacturing.PNG">
                         <p class="software_links_p">Distribution Manufacturing Barcoding</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Fixed Assets"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
+                    <a href="#" title="Fixed Assets" class="sf_link_cont"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
                         <p>Fixed Assets</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Alerts"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/alerts.PNG">
+                    <a href="#" title="Alerts" class="sf_link_cont"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/alerts.PNG">
                         <p>Alerts & Workflow</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Reporting Dashboards and Intelligence"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/reportingdashbaords.PNG">
+                    <a href="#" title="Reporting Dashboards and Intelligence" class="sf_link_cont"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/reportingdashbaords.PNG">
                         <p>Reporting Dashboards & Intelligence</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
                 </div>
                 <div class="software_links2_closed">
-                    <a href="#" title="Multi-Currency">
+                    <a href="#" title="Multi-Currency" class="sf_link_cont">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/multicurrency.PNG">
                         <p>Multi-Currency</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Warehouse Management">
+                    <a href="#" title="Warehouse Management" class="sf_link_cont">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemangement.PNG">
                         <p>Warehouse Management</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
-                    <a href="#" title="Workflow Analysis"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow analysis.PNG">
+                    <a href="#" title="Workflow Analysis" class="sf_link_cont"><img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow analysis.PNG">
                         <p>Workflow Analysis</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
@@ -74,13 +74,9 @@
                         <p>Commerce Integration</p>
                     </a> -->
                 </div>
-                <!-- <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button> -->
-
-                <p class="mobile_software_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ea facere similique odio animi earum, accusamus corrupti! Aspernatur dignissimos fuga, quibusdam ducimus delectus dolores deserunt harum voluptates voluptatibus quisquam non.</p>
-
-                <button class="mobile_software_btn">Discover Accounting Solutions</button>
+                <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button>    
             </article>
-
+            
             <article class="sos_info">
                 <div class="sos_info_content">
                     <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>

@@ -13,10 +13,9 @@
         <?php wp_head();?>
     </head>
     <body>
-        <div class="headertest"></div>
         <div class="contact_header">
             <div class="contact_head_cont">
-                <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
+               <!--  <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"> -->
                 <a href="#">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/phone.png" class="phone-icon contact_header_icon">
                     <p>555.987.6543</p>
@@ -42,11 +41,11 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' => 'nav_links' ) ); ?>
             </div>
 
-            <p class="module_dropdown">Modules</p>
+            <p class="module_dropdown">Supported Solutions</p>
         </nav>
 
         <div class="mobile_nav_closed">
-            <p class="mobile_logo">SOS</p>
+            <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
             <?php wp_nav_menu( array( 'theme_location' => 'mobile-nav', 'menu_class' => 'mobile_nav_links' ) ); ?>
             <a href="#" class="mobile_nav_articles">Articles</a>
             
