@@ -108,7 +108,7 @@ body {
     .mobile_logo {
         display: block;
         width: 120px;
-        margin-left: 20px;
+        margin: 15px 0 0 25px;
     }
 
 }
@@ -189,8 +189,6 @@ nav {
     pointer-events: none;
     top: 0;
 }
-
-
 
 /*-------------------------------- MOBILE NAV --------------------------------------- */
 
@@ -816,9 +814,10 @@ footer a:hover {
 }
 
 .subject_article {
-    padding: 0 150px;
+    width: 50%;
     font-weight: 700;
     color: #3A3A3A;
+    margin: auto;
 }
 
 .contact_us_btn {
@@ -839,28 +838,6 @@ footer a:hover {
         min-height: 600px;
         grid-template-columns: auto 10% 5% 35% 5% 30% auto; 
     }
-
-   /*  .footer_logo {
-        grid-column-start: 2;
-    }
-
-    .footer_sitemap {
-        grid-column-start: 3;
-    }
-    
-    .footer_form {
-        grid-column-start: 5;
-        width: 400px
-    }
-    
-    .footer_form_title {
-        grid-column-start: 5;
-    }
-    
-    .contact_footer {
-        grid-column-start: 5;
-    }
-     */
 }
 
 @media (max-width:1120px) {
@@ -911,6 +888,16 @@ footer a:hover {
     .footer_sitemap {
         grid-column-start: 2;
         grid-row-start: 4;
+        justify-content: space-between;
+        
+    }
+
+    .footer_sitemap a {
+        font-size: 8pt;
+    }
+
+    .footer_sitemap_container2 {
+        width: 60px;
     }
    
     
@@ -946,12 +933,10 @@ footer a:hover {
 
 /*-------------------------------- Contact Page --------------------------------------- */
 
-.contact_white_space {
-    height: 800px;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.contact_body {
+    
+    height: max-content;
+    padding: 100px 0;
 }
 
 .contact_page_icons {
@@ -962,13 +947,6 @@ footer a:hover {
 
 
 .contact_info_right {
-    /* height: 200px;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    font-size: 14pt;
-    align-items: center;
-    color: var(--main-bg-color); */
     border: solid red;
 }
 
@@ -991,6 +969,7 @@ footer a:hover {
     border-bottom: solid black 1px;
     background: var(--main-bg-color);
     font-size: 14pt;
+    outline: none;
 }
 
 .contact_form textarea {
@@ -1001,6 +980,8 @@ footer a:hover {
     font-weight: bold;
     border-bottom: solid black 1px;
     width: 100%;
+    resize: none;
+    outline: none;
 }
 
 .back_banner {
@@ -1010,6 +991,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 
 .contact_container_left {
@@ -1019,6 +1001,7 @@ footer a:hover {
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-around;
+    color: var(--main-bg-color);
 }
 
 .contact_page_info {
@@ -1030,13 +1013,13 @@ footer a:hover {
 }
 
 .page_info_headings {
-    color: var(--main-bg-color);
+    
     font-size: 16pt;
     font-weight: bolder;
 }
 
 .contact_page_info p {
-    color: var(--main-bg-color);
+    
     font-size: 11pt;
 }
 
@@ -1055,6 +1038,37 @@ footer a:hover {
     background: var(--sos-red);
     color: var(--main-bg-color);
     cursor: pointer;
+}
+
+@media(max-width: 880px) {
+    .back_banner {
+        
+        flex-direction: column-reverse;
+        height: 800px;
+        background: var(--main-bg-color);
+
+    }
+
+    .contact_form {
+        width: 95%;
+    }
+
+    .contact_container_left {
+        
+        height: 400px;
+        padding: 25px;
+        width: 80vw;
+        color: var(--font-color);
+    }
+
+    .contact_container_right {
+        width: 95%;
+    }
+
+    .contact_container_right input {
+        width: 90%;
+    }
+
 }
 
 /*-------------------------------- Blog Archive --------------------------------------- */
@@ -1105,7 +1119,7 @@ footer a:hover {
 
 .article_body {
     margin: 80px auto;
-    width: 90%;
+    width: 50%;
 }
 
 .article_tags {
@@ -1151,7 +1165,37 @@ footer a:hover {
     font-size: 14pt;
     padding: 0; 
     margin: 0;
+
 }
+    @media (max-width: 1160px){
+        .article_body {
+            width: 80%;
+        }
+
+        .subject_article {
+            width: 80%;
+            margin: auto;
+        }
+
+       
+    }
+
+    @media (max-width: 900px){
+        .article_body {
+            width: 95%;
+        }
+
+        .subject_article {
+            width: 95%;
+        }
+
+        .subject_title {
+            font-size: 32px;
+        }
+    
+    }
+
+
 
 @media (max-width: 830px){
 

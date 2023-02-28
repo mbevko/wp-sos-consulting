@@ -32,9 +32,9 @@
                 linkedin.com/sosconsultingservices
             </a>
 
-            <img class="hamburger_menu" src="<?php echo get_template_directory_uri(); ?>/images/menu_bars_white.png" width="50px"/>
+            
         </div>
-
+        <img class="hamburger_menu" src="<?php echo get_template_directory_uri(); ?>/images/menu_bars_white.png" width="50px"/>
         <nav class="index_nav">
             <div class="nav_container">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/3.png" class="logo"/>

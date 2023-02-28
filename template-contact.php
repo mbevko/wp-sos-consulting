@@ -7,7 +7,6 @@ Template Name: Contact
 <?php get_header();?>
 
 <section class="contact_body">
-    <div class="contact_white_space">
 
         <div class="back_banner">
             <div class="contact_container_left">
@@ -36,7 +35,7 @@ Template Name: Contact
             <div class="contact_container_right">
                 <h2 class="contact_title"><?php the_title();?></h2>
                 <form class="contact_form">
-                    <input type="text" name="name" class="name" placeholder="Name"/>
+                    <input type="text" name="name" class="name" placeholder="Name" required/>
                     <input
                         type="text"
                         name="comp_name"
@@ -53,7 +52,6 @@ Template Name: Contact
             </div>
         </div>
 
-    </div>
     <div class="subpage_archive">
         <h2>Latest Articles</h2>
         <div class="subpage_article">
