@@ -42,7 +42,7 @@
                 contentType: false,
 
                 success:  (res) => {
-                    alert(res.data)
+                    //alert(res.data)
                     formName.value = "";
                     formEmail.value = "";
                     formMessage.value = "";

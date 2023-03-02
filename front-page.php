@@ -23,7 +23,7 @@
                 <h2 class="software_heading">Sage 300 ERP Accounting Software</h2>
                 <div class="software_links">
                     <a href="#" title="Accounting and Financials" class="sf_link_cont"> 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.png">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.PNG">
                         <p class="software_links_p">Accounting and Financials</p>
                         <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt deleniti</p>
                     </a>
