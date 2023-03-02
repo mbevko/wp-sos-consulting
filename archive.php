@@ -1,5 +1,4 @@
 <?php get_header();?>
-            <h2 class="archive_body">Archive</h2>
             <div class="archive_page">
             
                 <div class="blog_thumbnails">

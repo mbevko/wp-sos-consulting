@@ -4,12 +4,17 @@
         src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"
         class="footer_logo"/>
     <div class="footer_sitemap">
-        <ul class="footer_sitemap_container1">
+
+    <?php wp_nav_menu( array( 'theme_location' => 'footer-nav', 'menu_class' => 'footer_sitemap_container1' ) ); ?>
+
+        <!-- <ul class="footer_sitemap_container1">
             <li>
                 <a href="#" class="sitemap_first_link">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="<?php $permalink = get_permalink( $id ); ?> about">About</a>
+                
+                
             </li>
             <li>
                 <a href="#">Contact</a>
@@ -53,7 +58,7 @@
             <li>
                 <a href="#" class="sitemap_first_link">Archive</a>
             </li>
-        </ul>
+        </ul> -->
     </div>
     <!-- <p class="footer_form_title">Send Us a Message</p>
     <form class="footer_form">

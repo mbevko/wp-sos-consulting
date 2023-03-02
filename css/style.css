@@ -95,9 +95,9 @@ body {
         display: block;
         position: fixed;
         cursor: pointer;
-        width: 20px;
+        width: 40px;
         z-index: 10;
-        top: 5px;
+        top: 15px;
         right: 25px;
     }
 
@@ -693,25 +693,35 @@ footer {
     justify-content: space-between;
 }
 
-.footer_sitemap ul {
+.menu-footer-nav-container {
+    width: 100%;
+}
+
+.footer_sitemap_container1 {
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding: 0;
-    margin: 0;
-    list-style: none;
 }
 
-.footer_sitemap ul li {
-    margin-bottom: 10px;
+.footer_sitemap_container1 ul {
+    padding: 0;
 }
 
-.footer_sitemap_container2 {
-    width: 150px;
+.menu-item-has-children a {
+    color: white;
+    font-size: 10pt;
 }
 
-.sitemap_first_link {
-    font-size: 12pt;
-    color: #fafafa;
+.sub-menu a {
+    color: silver;
+}
+
+
+
+footer .menu-item-type-taxonomy a {
+    color: white;
+    font-size: 11pt;
 }
 
 .footer_form {
@@ -764,7 +774,6 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #9e9e9e;
     font-size: 10pt;
     font-weight: light;
 }
@@ -786,10 +795,6 @@ footer a:hover {
     margin-right: 10px;
 }
 
-.white_space {
-    min-height: 100vh;
-    width: 100vw;
-}
 
 .copyright {
     font-size: 8pt;
@@ -880,7 +885,7 @@ footer a:hover {
         z-index: 1; 
         display: grid;
         grid-template-columns: auto 85% auto; 
-        grid-template-rows: 100px auto 400px 320px 50px;
+        grid-template-rows: 100px auto 400px 400px 50px;
         background: black;
         row-gap: 30px;
     }
@@ -900,11 +905,6 @@ footer a:hover {
     .footer_sitemap a {
         font-size: 8pt;
     }
-
-    .footer_sitemap_container2 {
-        width: 60px;
-    }
-   
     
     .footer_form {
         grid-column-start: 2;
@@ -996,6 +996,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
  
 }
 
@@ -1079,14 +1080,16 @@ footer a:hover {
 /*-------------------------------- Blog Archive --------------------------------------- */
 
 .archive_page {
-    margin: 150px;
+    margin: auto;
 }
 
 .blog_thumbnails{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    min-height: 1000px;
 }
 
 .card_body {
@@ -1141,15 +1144,10 @@ footer a:hover {
     margin: 0;
 }
 
-.subpage_archive {
-    background: #E2E4E4;
-    width: 100vw;
-    padding: 100px 0 ;
-}
 
 .subpage_archive h2 {
     color: var(--heading-color);
-    font-size: 40pt;
+    font-size: 42px;
     text-align: center;
 }
 

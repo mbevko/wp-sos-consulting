@@ -33,7 +33,8 @@ register_nav_menus(
         array(
 
                 'main-nav' => 'Main Nav Location',
-                'mobile-nav' => 'Mobile Nav Location'
+                'mobile-nav' => 'Mobile Nav Location',
+                'footer-nav' => 'Footer Nav Location'
         )
 
 );
@@ -43,7 +44,6 @@ add_image_size('blog-large', 800, 400, true);
 add_image_size('blog-small', 350, 250, true);
 
 //widgets
-
 function wpb_widgets_init() {
  
     register_sidebar( array(
@@ -60,6 +60,7 @@ add_action( 'widgets_init', 'wpb_widgets_init' );
 
 
 
+//Forms
 
 add_action('wp_ajax_enquiry', 'enquiry_form');
 add_action('wp_ajax_nopriv_enquiry', 'enquiry_form');
@@ -79,7 +80,7 @@ function enquiry_form() {
         $headers[] = 'Content-Type: text/html; charset=UTF-8';
         $headers[] = 'From:' . $admin_email;
         $headers[] = 'Reply-to:' . $formdata['email'];
-        $headers[] = 'BCC: mevko@adssglobal.net';
+        $headers[] = 'BCC: mevko@adssglobal.net; mattevko@adssglobal.net';
 
         // Who are we sending the email to?
         $send_to = $admin_email;
