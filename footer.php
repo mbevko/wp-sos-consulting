@@ -55,14 +55,16 @@
             </li>
         </ul>
     </div>
-    <p class="footer_form_title">Send Us a Message</p>
+    <!-- <p class="footer_form_title">Send Us a Message</p>
     <form class="footer_form">
         <input type="text" placeholder="Name" class="footer_form_input"/>
         <input type="text" placeholder="Email" class="footer_form_input"/>
         <input type="textarea" placeholder="Message" class="footer_form_input"/>
         <button class="footer_form_sbmt">Submit</button>
     </form>
+ -->
 
+    <?php get_template_part('includes/form','enquiry'); ?>
     <div class="contact_footer">
         <a href="#">
             <img
