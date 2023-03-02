@@ -83,6 +83,7 @@ body {
 
     .contact_head_cont {
         width: max-content;
+        color: var()
     }
 
     .contact_header_icon {
