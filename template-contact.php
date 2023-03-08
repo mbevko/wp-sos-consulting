@@ -34,26 +34,11 @@ Template Name: Contact
             </div>
             <div class="contact_container_right">
                 <h2 class="contact_title"><?php the_title();?></h2>
-                <form class="contact_form">
-                    <input type="text" name="name" class="name" placeholder="Name" required/>
-                    <input
-                        type="text"
-                        name="comp_name"
-                        class="comp_name"
-                        placeholder="Company Name"/>
-                    <input
-                        type="text"
-                        name="contact_email"
-                        class="contact_email"
-                        placeholder="Email"/>
-                    <textarea name="message" class="message" placeholder="Write us a Message"></textarea>
-                    <button class="form_submit">Send Message</button>
-                </form>
+                <?php get_template_part('includes/form','enquirycontact'); ?>
             </div>
         </div>
 
     <div class="subpage_archive">
-        <h2>Latest Articles</h2>
         <div class="subpage_article">
         <?php   $args = array(
             'post_type' => array( 'post' ),

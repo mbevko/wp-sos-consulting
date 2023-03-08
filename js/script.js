@@ -14,3 +14,14 @@ discoverMoreBtn.addEventListener('click', () => {
     document.querySelector(".software_links2_closed").classList.toggle("software_links2")
     
 })
+
+/* let serviceMenuItem = document.querySelector(".menu-item-59");
+
+serviceMenuItem.addEventListener('mouseenter', () => {
+    document.querySelectorAll("nav .sub-menu")[0].style.visibility = "visible";
+})
+
+document.querySelectorAll("nav .sub-menu")[0].addEventListener('mouseleave', () => {
+    document.querySelectorAll("nav .sub-menu")[0].style.visibility = "hidden";
+})
+ */

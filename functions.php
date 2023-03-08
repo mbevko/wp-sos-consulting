@@ -80,7 +80,7 @@ function enquiry_form() {
         $headers[] = 'Content-Type: text/html; charset=UTF-8';
         $headers[] = 'From:' . $admin_email;
         $headers[] = 'Reply-to:' . $formdata['email'];
-        $headers[] = 'BCC: mevko@adssglobal.net; mattevko@adssglobal.net';
+        $headers[] = 'BCC: mevko@adssglobal.net';
 
         // Who are we sending the email to?
         $send_to = $admin_email;
