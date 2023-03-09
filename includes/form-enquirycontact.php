@@ -1,31 +1,31 @@
 <form class="contact_form">
-                    <input type="text" name="name" class="name" placeholder="Name" required/>
-                    <input
+                    <input type="text" id="name" name="name" class="name contact_form_name" placeholder="Name" required/>
+                    <!-- <input
                         type="text"
                         name="comp_name"
                         class="comp_name"
-                        placeholder="Company Name"/>
+                        placeholder="Company Name"/> -->
                     <input
                         type="text"
                         name="contact_email"
-                        class="contact_email"
+                        class="contact_email contact_form_email"
                         placeholder="Email"/>
-                    <textarea name="message" class="message" placeholder="Write us a Message"></textarea>
-                    <button class="form_submit">Send Message</button>
+                    <input name="message" class="message contact_form_message" placeholder="Write us a Message" type="textarea" />
+                    <button type="submit" class="form_submit contact_form_sbmt">Send Message</button>
                 </form>
     
     <script>
         (function($){
 
         })
-        let formName = document.querySelector(".form_name");
-        let formEmail = document.querySelector(".form_email");
-        let formMessage = document.querySelector(".form_message");
-        let submitForm = document.querySelector(".footer_form_sbmt");
+        let formNameContact = document.querySelector(".contact_form_name");
+        let formEmailContact = document.querySelector(".contact_form_email");
+        let formMessageContact = document.querySelector(".contact_form_message");
+        let submitFormContact = document.querySelector(".contact_form_sbmt");
 
-        let footerForm = document.querySelector(".footer_form");
+        let contactForm = document.querySelector(".contact_form");
 
-        footerForm.addEventListener('submit', (e) => {
+        contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
 
             let endpoint = '<?php echo admin_url('admin-ajax.php');?>'
@@ -36,7 +36,7 @@
                 message: formMessage.value
             } */
 
-            let form = jQuery(footerForm).serialize()
+            let form = jQuery(contactForm).serialize()
 
             const formData = new FormData;
 
@@ -51,11 +51,11 @@
 
                 success:  (res) => {
                     //alert(res.data)
-                    formName.value = "";
-                    formEmail.value = "";
-                    formMessage.value = "";
-                    submitForm.innerHTML = "Message Sent";
-                    submitForm.classList.toggle("form_submitted")
+                    formNameContact.value = "";
+                    formEmailContact.value = "";
+                    formMessageContact.value = "";
+                    submitFormContact.innerHTML = "Message Sent";
+                    submitFormContact.classList.toggle("form_submitted")
 
                 },
 

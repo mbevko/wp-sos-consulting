@@ -109,4 +109,53 @@ function enquiry_form() {
         wp_send_json_success($formdata['name']);
 }
 
+
+
+
+
+function enquiry_form_contact() {
+
+        
+
+        $formdata = [];
+
+        wp_parse_str($_POST['enquiry'], $formdata);
+
+        // Admin Email
+        $admin_email = get_option('admin_email');
+
+        // Email headers
+        $headers[] = 'Content-Type: text/html; charset=UTF-8';
+        $headers[] = 'From:' . $admin_email;
+        $headers[] = 'Reply-to:' . $formdata['email'];
+        $headers[] = 'BCC: mevko@adssglobal.net';
+
+        // Who are we sending the email to?
+        $send_to = $admin_email;
+
+        //Subject
+       $subject = "Enquiry from" . $formdata['name'];
+
+       //Message
+       $message = '';
+
+       foreach($formdata as $index => $field){
+        $message .= '<strong>' . $index . '</strong>:' . $field .'<br/>';
+       }
+
+       try {
+        if(wp_mail($send_to, $subject, $message, $headers) ){
+                wp_send_json_success('Email sent');
+        } else {
+                wp_send_json_error('Email error');
+        }
+       } catch (Exception $e){
+        wp_send_json_error($e->getMessage);
+       }
+
+        
+        wp_send_json_success($formdata['name']);
+}
+
 ?>
+
