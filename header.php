@@ -46,9 +46,9 @@
             src="<?php echo get_template_directory_uri(); ?>/images/icons8-menu-48.png"
             width="50px"/>
         <nav class="index_nav">
-                <img
+               <a href="<?php echo site_url(); ?>"> <img
                     src="<?php echo get_template_directory_uri(); ?>/images/3.png"
-                    class="logo"/>
+                    class="logo"/> </a>
             <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' =>
                 'nav_links' ) ); ?>
         </nav>

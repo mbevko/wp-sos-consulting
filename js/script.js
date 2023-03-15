@@ -8,27 +8,17 @@ menuBtn.addEventListener('click', () => {
 
 
 //Discover more button in software links
-let discoverMoreBtn = document.querySelector(".discover_btn")
+let serviceMenuItem = document.querySelectorAll("nav .menu-item-has-children");
+let subMenu = document.querySelectorAll("nav .sub-menu");
 
-discoverMoreBtn.addEventListener('click', () => {
-    document.querySelector(".software_links2_closed").classList.toggle("software_links2")
-    
+serviceMenuItem.forEach((dropDown, id) => {
+    dropDown.addEventListener('mouseover', () => {
+        subMenu[id].style.visibility = "visible" 
+    })
 })
 
-
-let serviceMenuItem = document.querySelectorAll("#menu-item-119 a")[0];
-let subMenu = document.querySelectorAll("nav .sub-menu")[0];
-
-serviceMenuItem.addEventListener('mouseenter', () => {
-    //subMenu.style.visibility = "visible"
-    alert("hello")
-    //subMenu.classList.toggle("sub-menu-active")
+serviceMenuItem.forEach((dropDown) => {
+    dropDown.addEventListener('mouseleave', () => {
+        subMenu.forEach(menu => menu.style.visibility = "hidden" )
+    })
 });
-
-/* serviceMenuItem.addEventListener('mouseover', () => {
-    //subMenu.style.visibility = "visible"
-    subMenu.classList.toggle("sub-menu-active")
-})
-
-
- */

@@ -19,7 +19,7 @@ Template Name: Sage Module Description
                         class="post_img">
                     <?php endif;?></div>
             </div>
-            <button class="contact_us_btn">Contact Us</button>
+            <a href="<?php echo site_url('/contact'); ?>"><button class="contact_us_btn">Contact Us</button></a>
         </div>
     <div class="subpage_archive">
         <!-- 
