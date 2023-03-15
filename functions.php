@@ -41,6 +41,7 @@ register_nav_menus(
 
 // Custom Image Sizes
 add_image_size('blog-large', 800, 400, true);
+add_image_size('blog-medium', 100, 500, true);
 add_image_size('blog-small', 350, 250, true);
 
 //widgets

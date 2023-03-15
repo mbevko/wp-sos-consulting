@@ -7,17 +7,24 @@ Template Name: Sage Module Description
 <?php get_header();?>
 
 <section class="more_info_body">
-    <div class="white_space">
         <h2 class="subject_title"><?php the_title();?></h2>
 
         <div class="subject_article">
-            <?php get_template_part('includes/section', 'content');?>
+            <div class="subject_container">
+                <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?></div>
+                <div class="subject_container_right"><?php if(has_post_thumbnail()):?>
+                    <img
+                        src="<?php the_post_thumbnail_url('medium_large');?>"
+                        alt="<?php the_title();?>+"
+                        class="post_img">
+                    <?php endif;?></div>
+            </div>
             <button class="contact_us_btn">Contact Us</button>
         </div>
-    </div>
     <div class="subpage_archive">
-        <h2>Latest Articles</h2>
-    <div class="subpage_article">
+        <!-- 
+        <h2>Latest Articles</h2> -->
+        <div class="subpage_article">
         <?php   $args = array(
             'post_type' => array( 'post' ),
             'posts_per_page' => 3,

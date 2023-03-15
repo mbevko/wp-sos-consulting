@@ -15,13 +15,20 @@ discoverMoreBtn.addEventListener('click', () => {
     
 })
 
-/* let serviceMenuItem = document.querySelector(".menu-item-59");
+
+let serviceMenuItem = document.querySelectorAll("#menu-item-119 a")[0];
+let subMenu = document.querySelectorAll("nav .sub-menu")[0];
 
 serviceMenuItem.addEventListener('mouseenter', () => {
-    document.querySelectorAll("nav .sub-menu")[0].style.visibility = "visible";
+    //subMenu.style.visibility = "visible"
+    alert("hello")
+    //subMenu.classList.toggle("sub-menu-active")
+});
+
+/* serviceMenuItem.addEventListener('mouseover', () => {
+    //subMenu.style.visibility = "visible"
+    subMenu.classList.toggle("sub-menu-active")
 })
 
-document.querySelectorAll("nav .sub-menu")[0].addEventListener('mouseleave', () => {
-    document.querySelectorAll("nav .sub-menu")[0].style.visibility = "hidden";
-})
+
  */

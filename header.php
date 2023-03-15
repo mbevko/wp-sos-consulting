@@ -84,23 +84,3 @@
                 </a>
             </div>
         </div>
-
-
-
-        <script>
-            let serviceMenuItem = document.querySelector(".menu-item-119");
-            let subMenu = document.querySelectorAll("nav .sub-menu")[0];
-
-            serviceMenuItem.addEventListener('mouseenter', () => {
-                subMenu.style.visibility = "visible";
-            })
-
-            serviceMenuItem.addEventListener('mouseenter', () => {
-                subMenu.style.visibility = "visible";
-            })
-
-            subMenu.addEventListener('mouseleave', () => {
-                    subMenu.style.visibility = "hidden";
-                    
-                })
-        </script>
