@@ -80,7 +80,7 @@
                 title="Accounting and Financials"
                 class="sf_link_cont"><img
                 src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.PNG">
-                <p>Accoutning and financials</p>
+                <p>Accounting and Financials</p>
                 <p class="software_links_p2">Sage 300 has extremely powerful and comprehensive
                     financial modules for true end-to-end financial management.</p>
             </a>
