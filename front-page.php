@@ -69,14 +69,14 @@
                 href="<?php echo site_url('/supported-solutions/custom-screens-and-applications'); ?>"
                 title="Custom Screens and Applications"
                 class="sf_link_cont"><img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
-                <p>Warehouse Management</p>
+                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG">
+                <p>Custom Screens and Applications</p>
                 <p class="software_links_p2">Thanks to Sage 300’s powerful UI and architecture,
                     our custom development team can customize any Sage master file and transaction
                     screen.</p>
             </a>
             <a
-                href="<?php echo site_url('/supported-solutions/accouting-and-financials'); ?>"
+                href="<?php echo site_url('/supported-solutions/accounting-and-financials'); ?>"
                 title="Accounting and Financials"
                 class="sf_link_cont"><img
                 src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.PNG">
