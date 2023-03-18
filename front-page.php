@@ -101,9 +101,7 @@
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/distributionmanufacturing.PNG">
                 <p>Distribution, Manufacturing and Barcode</p>
-                <p class="software_links_p2">Lorem ipsum dolor, sit amet consectetur adipisicing
-                    elit. Nesciunt, consectetur. Earum tempore praesentium quod atque incidunt
-                    deleniti</p>
+                <p class="software_links_p2">Sage 300 distribution modules include Inventory Control, Order Entry, and Purchase Orders.</p>
             </a>
         </div>
         <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button>
