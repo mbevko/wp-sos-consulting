@@ -11,15 +11,17 @@ Template Name: Sage Module Description
 
         <div class="subject_article">
             <div class="subject_container">
-                <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?></div>
+                <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?>
+                <a href="<?php echo site_url('/contact'); ?>"><button class="contact_us_btn">Contact Us</button></a>
+            </div>
                 <div class="subject_container_right"><?php if(has_post_thumbnail()):?>
                     <img
                         src="<?php the_post_thumbnail_url('medium_large');?>"
                         alt="<?php the_title();?>+"
-                        class="post_img">
+                        class="page_featured_img">
                     <?php endif;?></div>
             </div>
-            <a href="<?php echo site_url('/contact'); ?>"><button class="contact_us_btn">Contact Us</button></a>
+            
         </div>
     <div class="subpage_archive">
         <!-- 

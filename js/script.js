@@ -15,7 +15,7 @@ serviceMenuItem.forEach((dropDown, id) => {
     dropDown.addEventListener('mouseover', () => {
         subMenu[id].style.visibility = "visible" 
     })
-})
+});
 
 serviceMenuItem.forEach((dropDown) => {
     dropDown.addEventListener('mouseleave', () => {
