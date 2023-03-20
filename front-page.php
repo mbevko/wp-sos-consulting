@@ -30,7 +30,7 @@
                 class="sf_link_cont">
                 <p class="sage_link">Sage 300</p>
                 <p class="software_links_p2">Sage 300 ERP contains the power and tools to help
-                    you see your business in a new way so you can improve productivity. , envision
+                    you see your business in a new way so you can improve productivity, envision
                     success, and accelerate growth.</p>
             </a>
             <a
