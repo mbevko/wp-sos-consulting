@@ -21,7 +21,7 @@
         let formNameContact = document.querySelector(".contact_form_name");
         let formEmailContact = document.querySelector(".contact_form_email");
         let formMessageContact = document.querySelector(".contact_form_message");
-        let submitFormContact = document.querySelector(".contact_form_sbmt");
+        let submitFormContact = document.querySelector(".form_submit");
 
         let contactForm = document.querySelector(".contact_form");
 

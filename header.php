@@ -18,14 +18,14 @@
         <div class="contact_header">
             <div class="contact_head_cont">
                 <!--  <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"> -->
-                <a href="#">
+                <a href="tel:6316556288">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/phone.png"
                         class="phone-icon contact_header_icon">
-                    <p>555.987.6543</p>
+                    <p>631.655.6288</p>
                 </a>
 
-                <a href="#">
+                <a href="mailto:info@sosconsultingservices.net">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/mail.png"
                         class="mail-icon contact_header_icon">
@@ -33,7 +33,7 @@
                 </a>
             </div>
 
-            <a href="#">
+            <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" target="_blank">
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"
                     class="linkedin-icon contact_header_icon">
@@ -59,24 +59,24 @@
                 src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
             <?php wp_nav_menu( array( 'theme_location' => 'mobile-nav', 'menu_class' =>
             'mobile_nav_links' ) ); ?>
-            <a href="#" class="mobile_nav_articles">Articles</a>
+            
 
             <div class="mobile_contact">
-                <a href="#">
+                <a href="tel:6316556288">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/phone.png"
                         class="phone-icon mobile_contact_icon">
-                    <p>555.987.6543</p>
+                    <p>631.655.6288</p>
                 </a>
 
-                <a href="#">
+                <a href="mailto:info@sosconsultingservices.net">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/mail.png"
                         class="mail-icon mobile_contact_icon">
                     <p>info@sosconsultingservices.net</p>
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" target="_blank">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"
                         class="linkedin-icon mobile_contact_icon">
