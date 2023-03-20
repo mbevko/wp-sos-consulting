@@ -12,18 +12,18 @@
     <?php get_template_part('includes/form','enquiry'); ?>
     <div class="contact_footer">
 
-    <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" target="_blank" class="contact_footer_link">
+    <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" target="_blank" class="contact_footer_link contact_footer_link1">
             <img
                 src="<?php echo get_template_directory_uri(); ?>/images/icons8-linkedin-50.png">
-                Follow Us
+                <span>Follow Us</span>
         </a>
-        <a href="mailto:info@sosconsultingservices.net" class="contact_footer_link">
+        <a href="mailto:info@sosconsultingservices.net" class="contact_footer_link contact_footer_link2">
             <img
                 src="<?php echo get_template_directory_uri(); ?>/images/icons8-mail-50.png"
                 > info@sosconsultingservices.net
         </a>
 
-        <a href="tel:6316556288" class="contact_footer_link">
+        <a href="tel:6316556288" class="contact_footer_link contact_footer_link3">
             <img
                 src="<?php echo get_template_directory_uri(); ?>/images/icons8-ringer-volume-50.png">
                 631.655.6288

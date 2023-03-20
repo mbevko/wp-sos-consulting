@@ -11,26 +11,26 @@ Template Name: Contact
         <div class="back_banner">
             <div class="contact_container_left">
                 <p class="page_info_headings">Call Us</p>
-                <div class="contact_page_info">
+                <a href="tel:6316556288" class="contact_page_info">
                     <img
                         class="contact_page_icons"
                         src="<?php echo get_template_directory_uri(); ?>/images/phone.png"/>
-                    <p>555.987.6543</p>
-                </div>
+                        631.655.6288
+                </a>
                 <p class="page_info_headings">Email</p>
-                <div class="contact_page_info">
+                <a href="mailto:info@sosconsultingservices.net" class="contact_page_info">
                     <img
                         class="contact_page_icons"
                         src="<?php echo get_template_directory_uri(); ?>/images/mail.png"/>
-                    <p>info@sosconsultingservices.net</p>
-                </div>
+                        <p>info@sosconsultingservices.net</p>
+                </a>
                 <p class="page_info_headings">Linkedin</p>
-                <div class="contact_page_info">
+                <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" class="contact_page_info">
                     <img
                         class="contact_page_icons"
                         src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"/>
                     <p>linkedin.com/sosconsultingservices</p>
-                </div>
+                </a>
             </div>
             <div class="contact_container_right">
                 <h2 class="contact_title"><?php the_title();?></h2>

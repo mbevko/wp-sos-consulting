@@ -4,7 +4,7 @@
     <div class="overlay">
         <h1 class="header_title">Enterprise Management Software & Technology Provider</h1>
         <p>Providing end-to-end solutions for business looking for greater efficiency,
-            flexability, and insight.</p>
+            flexibility, and insight.</p>
         <div class="more_info_btns">
             <a href="<?php echo site_url('/about'); ?>">
                 <button class="header_learn_more_btn">Learn More</button>
