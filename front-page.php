@@ -25,7 +25,7 @@
         <h2 class="software_heading">Sage 300 ERP Accounting Software</h2>
         <div class="software_links">
             <a
-                href="<?php echo site_url('/supported-solutions/184-2'); ?>"
+                href="<?php echo site_url('/supported-solutions/sage-300-erp'); ?>"
                 title="Sage 300"
                 class="sf_link_cont">
                 <p class="sage_link">Sage 300</p>
