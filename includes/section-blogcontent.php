@@ -4,9 +4,9 @@
 
     <?php the_content();?>
 
-    <?php 
-    $fname = get_the_author_meta('first_name');
-    $lname = get_the_author_meta('last_name');
+    <?php// 
+    //$fname = get_the_author_meta('first_name');
+    //$lname = get_the_author_meta('last_name');
     ?>
 
     <p>Written by <?php echo $fname;?> <?php echo $lname;?></p>

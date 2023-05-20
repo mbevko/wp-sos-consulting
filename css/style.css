@@ -949,6 +949,10 @@ footer a:hover {
     font-size: 32pt;
 }
 
+.subject_container_left a {
+    text-decoration: none;
+}
+
 .subject_article {
     font-weight: 400;
     color: #000;
