@@ -1,7 +1,11 @@
 <?php get_header();?>
             <div class="archive_page">
-            
+                <div class="header_archive_cont">
+                    <p class="archive_header">Articles</p>
+                </div>
+                
                 <div class="blog_thumbnails">
+                    
                     <?php get_template_part('includes/section', 'archive');?>
                 </div>
                 

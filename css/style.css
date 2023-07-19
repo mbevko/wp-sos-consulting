@@ -1283,6 +1283,7 @@ footer a:hover {
 
 .archive_page {
     margin: auto;
+
 }
 
 .blog_thumbnails{
@@ -1291,7 +1292,12 @@ footer a:hover {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 1000px;
+    margin: 0;
+    row-gap: 50px;
+    grid-template-columns: min-content;
+    grid-template-rows: 600px 600px ;
+    min-height: 800px; 
+    padding: 50px 0 50px 0;
 }
 
 .card_body {
@@ -1300,7 +1306,6 @@ footer a:hover {
     justify-content: space-around;
     align-items: space-around;
     width: 352;
-    display: inline-block;
     height: 553px;
     font-size: 10pt;
     font-weight: bold;
@@ -1318,9 +1323,21 @@ footer a:hover {
     font-weight: lighter;
 }
 
-.archive_header {
-    color: var(--heading-color);
+.header_archive_cont {
+    color: var(--main-bg-color);
+    font-weight: 400;
+    font-size: 40pt;
+    text-align: center;
+    height: 200px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--font-color);
+    margin: 0;
+    width: 100%;
 }
+
 
 .archive_btn {
     text-decoration: none;
