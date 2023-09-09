@@ -22,28 +22,15 @@
 <section class="index_main_body">
 
     <article class="software">
-        <h2 class="software_heading">Sage 300 ERP Accounting Software</h2>
+        <h2 class="software_heading">Supported Solutions</h2>
         <div class="software_links">
-            <a
-                href="<?php echo site_url('/supported-solutions/sage-300-erp'); ?>"
-                title="Sage 300"
-                class="sf_link_cont">
-                <p class="sage_link">Sage 300</p>
-                <p class="software_links_p2">Sage 300 ERP contains the power and tools to help
-                    you see your business in a new way so you can improve productivity, envision
-                    success, and accelerate growth.</p>
-            </a>
             <a
                 href="<?php echo site_url('/supported-solutions/sage-fixed-assets'); ?>"
                 title="Sage Fixed Assets"
                 class="sf_link_cont">
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
-                <p class="software_links_p">Sage Fixed Assets</p>
-                <p class="software_links_p2">Thanks to an intuitive user interface, Sage Fixed
-                    Assets—Depreciation gives you the flexibility to manage the entire fixed asset
-                    lifecycle—from acquisition to transfers and disposals—for both public and
-                    private organizations.</p>
+                <p class="software_links_p">Enterprise Resource Planning</p>
             </a>
             <a
                 href="<?php echo site_url('/supported-solutions/workflow-analysis-and-process-automation'); ?>"
@@ -51,71 +38,24 @@
                 class="sf_link_cont">
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow-analysis.PNG">
-                <p class="software_links_p">Workflow Analysis and Process Automation</p>
-                <p class="software_links_p2">Our team can work with you to walk your entire
-                    business from A-Z and assist with documenting the required workflow necessary in
-                    order to leverage Sage 300.</p>
+                <p class="software_links_p">Human Resource Management</p>
             </a>
             <a
                 href="<?php echo site_url('/supported-solutions/warehouse-management'); ?>"
                 title="Warehouse Management"
                 class="sf_link_cont"><img
                 src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemanagement.PNG">
-                <p class="software_links_p">Warehouse management</p>
-                <p class="software_links_p2">Out of the box, Sage 300 provides extremely
-                    powerful modules to support your warehouse needs.</p>
+                <p class="software_links_p">Custom Programming</p>
             </a>
             <a
                 href="<?php echo site_url('/supported-solutions/custom-screens-and-applications'); ?>"
                 title="Custom Screens and Applications"
                 class="sf_link_cont"><img
                 src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG">
-                <p>Custom Screens and Applications</p>
-                <p class="software_links_p2">Thanks to Sage 300’s powerful UI and architecture,
-                    our custom development team can customize any Sage master file and transaction
-                    screen.</p>
-            </a>
-            <a
-                href="<?php echo site_url('/supported-solutions/accounting-and-financials'); ?>"
-                title="Accounting and Financials"
-                class="sf_link_cont"><img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/accountingfinancials.PNG">
-                <p>Accounting and Financials</p>
-                <p class="software_links_p2">Sage 300 has extremely powerful and comprehensive
-                    financial modules for true end-to-end financial management.</p>
+                <p>3rd Party Supported Solutions</p>
             </a>
 
         </div>
-        <div class="software_links2_closed">
-            <a
-                href="<?php echo site_url('/supported-solutions/reporting-dashboards-intelligence'); ?>"
-                title="Reporting Dashboards and Intelligence"
-                class="sf_link_cont"><img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/reportingdashbaords.PNG">
-                <p>Reporting Dashboards & Intelligence</p>
-                <p class="software_links_p2">Whether you require custom reports, detailed
-                    analysis in real time, or dashboards that give you a bird’s eye view of your
-                    business, we can assist you.</p>
-            </a>
-            <a href="<?php echo site_url('/supported-solutions/distribution-manufacturing-and-barcode'); ?>" title="Distribution Manufacturing and Barcode" class="sf_link_cont">
-                <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/distributionmanufacturing.PNG">
-                <p>Distribution, Manufacturing and Barcode</p>
-                <p class="software_links_p2">Sage 300 distribution modules include Inventory Control, Order Entry, and Purchase Orders.</p>
-            </a>
-        </div>
-        <button title="Discover More" alt="Discover More" class="discover_btn">Discover More</button>
-        <script>
-            let discoverMoreBtn = document.querySelector(".discover_btn")
-
-            discoverMoreBtn.addEventListener('click', () => {
-                document
-                    .querySelector(".software_links2_closed")
-                    .classList
-                    .toggle("software_links2")
-
-            })
-        </script>
     </article>
 
     <article class="sos_info">
