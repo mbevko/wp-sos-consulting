@@ -24,9 +24,9 @@ Template Name: subpage_sage
             </ul>
         </div>
 
-        <div class="subpage_banner">
-            <div class="featured_software">
-                    <p>Sage Intacct</p>
+        <div class="subpage_banner subpage_banner_intacct">
+            <div class="featured_software_intacct">
+                    <p>Sage <span>Intacct</span></p>
             </div>
 
             <ul class="featured_software_desc">
