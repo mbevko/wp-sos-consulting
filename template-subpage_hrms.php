@@ -7,7 +7,27 @@ Template Name: subpage_hrms
 <?php get_header();?>
 
 <section class="more_info_body">
-        <h2 class="subject_title"><?php the_title();?></h2>
+<div class="subpage_header_banner">
+        <div class="subpage_header_container">
+            <div class="subpage_header_subcont">
+                <h2 class="subpage_title"><?php the_title();?></h2>
+                <img
+                    class="horizontal_logo"
+                    src="<?php echo get_template_directory_uri(); ?>/images/SOS Morse Code.png">
+            </div>
+            <div class="more_info_btns_subpage">
+                <a href="<?php echo site_url('/about'); ?>" class="subpage_learn_more_link">
+                    <button class="subpage_learn_more_btn">Schedule Demo</button>
+                </a>
+                <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
+                    <button class="subpage_contact_us_btn">Contact Us</button>
+                </a>
+            </div>
+        </div>
+        <img
+            class="subpage_header_img"
+            src="<?php echo get_template_directory_uri(); ?>/images/3dlaptop.jpg">
+    </div>
 
         <h3 class="subpage_banner_header">Human Resource Management Software We Support</h3>
 
