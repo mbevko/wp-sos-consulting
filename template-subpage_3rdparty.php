@@ -26,7 +26,7 @@ Template Name: subpage_3rdparty
         </div>
         <img
             class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/3dlaptop.jpg">
+            src="<?php echo get_template_directory_uri(); ?>/images/SOSWebsiteBannerImage-ERP.PNG">
     </div>
 
     <div class="subject_article">
@@ -36,7 +36,7 @@ Template Name: subpage_3rdparty
                     <!-- <button class="contact_us_btn">Contact Us</button> -->
                 </a>
             </div>
-            <div class="subject_container_right"><?php if(has_post_thumbnail()):?>
+            <div class="subject_container_right"><?php if(has_post_thumbnail()):?> 
                 <img
                     src="<?php the_post_thumbnail_url('medium_large');?>"
                     alt="<?php the_title();?>+"

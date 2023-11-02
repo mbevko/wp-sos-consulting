@@ -17,10 +17,7 @@
     </div>
 </header>
 
-<div class="container"></div>
-
 <section class="index_main_body">
-
     <article class="software">
         <h2 class="software_heading">Supported Solutions</h2>
         <div class="software_links">
