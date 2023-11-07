@@ -7,7 +7,13 @@ Template Name: Sage Module Description
 <?php get_header();?>
 
 <section class="more_info_body">
-        <h2 class="subject_title"><?php the_title();?></h2>
+        <div class="subject_title_container">
+            <h2 class="subject_title"><?php the_title();?></h2>
+            <img
+                    class="horizontal_logo"
+                    src="<?php echo get_template_directory_uri(); ?>/images/SOS Morse Code.png">
+        </div>
+        
 
         <div class="subject_article">
             <div class="subject_container">

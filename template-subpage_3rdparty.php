@@ -26,7 +26,7 @@ Template Name: subpage_3rdparty
         </div>
         <img
             class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/SOSWebsiteBannerImage-ERP.PNG">
+            src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/3rdPartyPage.png">
     </div>
 
     <div class="subject_article">
@@ -47,6 +47,23 @@ Template Name: subpage_3rdparty
     </div>
 
     <div class="third_party_banner">
+            <img
+                class="third_party_banner_icon integrate"
+                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Integrate.png">
+                <p class="third_party_banner_p">Integrate</p>
+            <img
+                class="third_party_banner_icon customize"
+                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/CustomizeIII.png">
+                <p class="third_party_banner_p">Customize</p>
+            <img
+                class="third_party_banner_icon automate"
+                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Automate.png">
+                <p class="third_party_banner_p">Automate</p>
+            <img
+                class="third_party_banner_icon streamline"
+                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Streamline.png">   
+                <p class="third_party_banner_p">Streamline</p>      
+
         <p class="third_party_banner_title">Supercharge your ERP</p>
     </div>
 

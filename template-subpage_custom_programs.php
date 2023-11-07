@@ -26,7 +26,7 @@ Template Name: subpage_customPrograms
         </div>
         <img
             class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/customPrograms2.jpg">
+            src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/CustomProgramingpage.png">
     </div>
 
     <div class="subject_article">
@@ -46,7 +46,24 @@ Template Name: subpage_customPrograms
 
     </div>
 
-    <div class="third_party_banner">
+   <div class="third_party_banner">
+            <img
+                class="third_party_banner_icon customui"
+                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/customui.png">
+            <p class="third_party_banner_p">Custom UI</p>
+            <img
+                class="third_party_banner_icon databaseintegration"
+                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/databaseintegration.png">
+            <p class="third_party_banner_p">Database<br>Integration</p>
+            <img
+                class="third_party_banner_icon integration"
+                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/sage300integration.png">
+            <p class="third_party_banner_p">Sage 300<br>Integration</p>
+            <img
+                class="third_party_banner_icon tailoredsolutions"
+                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/tailoredsolutions.png">   
+            <p class="third_party_banner_p">Tailored<br>Solutions</p>      
+
         <p class="third_party_banner_title">Make it your own</p>
     </div>
 

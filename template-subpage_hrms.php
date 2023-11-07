@@ -26,7 +26,7 @@ Template Name: subpage_hrms
         </div>
         <img
             class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/SOSWebsiteBannerImage-ERP.PNG">
+            src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/HRMSpage.png">
     </div>
 
         <h3 class="subpage_banner_header">Human Resource Management Software We Support</h3>
