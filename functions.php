@@ -64,8 +64,6 @@ function wpb_widgets_init() {
 }
 add_action( 'widgets_init', 'wpb_widgets_init' );
 
-
-
 //Forms
 
 add_action('wp_ajax_enquiry', 'enquiry_form');
