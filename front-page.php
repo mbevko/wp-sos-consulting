@@ -26,7 +26,7 @@
                 title="ERP Solutions"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG" alt="ERP Solutions">
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/erp.png" alt="ERP Solutions">
                 <p class="software_links_p">ERP Solutions</p>
             </a>
             <img
@@ -37,7 +37,7 @@
                 title="Human Resource Management"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow-analysis.PNG" alt="Human Resource Management">
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/hrms.png" alt="Human Resource Management">
                 <p class="software_links_p">Human Resource Management</p>
             </a>
             <img
@@ -47,7 +47,7 @@
                 title="Custom Programming"
                 class="sf_link_cont">
                 <img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemanagement.PNG" alt="Custom Programming">
+                src="<?php echo get_template_directory_uri(); ?>/images/homepage/customprogram.png" alt="Custom Programming">
                 <p class="software_links_p">Custom Programming</p>
             </a>
             <img
@@ -55,10 +55,10 @@
             <a
                 href="<?php echo site_url('/3rd-party-solutions'); ?>"
                 title="Custom Screens and Applications"
-                class="3rd Party Supported Solutions">
+                class="sf_link_cont">
                 <img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG" alt="3rd Party Supported Solutions">
-                <p class="software_links_p">3rd Party Supported Solutions</p>
+                src="<?php echo get_template_directory_uri(); ?>/images/homepage/3rdparty.png" alt="3rd Party Supported Solutions" />
+                <p class="software_links_p">3rd Party Solutions</p>
             </a>
 
         </div>

@@ -54,12 +54,13 @@
         </nav>
 
         <div class="mobile_nav_closed">
+            <a href="<?php echo site_url(); ?>">
             <img
                 class="mobile_logo"
                 src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
             <?php wp_nav_menu( array( 'theme_location' => 'mobile-nav', 'menu_class' =>
             'mobile_nav_links' ) ); ?>
-            
+            </a>
 
             <div class="mobile_contact">
                 <a href="tel:6316556288">
