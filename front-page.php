@@ -22,41 +22,43 @@
         <h2 class="software_heading">Supported Solutions</h2>
         <div class="software_links">
             <a
-                href="<?php echo site_url('/supported-solutions/sage-fixed-assets'); ?>"
-                title="Sage Fixed Assets"
+                href="<?php echo site_url('/enterprise-resource-planning-erp'); ?>"
+                title="ERP Solutions"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG">
+                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/fixedassets.PNG" alt="ERP Solutions">
                 <p class="software_links_p">ERP Solutions</p>
             </a>
             <img
                     src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
                     
             <a
-                href="<?php echo site_url('/supported-solutions/workflow-analysis-and-process-automation'); ?>"
-                title="Workflow Analysis and Process Automation"
+                href="<?php echo site_url('/human-resource-management'); ?>"
+                title="Human Resource Management"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow-analysis.PNG">
+                    src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/workflow-analysis.PNG" alt="Human Resource Management">
                 <p class="software_links_p">Human Resource Management</p>
             </a>
             <img
                     src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
             <a
-                href="<?php echo site_url('/supported-solutions/warehouse-management'); ?>"
-                title="Warehouse Management"
-                class="sf_link_cont"><img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemanagement.PNG">
+                href="<?php echo site_url('/custom-programming'); ?>"
+                title="Custom Programming"
+                class="sf_link_cont">
+                <img
+                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/warehousemanagement.PNG" alt="Custom Programming">
                 <p class="software_links_p">Custom Programming</p>
             </a>
             <img
                     src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
             <a
-                href="<?php echo site_url('/supported-solutions/custom-screens-and-applications'); ?>"
+                href="<?php echo site_url('/3rd-party-solutions'); ?>"
                 title="Custom Screens and Applications"
-                class="sf_link_cont"><img
-                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG">
-                <p>3rd Party Supported Solutions</p>
+                class="3rd Party Supported Solutions">
+                <img
+                src="<?php echo get_template_directory_uri(); ?>/images/ColorOne/processautomation.PNG" alt="3rd Party Supported Solutions">
+                <p class="software_links_p">3rd Party Supported Solutions</p>
             </a>
 
         </div>

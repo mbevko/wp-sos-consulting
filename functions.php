@@ -21,7 +21,7 @@ function load_js() {
 add_action('wp_enqueue_scripts', 'load_js');
 
 
-    
+ 
 
 //Theme Options
 add_theme_support('menus');
@@ -64,8 +64,9 @@ function wpb_widgets_init() {
 }
 add_action( 'widgets_init', 'wpb_widgets_init' );
 
-//Forms
 
+
+//Forms
 add_action('wp_ajax_enquiry', 'enquiry_form');
 add_action('wp_ajax_nopriv_enquiry', 'enquiry_form');
 

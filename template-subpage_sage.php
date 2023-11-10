@@ -26,7 +26,7 @@ Template Name: subpage_sage
         </div>
         <img
             class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/SOSWebsiteBannerImage-ERP.PNG">
+            src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/SOSWebsiteBannerImage-ERP.png">
     </div>
 
         <h3 class="subpage_banner_header">ERP Solutions SOS Consulting Services Supports</h3>
