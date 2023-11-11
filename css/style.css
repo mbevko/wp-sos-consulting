@@ -1089,10 +1089,14 @@ br{
 
 
 
-@media (max-width:1237px){
+@media (max-width:1250px){
     .blog_thumbnails{
         width:80%
     }
+
+    .jp-relatedPosts {
+		display: none;
+	}
 }
 
 
