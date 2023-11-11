@@ -1039,6 +1039,11 @@ br{
     margin: 0 5%;
 }
 
+.subpage_intacct_partner {
+    width: 250px;
+
+}
+
 
 /* ------------MOBILE STYLES ------------------------------------------ */
 
@@ -1600,6 +1605,10 @@ br{
     }
     .sos_info p{
         width:inherit
+    }
+
+    .subpage_intacct_partner {
+        margin: auto;
     }
 }
 

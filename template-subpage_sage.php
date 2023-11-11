@@ -43,11 +43,11 @@ Template Name: subpage_sage
                 <li><span class="featured_software_headers">Integration with Other Applications:</span> Sage 300 can also integrate with other applications such as Sage CRM, Sage Data & Analytics, and various add-ons and extensions to expand your capabilities.</li>
             </ul>
         </div>
-
         <div class="subpage_banner subpage_banner_intacct">
             <div class="featured_software_intacct">
                     <p>Sage <span>Intacct</span></p>
             </div>
+            
 
             <ul class="featured_software_desc">
                 <li><span class="featured_software_headers">Cloud-Based vs. On-Premises:</span> A true cloud-based solution that offers access from anywhere, anytime, on any device.</li>
@@ -56,6 +56,8 @@ Template Name: subpage_sage
                 <li><span class="featured_software_headers">Collaborative and Connected:</span> Sage Intacct is a collaborative solution that enables teamwork and communication across your organization. You can share information, documents, comments, and approvals with your colleagues, managers, auditors, and external stakeholders.</li>
             </ul>
         </div>
+
+
         <div class="mobile_subpage_banner">
             <a class="sage_mobile_link" href="#" >Sage 300</a>
             <a class="sage_mobile_link" href="#" >Sage Intacct</a>
@@ -63,6 +65,9 @@ Template Name: subpage_sage
 
 
         <div class="subject_article">
+        <img
+            class="subpage_intacct_partner"
+            src="<?php echo get_template_directory_uri(); ?>/images/intacctpartner.png">
             <div class="subject_container">
                 <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?>
                 <a href="<?php echo site_url('/contact'); ?>"><!-- <button class="contact_us_btn">Contact Us</button> --></a>

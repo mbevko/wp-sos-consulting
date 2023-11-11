@@ -68,10 +68,8 @@ Template Name: subpage_3rdparty
     </div>
     
     
-    <?php echo do_shortcode('[wptabs id="208"]'); ?>
+    <?php echo do_shortcode('[wptabs id="585"]'); ?>
 
-
-<!-- 585 -->
 
     <div class="subpage_archive">
         <!-- 
