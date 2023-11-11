@@ -30,7 +30,7 @@
                 <p class="software_links_p">ERP Solutions</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
+                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
                     
             <a
                 href="<?php echo site_url('/human-resource-management'); ?>"
@@ -41,7 +41,7 @@
                 <p class="software_links_p">Human Resource Management</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
+                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
             <a
                 href="<?php echo site_url('/custom-programming'); ?>"
                 title="Custom Programming"
@@ -51,7 +51,7 @@
                 <p class="software_links_p">Custom Programming</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 10px;">
+                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
             <a
                 href="<?php echo site_url('/3rd-party-solutions'); ?>"
                 title="Custom Screens and Applications"

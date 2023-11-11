@@ -46,7 +46,7 @@
             src="<?php echo get_template_directory_uri(); ?>/images/icons8-menu-48.png"
             width="50px"/>
         <nav class="index_nav">
-               <a href="<?php echo site_url(); ?>"> <img
+               <a href="<?php echo site_url(); ?>" class="logo_link"> <img
                     src="<?php echo get_template_directory_uri(); ?>/images/3.png"
                     class="logo"/> </a>
             <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' =>
@@ -55,12 +55,22 @@
 
         <div class="mobile_nav_closed">
             <a href="<?php echo site_url(); ?>">
-            <img
-                class="mobile_logo"
-                src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
+            
+                <img
+                    class="mobile_logo"
+                    src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png">
+            </a>
+
+            <div class="mob_back">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/icons8-back-50.png" class="mob_nav_back"> 
+                <p>Back</p>
+            </div>
+
             <?php wp_nav_menu( array( 'theme_location' => 'mobile-nav', 'menu_class' =>
             'mobile_nav_links' ) ); ?>
-            </a>
+            
+
+            
 
             <div class="mobile_contact">
                 <a href="tel:6316556288">
