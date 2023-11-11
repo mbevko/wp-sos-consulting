@@ -1095,7 +1095,8 @@ br{
     }
 
     .jp-relatedPosts {
-		display: none;
+		visibility:hidden;
+		pointer-events: none;
 	}
 }
 

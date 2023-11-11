@@ -17,7 +17,7 @@
 
 <script>
 	let sideBar = document.querySelector(".jp-relatedPosts")
-	sideBar.style = "position: fixed; right: 0; top: 150px; border: solid silver 1px; padding: 15px; width: 20%; background: white; z-index:1;"
+	sideBar.style = "position: fixed; right: 0; top: 150px; border: solid silver 1px; padding: 15px; width: 25%; background: white; z-index:1;"
 	
 	let footer = document.querySelector("footer");
 	footer.style = "position: relative; z-index: 2;"
