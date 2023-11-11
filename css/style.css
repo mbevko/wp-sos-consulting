@@ -1303,6 +1303,7 @@ br{
         z-index:0;
         overflow: hidden;
         text-overflow:ellipsis;
+        z-index: 3;
     }
     .mobile_nav_links{
         list-style:none;
