@@ -1166,6 +1166,8 @@ br{
 
 @media (max-width:980px){
 
+  
+
     .mob_back{
         display: flex;
         color: white;
@@ -1366,6 +1368,10 @@ br{
 
     .mob_nav_back {
         width: 50px;
+    }
+
+    h1, h2, h3 {
+        line-height: normal;
     }
 }
 
