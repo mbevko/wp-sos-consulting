@@ -808,7 +808,7 @@ footer a{
 }
 .article_body{
     margin: 50px auto 150px 150px;
-    width:50%;
+    width:60%;
     font-weight:400;
     color:#000;
     line-height:2;
@@ -1094,10 +1094,7 @@ br{
         width:80%
     }
 
-    .jp-relatedPosts {
-		visibility:hidden;
-		pointer-events: none;
-	}
+    
 }
 
 
@@ -1148,6 +1145,11 @@ br{
         transform:translate(10px,-10px);
         box-shadow:-10px 7px 9px #c2bfbf
     }
+
+    .jp-relatedPosts {
+		visibility:hidden;
+		pointer-events: none;
+	}
 }
 
 @media (max-width:1120px){
