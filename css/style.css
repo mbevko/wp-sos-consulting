@@ -787,7 +787,7 @@ footer a{
     justify-content:space-around;
     align-items:space-around;
     width:340;
-    height:450px;
+    height:500px;
     font-size:10pt;
     font-weight:700;
     border:.5px solid silver;
@@ -799,7 +799,7 @@ footer a{
 }
 .card_bottom{
     padding:10px;
-    height:190px;
+    height:200px;
     background:#fff;
     display:flex;
     flex-direction:column;
@@ -1036,7 +1036,7 @@ br{
 }
 
 .sp-tab__lay-default{
-    margin-left: 15%;
+    margin: 0 5%;
 }
 
 
