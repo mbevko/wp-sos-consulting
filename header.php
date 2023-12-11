@@ -3,6 +3,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <a href='http://www.mindmatrix.net' title='Marketing Automation' onclick='window.open(this.href);return(false);' ><script type='text/javascript' src='https://map.acumatica.com/track/f1ek5d1tl7m/payload.js' async> </script></a>
+
         <title>SOS Consulting Services</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -994,10 +994,9 @@ br{
     padding-right: 10px;
 }
 .thirdparty_solutions_desc{
-    width:85%;
-    margin:auto;
     line-height:2;
     font-size:14pt;
+	margin: 50px 8%;
 }
 
 .third_party_banner_icon {
@@ -1035,8 +1034,12 @@ br{
     width: 5px;
 }
 
+.sp-tab__section_title_585 {
+	display: none;
+}
+
 .sp-tab__lay-default{
-    margin: 0 5%;
+   
 }
 
 .subpage_intacct_partner {
