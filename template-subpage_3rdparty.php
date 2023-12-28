@@ -50,19 +50,20 @@ Template Name: subpage_3rdparty
             <img
                 class="third_party_banner_icon integrate"
                 src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Integrate.png">
-                <p class="third_party_banner_p">Integrate</p>
+                <p class="third_party_banner_p"><strong>Integrate</strong> <br> All your tools to work together in one ERP</p>
             <img
                 class="third_party_banner_icon customize"
                 src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/CustomizeIII.png">
-                <p class="third_party_banner_p">Customize</p>
+                <p class="third_party_banner_p"><strong>Customize</strong><br>Your ERP to match your company's workflow and requirements</p>
+                
             <img
                 class="third_party_banner_icon automate"
                 src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Automate.png">
-                <p class="third_party_banner_p">Automate</p>
+                <p class="third_party_banner_p"><strong>Automate</strong><br>your business needs, cutting manual work, reducing errors and freeing up time</p>
             <img
                 class="third_party_banner_icon streamline"
                 src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Streamline.png">   
-                <p class="third_party_banner_p">Streamline</p>      
+                <p class="third_party_banner_p"><strong>Streamline</strong><br>Your process, creating a nimble system that adapts to your business</p>      
 
         <p class="third_party_banner_title">Supercharge your ERP</p>
     </div>
