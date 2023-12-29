@@ -31,7 +31,7 @@ Template Name: subpage_hrms
 
         <h3 class="subpage_banner_header">Human Resource Management Software We Support</h3>
 
-        <div class="subpage_banner_hrms">
+        <a href="<?php echo site_url('/human-resource-management/sage-hrms/'); ?>" class="subpage_banner_hrms">
             <div class="featured_software_hrms">
                     <p><span class="featured_software_hrms_sage">sage</span> <span class="featured_software_hrms_hrms">HRMS</span></p>
             </div>
@@ -42,7 +42,7 @@ Template Name: subpage_hrms
                 <li><span class="featured_software_headers">On-Premises deployment:</span> Sage 300 is an on-premises solution that gives you more control over your data and infrastructure. You can choose where to host your application, whether on your own servers or on a third-party hosting provider. You can also customize your system to fit your specific needs and preferences.</li>
                 <li><span class="featured_software_headers">Integration with Other Applications:</span> Sage 300 can also integrate with other applications such as Sage CRM, Sage Data & Analytics, and various add-ons and extensions to expand your capabilities.</li>
             </ul>
-        </div>
+        </a>
 
         
         <div class="mobile_subpage_banner">

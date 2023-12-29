@@ -892,8 +892,15 @@ footer a{
     justify-content:space-between;
     border:1px solid #d3d3d3;
     align-items:center;
-    border-radius:20px
+    border-radius:20px;
+    text-decoration: none;
 }
+
+.subpage_banner_hrms .featured_software_desc {
+    text-decoration: none;
+    color: black;
+}
+
 .featured_software,.featured_software_intacct{
     color:#22cd1f;
     display:flex;
