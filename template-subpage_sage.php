@@ -44,7 +44,7 @@ Template Name: subpage_sage
             </ul>
         </a>
         
-        <a href="https://intacct.sosconsultingservices.net" class="subpage_banner subpage_banner_intacct">
+        <a href="#" class="subpage_banner subpage_banner_intacct">
             <div class="featured_software_intacct">
                     <p>Sage <span>Intacct</span></p>
             </div>
