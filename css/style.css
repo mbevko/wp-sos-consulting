@@ -1087,7 +1087,7 @@ br{
     width: 130px;
     height: 30px;
     background: white;
-    margin-left: 150px;
+    margin-left: 10%;
     margin-top: 50px;
 }
 
@@ -1296,7 +1296,9 @@ br{
 
 @media (max-width:980px){
 
-  
+    .see_more_btn {
+        margin-left: 20px;
+    }
 
     .mob_back{
         display: flex;
