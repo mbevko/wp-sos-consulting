@@ -920,7 +920,8 @@ footer a{
     align-items:center;
     font-size:32pt;
     text-align:left;
-    padding:15px 0 15px 15px
+    padding:15px 0 15px 15px;
+    width: 250px;
 }
 .featured_software_intacct{
     align-items:center
@@ -980,8 +981,7 @@ br{
     padding:0
 }
 .sage_mobile_link{
-    background:#212425;
-    color:#22cd1f;
+   
     display:flex;
     width:300px;
     justify-content:center;
@@ -991,6 +991,24 @@ br{
     font-family:Roboto,Sans-Serif;
     border-radius:10px;
     transition:.3s ease-in-out
+}
+
+.acumatica {
+    border: solid silver 1px;
+    color: #32ccfe;
+}
+.intacct {
+    color:#22cd1f;
+    border: solid silver 1px;
+}
+
+.intacct_mobile_link {
+    color: #727272;
+}
+
+.sage300 {
+    background:#212425;
+    color:#22cd1f;
 }
 
 .third_party_banner_title{
@@ -1056,6 +1074,27 @@ br{
 
 }
 
+.thirdparty_solutions_desc a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.see_more_btn {
+    text-decoration: none;
+    color: var(--sos-red);
+    border: solid var(--sos-red) 1px;
+    padding: 15px;
+    width: 130px;
+    height: 30px;
+    background: white;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.see_more_btn:hover {
+    background: var(--sos-red);
+    color: white;
+}
 
 /* ------------MOBILE STYLES ------------------------------------------ */
 

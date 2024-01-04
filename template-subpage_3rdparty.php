@@ -71,6 +71,9 @@ Template Name: subpage_3rdparty
     
     <?php echo do_shortcode('[wptabs id="585"]'); ?>
 
+    <div class="see_more">
+        <a href="https://marketplace.intacct.com" target="_blank" class="see_more_btn">See More</a>
+    </div>
 
     <div class="subpage_archive">
         <!-- 

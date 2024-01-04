@@ -31,20 +31,24 @@ Template Name: subpage_sage
 
         <h3 class="subpage_banner_header">ERP Solutions SOS Consulting Services Supports</h3>
 
-        <a href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>" class="subpage_banner">
-            <div class="featured_software">
-                    <p>Sage 300 ERP</p>
+
+        <a href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" class="subpage_banner subpage_banner_intacct">
+            <div class="featured_software_intacct">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/accumaticaLogo.png" />
             </div>
+            
 
             <ul class="featured_software_desc">
-                <li><span class="featured_software_headers">Comprehensive and Integrated:</span> Offers a comprehensive and integrated suite of modules, such as inventory management, order entry, purchase orders, project and job costing, payroll, and CRM. It also integrates with other Sage products, such as Sage HRMS, Sage Fixed Assets, and Sage Payment Solutions.</li>
-                <li><span class="featured_software_headers">Flexibility and Supply Chain Excellence:</span> Sage 300 offers great flexibility, excellent supply chain management, quick and hassle-free accounts payable management, painless budget management, and project management.</li>
-                <li><span class="featured_software_headers">Flexible deployment:</span> Sage 300 is an on-premises solution that gives you more control over your data and infrastructure. You can choose where to host your application, whether on your own servers or on a third-party hosting provider. You can also customize your system to fit your specific needs and preferences.</li>
-                <li><span class="featured_software_headers">Integration with Other Applications:</span> Sage 300 can also integrate with other applications such as Sage CRM, Sage Data & Analytics, and various add-ons and extensions to expand your capabilities.</li>
+                <li><span class="featured_software_headers">Comprehensive Business Integration:</span> Achieve seamless integration across various business functions, from finance and human resources to supply chain and manufacturing. Acumatica ERP provides a unified platform that breaks down silos, ensuring real-time data visibility and collaboration for improved decision-making.</li>
+                <li><span class="featured_software_headers">Scalable Cloud-Based Solution:</span> Leverage the power of Acumatica's cloud-based ERP system to effortlessly scale your business operations. Whether you're a growing startup or an established enterprise, enjoy the flexibility and cost-effectiveness of a solution that adapts to your evolving needs while providing secure and reliable access from anywhere in the world.</li>
+                <li><span class="featured_software_headers">Customizable and Adaptable:</span> Tailor Acumatica ERP to fit your unique business processes with ease. The platform's flexible architecture allows for extensive customization without the need for complex coding. Adapt workflows, reports, and dashboards to match your specific requirements, ensuring that the ERP system aligns perfectly with your organization's goals.</li>
+                <li><span class="featured_software_headers">Real-Time Business Insights:</span> Gain a competitive edge with Acumatica's powerful analytics and reporting capabilities. Access real-time data insights through intuitive dashboards, enabling you to make informed decisions swiftly. From financial performance to operational efficiency, Acumatica empowers you with the tools to monitor and optimize every aspect of your business for sustained growth.</li>
             </ul>
         </a>
-        
-        <a href="#" class="subpage_banner subpage_banner_intacct">
+
+
+
+        <a href="https://intacct.sosconsultingservices.net/sage-intacct" class="subpage_banner subpage_banner_intacct">
             <div class="featured_software_intacct">
                     <p>Sage <span>Intacct</span></p>
             </div>
@@ -58,9 +62,25 @@ Template Name: subpage_sage
             </ul>
         </a>
 
+
+        <a href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>" class="subpage_banner">
+            <div class="featured_software">
+                    <p>Sage 300 ERP</p>
+            </div>
+
+            <ul class="featured_software_desc">
+                <li><span class="featured_software_headers">Comprehensive and Integrated:</span> Offers a comprehensive and integrated suite of modules, such as inventory management, order entry, purchase orders, project and job costing, payroll, and CRM. It also integrates with other Sage products, such as Sage HRMS, Sage Fixed Assets, and Sage Payment Solutions.</li>
+                <li><span class="featured_software_headers">Flexibility and Supply Chain Excellence:</span> Sage 300 offers great flexibility, excellent supply chain management, quick and hassle-free accounts payable management, painless budget management, and project management.</li>
+                <li><span class="featured_software_headers">Flexible deployment:</span> Sage 300 is an on-premises solution that gives you more control over your data and infrastructure. You can choose where to host your application, whether on your own servers or on a third-party hosting provider. You can also customize your system to fit your specific needs and preferences.</li>
+                <li><span class="featured_software_headers">Integration with Other Applications:</span> Sage 300 can also integrate with other applications such as Sage CRM, Sage Data & Analytics, and various add-ons and extensions to expand your capabilities.</li>
+            </ul>
+        </a>
+
         <div class="mobile_subpage_banner">
-            <a class="sage_mobile_link" href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>">Sage 300</a>
-            <a class="sage_mobile_link" href="#" >Sage Intacct</a>
+            <a class="sage_mobile_link acumatica" href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" >Acumatica</a>
+            <a class="sage_mobile_link intacct" href="https://intacct.sosconsultingservices.net/sage-intacct" >Sage<span class="intacct_mobile_link">&nbsp;Intacct</span></a>
+            <a class="sage_mobile_link sage300" href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>">Sage 300</a>
+            
         </div>            
 
 
