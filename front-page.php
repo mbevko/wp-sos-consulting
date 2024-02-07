@@ -3,7 +3,7 @@
 <header class="main_header">
     <div class="overlay">
         <h1 class="header_title">Enterprise Management Software & Technology Provider</h1>
-        <p>Providing end-to-end solutions for business looking for greater efficiency,
+        <p>Providing end-to-end solutions for businesses looking for greater efficiency,
             flexibility, and insight.</p>
         <div class="more_info_btns">
             <a href="<?php echo site_url('/about'); ?>">

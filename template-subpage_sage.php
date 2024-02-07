@@ -78,7 +78,7 @@ Template Name: subpage_sage
 
         <div class="mobile_subpage_banner">
             <a class="sage_mobile_link acumatica" href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" >Acumatica</a>
-            <a class="sage_mobile_link intacct" href="https://intacct.sosconsultingservices.net/sage-intacct" >Sage<span class="intacct_mobile_link">&nbsp;Intacct</span></a>
+            <a class="sage_mobile_link intacct" href="https://intacct.sosconsultingservices.net/sage-intacct/overview/" >Sage<span class="intacct_mobile_link">&nbsp;Intacct</span></a>
             <a class="sage_mobile_link sage300" href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>">Sage 300</a>
             
         </div>            
