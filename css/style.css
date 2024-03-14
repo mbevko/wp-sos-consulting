@@ -1094,6 +1094,77 @@ br{
     background: white;
 }
 
+/* ------------Acumatica Page------------------------------------------ */
+
+.acumatica_banner {
+    width: 100%;
+    background: var(--heading-color);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acumatica_banner_h {
+    font-size: 40pt;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+.acumatica_banner_p{
+    width: 75%;
+    color: white;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 50px 0;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.acumatica_banner_icons {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    
+}
+
+.acumatica_banner_links {
+    color: white;
+    text-decoration: none;
+    font-weight: light;
+    background: var(--heading-color);
+    transition: .1s;
+}
+
+.acumatica_banner_links:hover{
+    transform: scale(1.2)
+}
+
+.acumatica_banner_link_cont {
+    border: solid white 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7px;
+    width: 210px;
+    height: 180px;
+    border-radius: 35px;
+
+}
+
+.acumatica_banner_icon_text {
+    width: 120px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+
+
+
 /* ------------MOBILE STYLES ------------------------------------------ */
 
 
