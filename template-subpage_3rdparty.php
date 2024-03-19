@@ -96,10 +96,11 @@ Template Name: subpage_3rdparty
                     echo '<div class="card_bottom">';
                     echo '<h3 class="thumbnail_titles">'. get_the_title() . '</h3>';
                     the_excerpt();
-                    echo '<p class="read_more"> Read More >> </p>';
+                    echo '<button class="read_more">Read More</button>';
                     echo '</div>';
                     echo '</div>';
                     echo '</a>';
+                    
                 }
                 /* Restore original Post Data */
                 wp_reset_postdata();

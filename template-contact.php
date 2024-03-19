@@ -38,7 +38,6 @@ Template Name: Contact
             </div>
         </div>
 
-    <div class="subpage_archive">
         <div class="subpage_article">
         <?php   $args = array(
             'post_type' => array( 'post' ),
@@ -57,10 +56,11 @@ Template Name: Contact
                     echo '<div class="card_bottom">';
                     echo '<h3 class="thumbnail_titles">'. get_the_title() . '</h3>';
                     the_excerpt();
-                    echo '<p class="read_more"> Read More >> </p>';
+                    echo '<button class="read_more">Read More</button>';
                     echo '</div>';
                     echo '</div>';
                     echo '</a>';
+                    
                 }
                 /* Restore original Post Data */
                 wp_reset_postdata();
@@ -69,7 +69,6 @@ Template Name: Contact
             }
         ?>
         </div>
-    </div>
 </section>
 
 <?php get_footer();?>

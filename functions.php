@@ -28,7 +28,7 @@ add_theme_support('menus');
 add_theme_support('post-thumbnails');
 add_post_type_support( 'page', 'excerpt' );
 
-function my_excerpt_length($length){ return 30; } 
+function my_excerpt_length($length){ return 10; } 
 
 add_filter('excerpt_length', 'my_excerpt_length');
 
