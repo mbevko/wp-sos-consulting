@@ -7,7 +7,7 @@ Template Name: subpage_acumatica
 <?php get_header();?>
 
 <div class="subpage_header_banner">
-    <div class="subpage_header_container">
+    <div class="subpage_header_container acumatica_header_container">
         <div class="subpage_header_subcont">
 
             <img

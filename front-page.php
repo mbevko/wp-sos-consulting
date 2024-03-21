@@ -77,6 +77,7 @@
                 health care to name a few.</p>
             <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
         </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepagebannergraphic.png" class="sos_info_graphic">
     </article>
     <article class="articles">
         <!-- <h2 class="articles_heading"></h2> -->
