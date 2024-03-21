@@ -76,80 +76,85 @@ Template Name: subpage_acumatica
     <div class="acumatica_content">
 
         <div class="acumatica_row_one">
+            <div class="acumatica_group_one">
+                <div class="vert_icon_graphic">
 
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-timeline-50.png"
-                class="acumatica_p_icon acumatica_icon_one"/>
-            <svg
-                class="acumatica_line_one"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-cloud-50.png"
-                class="acumatica_p_icon acumatica_icon_two"/>
-            <svg
-                class="acumatica_line_two"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-workflow-50.png"
-                class="acumatica_p_icon acumatica_icon_three"/>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-timeline-50.png"
+                        class="acumatica_p_icon acumatica_icon_one"/>
+                    <svg
+                        class="acumatica_line_one"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#C73F3F"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-cloud-50.png"
+                        class="acumatica_p_icon acumatica_icon_two"/>
+                    <svg
+                        class="acumatica_line_two"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#C73F3F"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-workflow-50.png"
+                        class="acumatica_p_icon acumatica_icon_three"/>
+                </div>
+                <div class="center_text">
+                    <div class="p_one">
+                        <h3>Flexible and Scalable</h3>
+                        <p>Acumatica’s modular architecture allows businesses to choose the specific
+                            modules that meet their requirements and then scale as they grow and their needs
+                            change over time. This means that you only pay for the functionality you need,
+                            not for user seats.</p>
+                    </div>
 
-            <div class="p_one">
-                <h3>Flexible and Scalable</h3>
-                <p>Acumatica’s modular architecture allows businesses to choose the specific
-                    modules that meet their requirements and then scale as they grow and their needs
-                    change over time. This means that you only pay for the functionality you need,
-                    not for user seats.</p>
-            </div>
+                    <div class="p_two">
+                        <h3>Cloud Based Advantage</h3>
+                        <p>Say goodbye to the limitations of traditional on-premise systems. Acumatica's
+                            cloud-based architecture offers accessibility from anywhere, anytime. This not
+                            only enhances collaboration but also ensures that your team has real-time access
+                            to critical business data.
+                        </p>
+                    </div>
 
-            <div class="p_two">
-                <h3>Cloud Based Advantage</h3>
-                <p>Say goodbye to the limitations of traditional on-premise systems. Acumatica's
-                    cloud-based architecture offers accessibility from anywhere, anytime. This not
-                    only enhances collaboration but also ensures that your team has real-time access
-                    to critical business data.
-                </p>
-            </div>
-
-            <div class="p_three">
-                <h3>Comprehensive Module Suite</h3>
-                <p>From financial management to customer relationship, distribution,
-                    manufacturing, and beyond – Acumatica's modular approach covers all facets of
-                    your business. This integrated suite simplifies processes, eliminates data
-                    silos, and provides a holistic view of your operations.</p>
+                    <div class="p_three">
+                        <h3>Comprehensive Module Suite</h3>
+                        <p>From financial management to customer relationship, distribution,
+                            manufacturing, and beyond – Acumatica's modular approach covers all facets of
+                            your business. This integrated suite simplifies processes, eliminates data
+                            silos, and provides a holistic view of your operations.</p>
+                    </div>
+                </div>
             </div>
 
             <img
@@ -160,86 +165,93 @@ Template Name: subpage_acumatica
         <div class="acumatica_row_two">
 
             <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/iStock-1536191188.jpg"
-                class="acumatica_img_one"/>
+                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/circlegraph2.png"
+                class="acumatica_circle_graph"/>
 
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-happy-cloud-50.png"
-                class="acumatica_p_icon acumatica_icon_one"/>
-            <svg
-                class="acumatica_line_one"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-financial-growth-analysis-50.png"
-                class="acumatica_p_icon acumatica_icon_two"/>
-            <svg
-                class="acumatica_line_two"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-innovation-50.png"
-                class="acumatica_p_icon acumatica_icon_three"/>
+            <div class="acumatica_group_one">
+                <div class="center_text">
+                    <div class="p_one_">
+                        <h3>User-Friendly Interface</h3>
+                        <p>Don't let complexity hinder productivity. Acumatica boasts an intuitive and
+                            user-friendly interface that minimizes the learning curve. Your team can quickly
+                            adapt, ensuring a smooth transition to enhanced efficiency.
+                        </p>
+                    </div>
 
-            <div class="p_one_two">
-                <h3>User-Friendly Interface</h3>
-                <p>Don't let complexity hinder productivity. Acumatica boasts an intuitive and
-                    user-friendly interface that minimizes the learning curve. Your team can quickly
-                    adapt, ensuring a smooth transition to enhanced efficiency.
-                </p>
+                    <div class="p_two">
+                        <h3>Real-Time Insight
+                        </h3>
+                        <p>Make informed decisions with real-time data analytics. Acumatica's robust
+                            reporting tools provide actionable insights, empowering you to steer your
+                            business in the right direction.
+
+                        </p>
+                    </div>
+
+                    <div class="p_three">
+                        <h3>Continuous Innovation</h3>
+                        <p>Acumatica is committed to staying ahead in the rapidly evolving technological
+                            landscape. Regular updates and feature enhancements ensure that your ERP
+                            solution is not just current but ready to meet the challenges of tomorrow.
+                            Benefit from the latest advancements without the hassle of major system
+                            overhauls.</p>
+                    </div>
+                </div>
+                <div class="acumatica_group_one">
+                    <div class="vert_icon_graphic">
+
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-happy-cloud-50.png"
+                            class="acumatica_p_icon acumatica_icon_one"/>
+                        <svg
+                            class="acumatica_line_one"
+                            width="5"
+                            height="50"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <title>Layer 1</title>
+                                <line
+                                    stroke-width="3"
+                                    fill="none"
+                                    stroke="#C73F3F"
+                                    x1="0"
+                                    y1="50"
+                                    x2="0"
+                                    y2="0"
+                                    id="svg_1"
+                                    stroke-linejoin="undefined"
+                                    stroke-linecap="undefined"/>
+                            </g>
+                        </svg>
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-financial-growth-analysis-50.png"
+                            class="acumatica_p_icon acumatica_icon_two"/>
+                        <svg
+                            class="acumatica_line_two"
+                            width="5"
+                            height="50"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <title>Layer 1</title>
+                                <line
+                                    stroke-width="3"
+                                    fill="none"
+                                    stroke="#C73F3F"
+                                    x1="0"
+                                    y1="50"
+                                    x2="0"
+                                    y2="0"
+                                    id="svg_1"
+                                    stroke-linejoin="undefined"
+                                    stroke-linecap="undefined"/>
+                            </g>
+                        </svg>
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-innovation-50.png"
+                            class="acumatica_p_icon acumatica_icon_three"/>
+                    </div>
+                </div>
             </div>
-
-            <div class="p_two_two">
-                <h3>Real-Time Insight
-                </h3>
-                <p>Make informed decisions with real-time data analytics. Acumatica's robust
-                    reporting tools provide actionable insights, empowering you to steer your
-                    business in the right direction.
-
-                </p>
-            </div>
-
-            <div class="p_three_two">
-                <h3>Continuous Innovation</h3>
-                <p>Acumatica is committed to staying ahead in the rapidly evolving technological
-                    landscape. Regular updates and feature enhancements ensure that your ERP
-                    solution is not just current but ready to meet the challenges of tomorrow.
-                    Benefit from the latest advancements without the hassle of major system
-                    overhauls.</p>
-            </div>
-
         </div>
 
         <div class="acumatica_row_three">
@@ -254,87 +266,106 @@ Template Name: subpage_acumatica
                 <p>Let SOS Consulting Services show you how Acumatica can improve your business.
                     We'll help you understand and use this powerful tool to solve problems and reach
                     your goals. Discover the benefits of Acumatica Cloud ERP with us today!</p>
+
             </div>
-            <div>Video goes here</div>
+
+            <script
+                src="
+            https://www.acumatica.com/embed-api-assets/js/auto-height"
+                type="text/javascript"></script>
+            <iframe
+                width="500"
+                style="border: 1px solid #FFF; background: #fff;"
+                src="
+            https://www.acumatica.com/embed-api/video-feed/?generator_type=video-feed&action=embed_generate&pid=0000035362&mt=auto&h=0&ora=0&vmn=1&as=0&ft%5B0%5D=Product+Videos&fi=auto&w=px&wpx=500&ch=000000&ct=FFFFFF&cb=FFFFFF&cib=E8E8E8&ctb=C73F3F&cob=CCCCCC&sh=22&st=16"
+                onload="resizeAcumaticaWidget(this);"></iframe>
+
         </div>
 
+        <h2 class="acumatica_grow_heading">Grow With SOS Consulting Services</h2>
+
         <div class="acumatica_row_one">
+            <div class="acumatica_group_one">
+                <div class="vert_icon_graphic">
 
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-timeline-50.png"
-                class="acumatica_p_icon acumatica_icon_one"/>
-            <svg
-                class="acumatica_line_one"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-cloud-50.png"
-                class="acumatica_p_icon acumatica_icon_two"/>
-            <svg
-                class="acumatica_line_two"
-                width="5"
-                height="50"
-                xmlns="http://www.w3.org/2000/svg">
-                <g>
-                    <title>Layer 1</title>
-                    <line
-                        stroke-width="3"
-                        fill="none"
-                        stroke="#C73F3F"
-                        x1="0"
-                        y1="50"
-                        x2="0"
-                        y2="0"
-                        id="svg_1"
-                        stroke-linejoin="undefined"
-                        stroke-linecap="undefined"/>
-                </g>
-            </svg>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-workflow-50.png"
-                class="acumatica_p_icon acumatica_icon_three"/>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/2 plus decades of experience Icon.png"
+                        class="acumatica_p_icon acumatica_icon_one"/>
+                    <svg
+                        class="acumatica_line_one"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#183E4B"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/Client Centric approach.png"
+                        class="acumatica_p_icon acumatica_icon_two"/>
+                    <svg
+                        class="acumatica_line_two"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#183E4B"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/End-to-end support.png"
+                        class="acumatica_p_icon acumatica_icon_three"/>
+                </div>
+                <div class="center_text">
+                    <div class="p_one">
+                        <h3>Two-Plus Decades of Expertise</h3>
+                        <p>With over 20 years of experience, SOS Consulting Services has been at the
+                            forefront of delivering ERP solutions that drive success. Our seasoned
+                            professionals understand the intricacies of diverse industries, ensuring
+                            tailored solutions that meet your specific challenges.</p>
+                    </div>
 
-            <div class="p_one">
-                <h3>Two-Plus Decades of Expertise</h3>
-                <p>With over 20 years of experience, SOS Consulting Services has been at the
-                    forefront of delivering ERP solutions that drive success. Our seasoned
-                    professionals understand the intricacies of diverse industries, ensuring
-                    tailored solutions that meet your specific challenges.</p>
-            </div>
+                    <div class="p_two">
+                        <h3>Client-Centric Approach</h3>
+                        <p>Your success is our priority. We take a client-centric approach, working
+                            closely with you to understand your goals, challenges, and vision. Our solutions
+                            are crafted to not just meet but exceed your expectations.
+                        </p>
+                    </div>
 
-            <div class="p_two">
-                <h3>Client-Centric Approach</h3>
-                <p>Your success is our priority. We take a client-centric approach, working
-                    closely with you to understand your goals, challenges, and vision. Our solutions
-                    are crafted to not just meet but exceed your expectations.
-                </p>
-            </div>
-
-            <div class="p_three">
-                <h3>End-to-End Support & Customized Solutions</h3>
-                <p>Beyond implementation, we offer comprehensive support to ensure that your ERP
-                    system operates seamlessly. Our dedicated support team is just a call away,
-                    ready to address your queries and concerns. We also recognize that every
-                    business is unique. Our experts collaborate with you to develop customized
-                    solutions that align with your strategic objectives, ensuring a perfect fit for
-                    your organization.
-                </p>
+                    <div class="p_three">
+                        <h3>End-to-End Support & Customized Solutions</h3>
+                        <p>Beyond implementation, we offer comprehensive support to ensure that your ERP
+                            system operates seamlessly. Our dedicated support team is just a call away,
+                            ready to address your queries and concerns. We also recognize that every
+                            business is unique. Our experts collaborate with you to develop customized
+                            solutions that align with your strategic objectives, ensuring a perfect fit for
+                            your organization.
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <img
@@ -343,6 +374,16 @@ Template Name: subpage_acumatica
         </div>
 
     </div>
+
+    <script
+        src="
+https://www.acumatica.com/embed-api-assets/js/auto-height"
+        type="text/javascript"></script>
+    <iframe
+        width="100%"
+        style="border: 1px solid #CCCCCC; background: #fff;"
+        src="https://www.acumatica.com/embed-api/success-stories-feed/?generator_type=success-stories-feed&action=embed_generate&pid=0000035362&h=1&ht=Hear+What+Customers+Are+Saying+About+Acumatica&ha=center&smn=9&sra=1&as=1&asd=5&i%5B0%5D=4649&i%5B1%5D=354&i%5B2%5D=353&i%5B3%5D=357&i%5B4%5D=356&i%5B5%5D=359&r%5B0%5D=349&r%5B1%5D=350&r%5B2%5D=351&r%5B3%5D=352&su%5B0%5D=28891&su%5B1%5D=28959&su%5B2%5D=28897&su%5B3%5D=28965&su%5B4%5D=28953&su%5B5%5D=28956&su%5B6%5D=40819&c%5B0%5D=369&c%5B1%5D=371&c%5B2%5D=372&c%5B3%5D=365&c%5B4%5D=367&c%5B5%5D=366&c%5B6%5D=370&c%5B7%5D=375&w=resp&ch=000000&cq=000000&ca=000000&cb=FFFFFF&cob=CCCCCC&sh=22&sq=16&sa=14"
+        onload="resizeAcumaticaWidget(this);"></iframe>
 
     <div class="subpage_article">
     <?php   $args = array(

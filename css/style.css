@@ -1094,10 +1094,6 @@ br{
 	display: none;
 }
 
-.sp-tab__lay-default{
-   
-}
-
 .subpage_intacct_partner {
     width: 250px;
 
@@ -1120,9 +1116,6 @@ br{
 
 /* ------------Acumatica Page------------------------------------------ */
 
-.acumatica_logo {
-
-}
 
 .acumatica_banner {
     width: 100%;
@@ -1130,8 +1123,9 @@ br{
     min-height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .acumatica_banner_h {
@@ -1154,9 +1148,13 @@ br{
 
 .acumatica_banner_icons {
     display: flex;
-    width: 75%;
+    
     justify-content: center;
     
+}
+
+.acumatica_banner_icon {
+    width: 75px;
 }
 
 .acumatica_banner_links {
@@ -1178,7 +1176,7 @@ br{
     align-items: center;
     justify-content: center;
     margin: 0 7px;
-    width: 210px;
+    width: 180px;
     height: 180px;
     border-radius: 35px;
 
@@ -1195,84 +1193,60 @@ br{
 }
 
 .acumatica_row_one {
-    display: grid;
-    grid-template-columns: 50px, 300px, 500px;
-    grid-template-rows: 200px, 200px, 200px;
-    height: 500px;
-    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
-
-  .p_one, .p_two, .p_three {
-    width: 500px;
-    font-family: sans-serif;
-    font-size: 12pt;
-    grid-column: 2;
-  }
-  
-  .p_one {
-    grid-row-start: 1;
-  }
-  
-  .p_two {
-    grid-row-start: 2;
-  }
-  
-  .p_three {
-    grid-row-start: 3;
-  }
-  
-  .acumatica_p_icon {
-    justify-self: center;
-  }
-  
-  .acumatica_img_one {
-    grid-column: 3;
-    grid-row-start: 1;
-    grid-row-end: span 3;
-    width: 400px;
-  }
-  
-  .acumatica_line_one {
-    grid-row: 1;
-    grid-column: 1;
-    justify-self: center;
-    align-self: end;
-  }
-  
-  .acumatica_line_two {
-    grid-row: 3;
-    grid-column: 1;
-    justify-self: center;
-  }
-  
-  .acumatica_icon_one {
-    grid-row: 1;
-    grid-column: 1;
-    align-self: center;
+  .acumatica_row_one {
+    display: flex;
+    flex-wrap: wrap;
     
   }
   
-  .acumatica_icon_two {
-    grid-row: 2;
-    grid-column: 1;
-    align-self: center;
+  .acumatica_group_one {
+    display: flex;
+    align-content: center;
   }
   
-  .acumatica_icon_three {
-    grid-row: 3;
-    grid-column: 1;
-    align-self: center;
+  .vert_icon_graphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
   }
+  
+  .center_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: max-content;
+    justify-content: center;
+    padding-left:20px;
+  }
+  
+  .acumatica_img_one {
+    width: 400px;
+  }
+  
+  
+.p_one, .p_two, .p_three {
+    font-family: sans-serif;
+    font-size: 12pt;
+  }
+  
 
   /*ROW TWO-----------------------------------------*/
 
   .acumatica_row_two {
-    display: grid;
-    grid-template-columns: 500px, 300px, 50px;
-    grid-template-rows: 200px, 200px, 200px;
-    height: 500px;
-    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
   }
 
   .p_one_two, .p_two_two, .p_three_two {
@@ -1282,51 +1256,12 @@ br{
     grid-column: 2;
   }
 
-  .acumatica_row_two .acumatica_p_icon {
-    justify-self: center;
+
+  
+  .acumatica_row_two .acumatica_circle_graph {
+    width: 550px;
   }
   
-  .acumatica_row_two .acumatica_img_one {
-    grid-column: 1;
-    grid-row-start: 1;
-    grid-row-end: span 3;
-    width: 400px;
-  }
-  
-  .acumatica_row_two .acumatica_line_one {
-    grid-row: 1;
-    grid-column: 3;
-    justify-self: center;
-    align-self: end;
-  }
-  
-  .acumatica_row_two .acumatica_line_two {
-    grid-row: 3;
-    grid-column: 3;
-    justify-self: center;
-  }
-  
-  .acumatica_row_two .acumatica_icon_one {
-    grid-row: 1;
-    grid-column: 3;
-    align-self: center;
-    justify-self: center;
-    
-  }
-  
-  .acumatica_row_two .acumatica_icon_two {
-    grid-row: 2;
-    grid-column: 3;
-    align-self: center;
-    justify-self: center;
-  }
-  
-  .acumatica_row_two .acumatica_icon_three {
-    grid-row: 3;
-    grid-column: 3;
-    align-self: center;
-    justify-self: center;
-  }
 
   /*ROW THREE-----------------------------------------*/
 
@@ -1334,21 +1269,34 @@ br{
     margin-top: 50px;
     padding-top: 50px;
     border-top: dashed lightgray 1px;
+    display: flex;
+    justify-content: center;
   }
 
   .acumatica_row_three .text_left {
     max-width: 600px;
+
   }
+
+  .acumatica_grow_heading {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Inter', sans-serif;
+  }
+
 
 
   /*ROW FOUR-----------------------------------------*/
 
   .acumatica_our_phil {
     align-self: center;
-    border-radius: 50px;
+    border-radius: 60px;
+
   }
 
-
+ 
 /* ------------MOBILE STYLES ------------------------------------------ */
 
 
