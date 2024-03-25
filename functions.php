@@ -85,7 +85,7 @@ function enquiry_form() {
         $headers[] = 'Content-Type: text/html; charset=UTF-8';
         $headers[] = 'From:' . $admin_email;
         $headers[] = 'Reply-to:' . $formdata['email'];
-        $headers[] = 'BCC: mevko@adssglobal.net';
+        $headers[] = 'BCC: info@sosconsultingservices.net';
 
         // Who are we sending the email to?
         $send_to = $admin_email;
@@ -133,7 +133,7 @@ function enquiry_form_contact() {
         $headers[] = 'Content-Type: text/html; charset=UTF-8';
         $headers[] = 'From:' . $admin_email;
         $headers[] = 'Reply-to:' . $formdata['email'];
-        $headers[] = 'BCC: mevko@adssglobal.net';
+        $headers[] = 'BCC: info@sosconsultingservices.net';
 
         // Who are we sending the email to?
         $send_to = $admin_email;

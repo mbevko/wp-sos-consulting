@@ -75,6 +75,8 @@ Template Name: subpage_acumatica
 
     <div class="acumatica_content">
 
+    <h2 class="acumatica_grow_heading">What Sets Acumatica Apart</h2>
+
         <div class="acumatica_row_one">
             <div class="acumatica_group_one">
                 <div class="vert_icon_graphic">
