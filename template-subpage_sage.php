@@ -29,7 +29,7 @@ Template Name: subpage_sage
             src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/SOSWebsiteBannerImage-ERP.png">
     </div>
 
-        <h3 class="subpage_banner_header">ERP Solutions SOS Consulting Services Supports</h3>
+         <h3 class="subpage_banner_header">ERP Solutions SOS Consulting Services Supports</h3>
 
 
         <a href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" class="subpage_banner subpage_banner_intacct">
