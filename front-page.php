@@ -26,45 +26,53 @@
                 title="ERP Solutions"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/erp.png" alt="ERP Solutions">
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/erp.png"
+                    alt="ERP Solutions">
                 <p class="software_links_p">ERP Solutions</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
-                    
+                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
+                class="vertical_logo"
+                style="width: 5px;">
+
             <a
                 href="<?php echo site_url('/human-resource-management'); ?>"
                 title="Human Resource Management"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/hrms.png" alt="Human Resource Management">
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/hrms.png"
+                    alt="Human Resource Management">
                 <p class="software_links_p">Human Resource Management</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
+                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
+                class="vertical_logo"
+                style="width: 5px;">
             <a
                 href="<?php echo site_url('/custom-programming'); ?>"
                 title="Custom Programming"
                 class="sf_link_cont">
                 <img
-                src="<?php echo get_template_directory_uri(); ?>/images/homepage/customprogram.png" alt="Custom Programming">
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/customprogram.png"
+                    alt="Custom Programming">
                 <p class="software_links_p">Custom Programming</p>
             </a>
             <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png" class="vertical_logo" style="width: 5px;">
+                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
+                class="vertical_logo"
+                style="width: 5px;">
             <a
                 href="<?php echo site_url('/3rd-party-solutions'); ?>"
                 title="Custom Screens and Applications"
                 class="sf_link_cont">
                 <img
-                src="<?php echo get_template_directory_uri(); ?>/images/homepage/3rdparty.png" alt="3rd Party Supported Solutions" />
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/3rdparty.png"
+                    alt="3rd Party Supported Solutions"/>
                 <p class="software_links_p">3rd Party Solutions</p>
             </a>
 
         </div>
     </article>
-
-    
     <article class="sos_info">
         <div class="sos_info_content">
             <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
@@ -77,8 +85,51 @@
                 health care to name a few.</p>
             <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepagebannergraphic.png" class="sos_info_graphic">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/images/homepagebannergraphic.png"
+            class="sos_info_graphic">
     </article>
+    <h2 class="software_heading">
+        Our Supported Softwares
+    </h2>
+
+    <div class="supp_software carousel" data-flickity='{ "groupCells": true, "wrapAround": true}'>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/acumatica_images/acumatica-logo-2024.png'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/intacctlogo.png'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/hrmslogo.png'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/sage300.png'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/TrueCommerce-logo.svg'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+        <div class="carousel-cell">
+            <img
+                src="<?php echo get_template_directory_uri(); ?>'/images/ecilogo.png'"
+                class="acumatica_front_logo supp_software_logo"/>
+        </div>
+    </div>
+
+    <h2 class="software_heading">
+        Helping Clients Around the Globe
+    </h2>
+    <?php the_content();?>
     <article class="articles">
         <!-- <h2 class="articles_heading"></h2> -->
         <div class="subpage_article">

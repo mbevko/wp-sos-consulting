@@ -44,6 +44,7 @@
 
     <script></script>
 </footer>
+<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 
 <script type="text/javascript">
     _linkedin_partner_id = "6736929";

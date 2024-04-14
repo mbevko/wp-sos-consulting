@@ -6,6 +6,7 @@
         <a href='http://www.mindmatrix.net' title='Marketing Automation' onclick='window.open(this.href);return(false);' ><script type='text/javascript' src='https://map.acumatica.com/track/f1ek5d1tl7m/payload.js' async> </script></a>
 
         <title>SOS Consulting Services</title>
+        <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
