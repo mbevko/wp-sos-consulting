@@ -1,112 +1,394 @@
 <?php
 /*
-Template Name: subpage_sage
+Template Name: subpage_acumatica
 */
 ?>
 
 <?php get_header();?>
 
-<section class="more_info_body">
 <div class="subpage_header_banner">
-        <div class="subpage_header_container">
-            <div class="subpage_header_subcont">
-                <h2 class="subpage_title"><?php the_title();?></h2>
-                <img
-                    class="horizontal_logo"
-                    src="<?php echo get_template_directory_uri(); ?>/images/SOS Morse Code.png">
-            </div>
-            <div class="more_info_btns_subpage">
-                <a href="<?php echo site_url('/about'); ?>" class="subpage_learn_more_link">
-                    <button class="subpage_learn_more_btn">Schedule Demo</button>
-                </a>
-                <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
-                    <button class="subpage_contact_us_btn">Contact Us</button>
-                </a>
-            </div>
+    <div class="subpage_header_container acumatica_header_container">
+        <div class="subpage_header_subcont">
+
+            <img
+                class="acumatica_logo"
+                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/AcumaticaHeaderLogo.png">
         </div>
-        <img
-            class="subpage_header_img"
-            src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/SOSWebsiteBannerImage-ERP.png">
+        <div class="more_info_btns_subpage">
+            <a href="<?php echo site_url('/contact'); ?>" class="subpage_learn_more_link">
+                <button class="subpage_learn_more_btn">Schedule Demo</button>
+            </a>
+            <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
+                <button class="subpage_contact_us_btn">Contact Us</button>
+            </a>
+        </div>
+    </div>
+    <img
+        class="subpage_header_img"
+        src="<?php echo get_template_directory_uri(); ?>/images/BannerImages/AcumaticaBannerImage.png">
+</div>
+<section class="acumatica_body">
+
+    <div class="acumatica_banner">
+        <h2 class="acumatica_banner_h">Streamline Your Business Operations with Acumatica</h2>
+        <p class="acumatica_banner_p">As an authorized vendor for Acumatica, we are
+            proud to offer a complete set of business management applications that can help
+            you streamline your operations, improve productivity, and reduce costs.
+            Acumatica is a cloud-based ERP software that provides a complete set of business
+            management applications, including financials, distribution, project accounting,
+            and CRM.</p>
+        <div class="acumatica_banner_icons">
+            <a href="<?php echo site_url('/wp-content/uploads/2024/03/Manufacturing_Edition_Applications-BR-MFG-20240229.pdf'); ?>" target="_blank" class="acumatica_banner_links">
+                <div class="acumatica_banner_link_cont">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-manufacturing-100.png"
+                        class="acumatica_banner_icon"/>
+                    <p class="acumatica_banner_icon_text">Manufacturing Management</p>
+                </div>
+            </a>
+            <a href="<?php echo site_url('/wp-content/uploads/2024/03/Distribution_Edition_Applications-BR-DST-20240229.pdf'); ?>" target="_blank" class="acumatica_banner_links">
+                <div class="acumatica_banner_link_cont">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-inventory-100.png"
+                        class="acumatica_banner_icon"/>
+                    <p class="acumatica_banner_icon_text">Distribution Management</p>
+                </div>
+            </a>
+            <a href="<?php echo site_url('/wp-content/uploads/2024/03/Construction_Edition-BR-CON-20240229.pdf'); ?>" target="_blank" class="acumatica_banner_links">
+                <div class="acumatica_banner_link_cont">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-construction-100.png"
+                        class="acumatica_banner_icon"/>
+                    <p class="acumatica_banner_icon_text">Construction Management</p>
+                </div>
+            </a>
+            <a href="<?php echo site_url('/wp-content/uploads/2024/03/Project_Accounting-DS-GBE-20240320.pdf'); ?>" target="_blank" class="acumatica_banner_links">
+                <div class="acumatica_banner_link_cont">
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-estimate-100.png"
+                        class="acumatica_banner_icon"/>
+                    <p class="acumatica_banner_icon_text">Project Accounting</p>
+                </div>
+            </a>
+        </div>
     </div>
 
-        <h3 class="subpage_banner_header">ERP Solutions SOS Consulting Services Supports</h3>
+    <div class="acumatica_content">
 
+    <h2 class="acumatica_grow_heading">What Sets Acumatica Apart</h2>
 
-        <a href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" class="subpage_banner subpage_banner_intacct">
-            <div class="featured_software_intacct">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/accumaticaLogo.png" />
-            </div>
-            
+        <div class="acumatica_row_one">
+            <div class="acumatica_group_one">
+                <div class="vert_icon_graphic">
 
-            <ul class="featured_software_desc">
-                <li><span class="featured_software_headers">Comprehensive Business Integration:</span> Achieve seamless integration across various business functions, from finance and human resources to supply chain and manufacturing. Acumatica ERP provides a unified platform that breaks down silos, ensuring real-time data visibility and collaboration for improved decision-making.</li>
-                <li><span class="featured_software_headers">Scalable Cloud-Based Solution:</span> Leverage the power of Acumatica's cloud-based ERP system to effortlessly scale your business operations. Whether you're a growing startup or an established enterprise, enjoy the flexibility and cost-effectiveness of a solution that adapts to your evolving needs while providing secure and reliable access from anywhere in the world.</li>
-                <li><span class="featured_software_headers">Customizable and Adaptable:</span> Tailor Acumatica ERP to fit your unique business processes with ease. The platform's flexible architecture allows for extensive customization without the need for complex coding. Adapt workflows, reports, and dashboards to match your specific requirements, ensuring that the ERP system aligns perfectly with your organization's goals.</li>
-                <li><span class="featured_software_headers">Real-Time Business Insights:</span> Gain a competitive edge with Acumatica's powerful analytics and reporting capabilities. Access real-time data insights through intuitive dashboards, enabling you to make informed decisions swiftly. From financial performance to operational efficiency, Acumatica empowers you with the tools to monitor and optimize every aspect of your business for sustained growth.</li>
-            </ul>
-        </a>
-
-
-
-        <a href="https://intacct.sosconsultingservices.net/" class="subpage_banner subpage_banner_intacct">
-            <div class="featured_software_intacct">
-                    <p>Sage <span>Intacct</span></p>
-            </div>
-            
-
-            <ul class="featured_software_desc">
-                <li><span class="featured_software_headers">Cloud-Based vs. On-Premises:</span> A true cloud-based solution that offers access from anywhere, anytime, on any device.</li>
-                <li><span class="featured_software_headers">Multi-Entity and Multi-Location Management:</span> Sage Intacct is architected for the modern organization that operates across multiple entities and locations. It allows for easy consolidation, currency conversion, intercompany transactions, and global compliance.</li>
-                <li><span class="featured_software_headers">Flexible Reporting:</span> Sage Intacct has built-in dashboards and reports that provide instant visibility and enable timely, data-driven decisions with data updated in real-time and configurable for each user.</li>
-                <li><span class="featured_software_headers">Collaborative and Connected:</span> Sage Intacct is a collaborative solution that enables teamwork and communication across your organization. You can share information, documents, comments, and approvals with your colleagues, managers, auditors, and external stakeholders.</li>
-            </ul>
-        </a>
-
-
-        <a href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>" class="subpage_banner">
-            <div class="featured_software">
-                    <p>Sage 300 ERP</p>
-            </div>
-
-            <ul class="featured_software_desc">
-                <li><span class="featured_software_headers">Comprehensive and Integrated:</span> Offers a comprehensive and integrated suite of modules, such as inventory management, order entry, purchase orders, project and job costing, payroll, and CRM. It also integrates with other Sage products, such as Sage HRMS, Sage Fixed Assets, and Sage Payment Solutions.</li>
-                <li><span class="featured_software_headers">Flexibility and Supply Chain Excellence:</span> Sage 300 offers great flexibility, excellent supply chain management, quick and hassle-free accounts payable management, painless budget management, and project management.</li>
-                <li><span class="featured_software_headers">Flexible deployment:</span> Sage 300 is an on-premises solution that gives you more control over your data and infrastructure. You can choose where to host your application, whether on your own servers or on a third-party hosting provider. You can also customize your system to fit your specific needs and preferences.</li>
-                <li><span class="featured_software_headers">Integration with Other Applications:</span> Sage 300 can also integrate with other applications such as Sage CRM, Sage Data & Analytics, and various add-ons and extensions to expand your capabilities.</li>
-            </ul>
-        </a>
-
-        <div class="mobile_subpage_banner">
-            <a class="sage_mobile_link acumatica" href="<?php echo site_url('/enterprise-resource-planning-erp/acumatica/'); ?>" >Acumatica</a>
-            <a class="sage_mobile_link intacct" href="https://intacct.sosconsultingservices.net/sage-intacct/overview/" >Sage<span class="intacct_mobile_link">&nbsp;Intacct</span></a>
-            <a class="sage_mobile_link sage300" href="<?php echo site_url('/enterprise-resource-planning-erp/sage-300/'); ?>">Sage 300</a>
-            
-        </div>            
-
-
-        <div class="subject_article">
-        <img
-            class="subpage_intacct_partner"
-            src="<?php echo get_template_directory_uri(); ?>/images/intacctpartner.png">
-            <div class="subject_container">
-                <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?>
-                <a href="<?php echo site_url('/contact'); ?>"><!-- <button class="contact_us_btn">Contact Us</button> --></a>
-            </div>
-                <div class="subject_container_right"><?php if(has_post_thumbnail()):?>
                     <img
-                        src="<?php the_post_thumbnail_url('medium_large');?>"
-                        alt="<?php the_title();?>+"
-                        class="page_featured_img">
-                    <?php endif;?></div>
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-timeline-50.png"
+                        class="acumatica_p_icon acumatica_icon_one"/>
+                    <svg
+                        class="acumatica_line_one"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#C73F3F"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-cloud-50.png"
+                        class="acumatica_p_icon acumatica_icon_two"/>
+                    <svg
+                        class="acumatica_line_two"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#C73F3F"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-workflow-50.png"
+                        class="acumatica_p_icon acumatica_icon_three"/>
+                </div>
+                <div class="center_text">
+                    <div class="p_one">
+                        <h3>Flexible and Scalable</h3>
+                        <p>Acumatica’s modular architecture allows businesses to choose the specific
+                            modules that meet their requirements and then scale as they grow and their needs
+                            change over time. This means that you only pay for the functionality you need,
+                            not for user seats.</p>
+                    </div>
+
+                    <div class="p_two">
+                        <h3>Cloud Based Advantage</h3>
+                        <p>Say goodbye to the limitations of traditional on-premise systems. Acumatica's
+                            cloud-based architecture offers accessibility from anywhere, anytime. This not
+                            only enhances collaboration but also ensures that your team has real-time access
+                            to critical business data.
+                        </p>
+                    </div>
+
+                    <div class="p_three">
+                        <h3>Comprehensive Module Suite</h3>
+                        <p>From financial management to customer relationship, distribution,
+                            manufacturing, and beyond – Acumatica's modular approach covers all facets of
+                            your business. This integrated suite simplifies processes, eliminates data
+                            silos, and provides a holistic view of your operations.</p>
+                    </div>
+                </div>
             </div>
-            
+
+            <img
+                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/iStock-1536191188.jpg"
+                class="acumatica_img_one"/>
         </div>
-    
-    <div class="subpage_archive">
-        <!-- 
-        <h2>Latest Articles</h2> -->
-        <div class="subpage_article">
-        <?php   $args = array(
+
+        <div class="acumatica_row_two">
+
+            <img
+                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/circlegraph2.png"
+                class="acumatica_circle_graph"/>
+
+            <div class="acumatica_group_one">
+                <div class="center_text">
+                    <div class="p_one_">
+                        <h3>User-Friendly Interface</h3>
+                        <p>Don't let complexity hinder productivity. Acumatica boasts an intuitive and
+                            user-friendly interface that minimizes the learning curve. Your team can quickly
+                            adapt, ensuring a smooth transition to enhanced efficiency.
+                        </p>
+                    </div>
+
+                    <div class="p_two">
+                        <h3>Real-Time Insight
+                        </h3>
+                        <p>Make informed decisions with real-time data analytics. Acumatica's robust
+                            reporting tools provide actionable insights, empowering you to steer your
+                            business in the right direction.
+
+                        </p>
+                    </div>
+
+                    <div class="p_three">
+                        <h3>Continuous Innovation</h3>
+                        <p>Acumatica is committed to staying ahead in the rapidly evolving technological
+                            landscape. Regular updates and feature enhancements ensure that your ERP
+                            solution is not just current but ready to meet the challenges of tomorrow.
+                            Benefit from the latest advancements without the hassle of major system
+                            overhauls.</p>
+                    </div>
+                </div>
+                <div class="acumatica_group_one">
+                    <div class="vert_icon_graphic">
+
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-happy-cloud-50.png"
+                            class="acumatica_p_icon acumatica_icon_one"/>
+                        <svg
+                            class="acumatica_line_one"
+                            width="5"
+                            height="50"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <title>Layer 1</title>
+                                <line
+                                    stroke-width="3"
+                                    fill="none"
+                                    stroke="#C73F3F"
+                                    x1="0"
+                                    y1="50"
+                                    x2="0"
+                                    y2="0"
+                                    id="svg_1"
+                                    stroke-linejoin="undefined"
+                                    stroke-linecap="undefined"/>
+                            </g>
+                        </svg>
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-financial-growth-analysis-50.png"
+                            class="acumatica_p_icon acumatica_icon_two"/>
+                        <svg
+                            class="acumatica_line_two"
+                            width="5"
+                            height="50"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <title>Layer 1</title>
+                                <line
+                                    stroke-width="3"
+                                    fill="none"
+                                    stroke="#C73F3F"
+                                    x1="0"
+                                    y1="50"
+                                    x2="0"
+                                    y2="0"
+                                    id="svg_1"
+                                    stroke-linejoin="undefined"
+                                    stroke-linecap="undefined"/>
+                            </g>
+                        </svg>
+                        <img
+                            src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-innovation-50.png"
+                            class="acumatica_p_icon acumatica_icon_three"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acumatica_row_three">
+            <div class="text_left">
+                <h3>Cutting-edge solutions for growing businesses</h3>
+                <p>At SOS Consulting Services, we use Acumatica to boost your business. We focus
+                    on thoroughly reviewing and documenting your specific business requirements with
+                    the goal of reducing or automating tasks as well as streamlining your workflow
+                    processes and information requirements. Our cloud-based platform is made to fit
+                    your needs now and as you grow. Check out our short video to see what we can do
+                    for you, and explore more about how we can help below.</p>
+                <p>Let SOS Consulting Services show you how Acumatica can improve your business.
+                    We'll help you understand and use this powerful tool to solve problems and reach
+                    your goals. Discover the benefits of Acumatica Cloud ERP with us today!</p>
+
+            </div>
+
+            <script
+                src="
+            https://www.acumatica.com/embed-api-assets/js/auto-height"
+                type="text/javascript"></script>
+            <iframe
+                width="500"
+                style="border: 1px solid #FFF; background: #fff;"
+                src="
+            https://www.acumatica.com/embed-api/video-feed/?generator_type=video-feed&action=embed_generate&pid=0000035362&mt=auto&h=0&ora=0&vmn=1&as=0&ft%5B0%5D=Product+Videos&fi=auto&w=px&wpx=500&ch=000000&ct=FFFFFF&cb=FFFFFF&cib=E8E8E8&ctb=C73F3F&cob=CCCCCC&sh=22&st=16"
+                onload="resizeAcumaticaWidget(this);"></iframe>
+
+        </div>
+
+        <h2 class="acumatica_grow_heading">Grow With SOS Consulting Services</h2>
+
+        <div class="acumatica_row_one">
+            <div class="acumatica_group_one">
+                <div class="vert_icon_graphic">
+
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/2 plus decades of experience Icon.png"
+                        class="acumatica_p_icon acumatica_icon_one"/>
+                    <svg
+                        class="acumatica_line_one"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#183E4B"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/Client Centric approach.png"
+                        class="acumatica_p_icon acumatica_icon_two"/>
+                    <svg
+                        class="acumatica_line_two"
+                        width="5"
+                        height="50"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <title>Layer 1</title>
+                            <line
+                                stroke-width="3"
+                                fill="none"
+                                stroke="#183E4B"
+                                x1="0"
+                                y1="50"
+                                x2="0"
+                                y2="0"
+                                id="svg_1"
+                                stroke-linejoin="undefined"
+                                stroke-linecap="undefined"/>
+                        </g>
+                    </svg>
+                    <img
+                        src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/End-to-end support.png"
+                        class="acumatica_p_icon acumatica_icon_three"/>
+                </div>
+                <div class="center_text">
+                    <div class="p_one">
+                        <h3>Two-Plus Decades of Expertise</h3>
+                        <p>With over 20 years of experience, SOS Consulting Services has been at the
+                            forefront of delivering ERP solutions that drive success. Our seasoned
+                            professionals understand the intricacies of diverse industries, ensuring
+                            tailored solutions that meet your specific challenges.</p>
+                    </div>
+
+                    <div class="p_two">
+                        <h3>Client-Centric Approach</h3>
+                        <p>Your success is our priority. We take a client-centric approach, working
+                            closely with you to understand your goals, challenges, and vision. Our solutions
+                            are crafted to not just meet but exceed your expectations.
+                        </p>
+                    </div>
+
+                    <div class="p_three">
+                        <h3>End-to-End Support & Customized Solutions</h3>
+                        <p>Beyond implementation, we offer comprehensive support to ensure that your ERP
+                            system operates seamlessly. Our dedicated support team is just a call away,
+                            ready to address your queries and concerns. We also recognize that every
+                            business is unique. Our experts collaborate with you to develop customized
+                            solutions that align with your strategic objectives, ensuring a perfect fit for
+                            your organization.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <img
+                src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/ourphilgraph.png"
+                class="acumatica_img_one acumatica_our_phil"/>
+        </div>
+
+    </div>
+
+    <script
+        src="
+https://www.acumatica.com/embed-api-assets/js/auto-height"
+        type="text/javascript"></script>
+    <iframe
+        width="100%"
+        style="border: 1px solid #CCCCCC; background: #fff;"
+        src="https://www.acumatica.com/embed-api/success-stories-feed/?generator_type=success-stories-feed&action=embed_generate&pid=0000035362&h=1&ht=Hear+What+Customers+Are+Saying+About+Acumatica&ha=center&smn=9&sra=1&as=1&asd=5&i%5B0%5D=4649&i%5B1%5D=354&i%5B2%5D=353&i%5B3%5D=357&i%5B4%5D=356&i%5B5%5D=359&r%5B0%5D=349&r%5B1%5D=350&r%5B2%5D=351&r%5B3%5D=352&su%5B0%5D=28891&su%5B1%5D=28959&su%5B2%5D=28897&su%5B3%5D=28965&su%5B4%5D=28953&su%5B5%5D=28956&su%5B6%5D=40819&c%5B0%5D=369&c%5B1%5D=371&c%5B2%5D=372&c%5B3%5D=365&c%5B4%5D=367&c%5B5%5D=366&c%5B6%5D=370&c%5B7%5D=375&w=resp&ch=000000&cq=000000&ca=000000&cb=FFFFFF&cob=CCCCCC&sh=22&sq=16&sa=14"
+        onload="resizeAcumaticaWidget(this);"></iframe>
+
+    <div class="subpage_article">
+    <?php   $args = array(
             'post_type' => array( 'post' ),
             'posts_per_page' => 3,
             );
@@ -135,8 +417,8 @@ Template Name: subpage_sage
                 // no posts found
             }
         ?>
-        </div>
     </div>
+
 </section>
 
 <?php get_footer();?>
