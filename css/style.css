@@ -1330,13 +1330,14 @@ br{
 
   .map_container {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
   }
 
-  .map_aspect_ration {
-    padding-top: 0;
-  }
+.map_aspect_ration {
+	padding-top: 0;
+}
+
 
 
 /* ------------MOBILE STYLES ------------------------------------------ */
@@ -1514,6 +1515,10 @@ br{
     .third_party_banner_p {
         font-size: 10pt;
         width: 100px;
+    }
+
+    .map_container {
+        width: 100%;
     }
 
 }
@@ -2089,12 +2094,14 @@ br{
     }
 
     .supp_software {
+        margin: 0 auto 150px auto;
         width: 100%;
-        margin: 0;
-        border: solid red 1px;
+
     }
 
-
+    .map_container{
+        margin-bottom: 50px;
+    }
 
 }
 
@@ -2112,18 +2119,6 @@ br{
         font-size: 36pt;
     }
 
-    .supp_software {
-        width: 95%;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
-        height: 600px;
-        align-items: space-around;
-    }
-
-    .map_container {
-        width: 95%;
-    }
 
 }
 @media (max-width:600px){
