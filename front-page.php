@@ -76,13 +76,14 @@
     <article class="sos_info">
         <div class="sos_info_content">
             <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
-            <p>SOS Consulting Services is a boutique consulting practice made up of a team
-                of accountants, software engineers/programmers, I.T. professionals, and project
-                management specialists with over 25 years’ experience in their respective
-                fields. We provide our services to a select clientele representing many
-                different industries including financial services, manufacturing/distribution,
-                retail, agricultural, food services, electronics, real estate, maintenance, and
-                health care to name a few.</p>
+            <p>Welcome to SOS Consulting Services, where expertise meets innovation. We are
+                a dynamic consulting practice comprised of seasoned professionals in accounting,
+                software engineering, IT, and project management, with over 25 years of industry
+                experience. Our mission is to deliver top-tier ERP solutions to a wide array of
+                clients across diverse sectors, including financial services,
+                manufacturing/distribution, retail, agriculture, food services, electronics,
+                real estate, maintenance, and healthcare, among others. Join us as we transform
+                the way businesses excel in the digital era.</p>
             <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
         </div>
         <img
@@ -93,7 +94,9 @@
         Our Supported Softwares
     </h2>
 
-    <div class="supp_software carousel" data-flickity='{ "groupCells": true, "wrapAround": true}'>
+    <div
+        class="supp_software carousel"
+        data-flickity='{ "groupCells": true, "wrapAround": true}'>
         <div class="carousel-cell">
             <img
                 src="<?php echo get_template_directory_uri(); ?>'/images/acumatica_images/acumatica-logo-2024.png'"
