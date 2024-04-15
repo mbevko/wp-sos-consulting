@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: subpage_acumatica
+Template Name: subpage_sage
 */
 ?>
 
