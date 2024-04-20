@@ -15,9 +15,9 @@ Template Name: subpage_acumatica
                 src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/AcumaticaHeaderLogo.png">
         </div>
         <div class="more_info_btns_subpage">
-            <a href="<?php echo site_url('/about'); ?>" class="subpage_learn_more_link">
-                <button class="subpage_learn_more_btn">Schedule Demo</button>
-            </a>
+
+            <button class="subpage_learn_more_btn schedule_demo">Schedule Demo</button>
+
             <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
                 <button class="subpage_contact_us_btn">Contact Us</button>
             </a>
@@ -75,7 +75,7 @@ Template Name: subpage_acumatica
 
     <div class="acumatica_content">
 
-    <h2 class="acumatica_grow_heading">What Sets Acumatica Apart</h2>
+        <h2 class="acumatica_grow_heading">What Sets Acumatica Apart</h2>
 
         <div class="acumatica_row_one">
             <div class="acumatica_group_one">
@@ -377,15 +377,21 @@ Template Name: subpage_acumatica
 
     </div>
 
-    <script
-        src="
-https://www.acumatica.com/embed-api-assets/js/auto-height"
-        type="text/javascript"></script>
-    <iframe
-        width="100%"
-        style="border: 1px solid #CCCCCC; background: #fff;"
-        src="https://www.acumatica.com/embed-api/success-stories-feed/?generator_type=success-stories-feed&action=embed_generate&pid=0000035362&h=1&ht=Hear+What+Customers+Are+Saying+About+Acumatica&ha=center&smn=9&sra=1&as=1&asd=5&i%5B0%5D=4649&i%5B1%5D=354&i%5B2%5D=353&i%5B3%5D=357&i%5B4%5D=356&i%5B5%5D=359&r%5B0%5D=349&r%5B1%5D=350&r%5B2%5D=351&r%5B3%5D=352&su%5B0%5D=28891&su%5B1%5D=28959&su%5B2%5D=28897&su%5B3%5D=28965&su%5B4%5D=28953&su%5B5%5D=28956&su%5B6%5D=40819&c%5B0%5D=369&c%5B1%5D=371&c%5B2%5D=372&c%5B3%5D=365&c%5B4%5D=367&c%5B5%5D=366&c%5B6%5D=370&c%5B7%5D=375&w=resp&ch=000000&cq=000000&ca=000000&cb=FFFFFF&cob=CCCCCC&sh=22&sq=16&sa=14"
-        onload="resizeAcumaticaWidget(this);"></iframe>
+    <!-- SCHEDULE DEMO FORM -->
+
+    <div class="demo_modal">
+        <div class="demo_form" data-type="form">
+            <script
+                charset="utf-8"
+                type="text/javascript"
+                src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+                hbspt
+                    .forms
+                    .create({region: "na1", portalId: "45057611", formId: "a47f9305-45d6-4b5b-8b8c-02de1745276d"});
+            </script>
+        </div>
+    </div>
 
     <div class="subpage_article">
     <?php   $args = array(
@@ -420,5 +426,21 @@ https://www.acumatica.com/embed-api-assets/js/auto-height"
     </div>
 
 </section>
+
+<script>
+    let schedDemo = document.querySelector(".schedule_demo");
+    const modal = document.querySelector(".demo_modal")
+
+    schedDemo.addEventListener('click', () => {
+        modal.style = "display: block;"
+    })
+
+    modal.addEventListener('click', (e) => {
+        if (e.target.getAttribute("data-type") !== document.querySelector(".schedule_demo").getAttribute("data-type")) {
+            return
+        } else 
+            modal.style = "display: hidden"
+    })
+</script>
 
 <?php get_footer();?>
