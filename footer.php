@@ -29,11 +29,9 @@
             info@sosconsultingservices.net
         </a>
 
-        <a href="tel:6316556288" class="contact_footer_link contact_footer_link3">
+        <a href="tel:18442448869" class="contact_footer_link contact_footer_link3">
             <img
-                src="<?php echo get_template_directory_uri(); ?>/images/icons8-ringer-volume-50.png">
-            631.655.6288
-        </a>
+                src="<?php echo get_template_directory_uri(); ?>/images/icons8-ringer-volume-50.png">+1(844)-244-8869</a>
     </div>
     <div class="icon-credit">
         <a target="_blank" href="https://icons8.com">
