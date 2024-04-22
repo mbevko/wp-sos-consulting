@@ -9,8 +9,18 @@
         'footer_sitemap_container1' ) ); ?>
 
     </div>
-
-    <?php get_template_part('includes/form','enquiry'); ?>
+    <div class="footer_form form">
+        <script
+            charset="utf-8"
+            type="text/javascript"
+            src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+            hbspt
+                .forms
+                .create({region: "na1", portalId: "45057611", formId: "1ebd865c-a9a0-4bce-a098-11e4c846b77c"});
+        </script>
+    </div>
+    <p class="footer_form_title">Send Us a Message</p>
     <div class="contact_footer">
 
         <a
@@ -52,34 +62,34 @@
         .push(_linkedin_partner_id);
 </script>
 <script type="text/javascript">
-            (function (l) {
-                if (!l) {
-                    window.lintrk = function (a, b) {
-                        window
-                            .lintrk
-                            .q
-                            .push([a, b])
-                    };
-                    window.lintrk.q = []
-                }
-                var s = document.getElementsByTagName("script")[0];
-                var b = document.createElement("script");
-                b.type = "text/javascript";
-                b.async = true;
-                b.src = "
-        https : //snap.licdn.com/li.lms-analytics/insight.min.js";
-                s
-                    .parentNode
-                    .insertBefore(b, s);
-            })(window.lintrk);
-        </script>
-        <noscript>
-            <img
-                height="1"
-                width="1"
-                style="display:none;"
-                alt=""
-                src="
+    (function (l) {
+        if (!l) {
+            window.lintrk = function (a, b) {
+                window
+                    .lintrk
+                    .q
+                    .push([a, b])
+            };
+            window.lintrk.q = []
+        }
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.async = true;
+        b.src = "
+ https : //snap.licdn.com/li.lms-analytics/insight.min.js";
+        s
+            .parentNode
+            .insertBefore(b, s);
+    })(window.lintrk);
+</script>
+<noscript>
+    <img
+        height="1"
+        width="1"
+        style="display:none;"
+        alt=""
+        src="
         https://px.ads.linkedin.com/collect/?pid=6736929&fmt=gif"/>
 </noscript>
 
