@@ -38,7 +38,7 @@ Template Name: subpage_acumatica
             management applications, including financials, distribution, project accounting,
             and CRM.</p>
         <div class="acumatica_banner_icons">
-            <a href="#" class="acumatica_banner_links">
+            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Manufacturing_Edition_Applications-BR-MFG-20240229.pdf" target="_blank" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-manufacturing-100.png"
@@ -46,7 +46,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Manufacturing Management</p>
                 </div>
             </a>
-            <a href="#" class="acumatica_banner_links">
+            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Distribution_Edition_Applications-BR-DST-20240229.pdf" target="_blank" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-inventory-100.png"
@@ -54,7 +54,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Distribution Management</p>
                 </div>
             </a>
-            <a href="#" class="acumatica_banner_links">
+            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Construction_Edition-BR-CON-20240229.pdf" target="_blank" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-construction-100.png"
@@ -62,7 +62,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Construction Management</p>
                 </div>
             </a>
-            <a href="#" class="acumatica_banner_links">
+            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Project_Accounting-DS-GBE-20240320.pdf" target="_blank" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-estimate-100.png"
@@ -169,7 +169,7 @@ Template Name: subpage_acumatica
             <img
                 src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/circlegraph2.png"
                 class="acumatica_circle_graph"/>
-
+                
             <div class="acumatica_group_one">
                 <div class="center_text">
                     <div class="p_one_">
@@ -271,16 +271,7 @@ Template Name: subpage_acumatica
 
             </div>
 
-            <script
-                src="
-            https://www.acumatica.com/embed-api-assets/js/auto-height"
-                type="text/javascript"></script>
-            <iframe
-                width="500"
-                style="border: 1px solid #FFF; background: #fff;"
-                src="
-            https://www.acumatica.com/embed-api/video-feed/?generator_type=video-feed&action=embed_generate&pid=0000035362&mt=auto&h=0&ora=0&vmn=1&as=0&ft%5B0%5D=Product+Videos&fi=auto&w=px&wpx=500&ch=000000&ct=FFFFFF&cb=FFFFFF&cib=E8E8E8&ctb=C73F3F&cob=CCCCCC&sh=22&st=16"
-                onload="resizeAcumaticaWidget(this);"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3m2nWxquGtk?si=eBzkaMomP4FXfMlB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
         </div>
 
