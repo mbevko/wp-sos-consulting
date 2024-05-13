@@ -1377,9 +1377,6 @@ br{
     padding: 0;
   }
 
-.map_aspect_ration {
-	padding-top: 0;
-}
 
 
 
@@ -1574,9 +1571,7 @@ br{
         width: 100px;
     }
 
-    .map_container {
-        width: 100%;
-    }
+
 
 }
 
@@ -1604,6 +1599,10 @@ br{
 
     .acumatica_row_three .text_left {
         width: 600px;
+    }
+
+    .map_container {
+        width: 95%;
     }
 
 }
@@ -1905,7 +1904,8 @@ br{
 
 @media (max-width:955px){
     .software_links{
-        padding:0 10
+        padding:0 10;
+        height: 1000px;
     }
     .software_heading{
         font-size:28pt;
@@ -2150,15 +2150,23 @@ br{
         width: 350px;
     }
 
+    .software_heading {
+        margin: 0;
+        padding: 0;
+        font-size: 24pt;
+    }
     
-    
+    .map_container {
+        width: 98%;
+    }
 }
 
 
 @media (max-width:710px){
     .sos_info{
         padding:0 10px;
-        height:800px
+        height:800px;
+        margin: 50px 0;
     }
     .sos_info_heading{
         font-size:28pt;
