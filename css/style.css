@@ -1532,8 +1532,6 @@ br{
         grid-row-start: 3;
         padding-bottom: 25px;
     }
-
-    
 }
 
 
@@ -1541,11 +1539,9 @@ br{
     .subpage_header_img{
         display: none;
     }
-
     .acumatica_row_three .text_left{
         width: 450px;
     }
-
     
 }
 
@@ -1553,9 +1549,7 @@ br{
     .blog_thumbnails{
         width:80%
     }
-    
 }
-
 
 @media (max-width:1220px){
     .software_links,.software_links2,.software_links2_closed{
@@ -1956,6 +1950,7 @@ br{
 
     .footer_form {
         height: 600px;
+        width: 300px;
     }
     
     
@@ -1965,7 +1960,9 @@ br{
         grid-row:5
     }
 
-    
+    .hbspt-form {
+        width: 300px;
+    }
 
     .vertical_logo {
         display: none;
