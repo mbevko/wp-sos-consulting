@@ -111,6 +111,7 @@
             <img
                 src="<?php echo get_template_directory_uri(); ?>'/images/hrmslogo.png'"
                 class="acumatica_front_logo supp_software_logo"/>
+                
         </div>
         <div class="carousel-cell">
             <img
@@ -127,6 +128,13 @@
                 src="<?php echo get_template_directory_uri(); ?>'/images/ecilogo.png'"
                 class="acumatica_front_logo supp_software_logo"/>
         </div>
+    </div>
+
+    <div class="hp_center_banner">
+        <div class="hp_banner_left">
+            <h2>ERP Implementation Success Guide</h2>
+        </div>
+        <div class="hp_banner_right"></div>
     </div>
 
     <h2 class="software_heading">
