@@ -199,7 +199,6 @@ Template Name: subpage_acumatica
                             overhauls.</p>
                     </div>
                 </div>
-                <div class="acumatica_group_one">
                     <div class="vert_icon_graphic">
 
                         <img
@@ -252,7 +251,6 @@ Template Name: subpage_acumatica
                             src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-innovation-50.png"
                             class="acumatica_p_icon acumatica_icon_three"/>
                     </div>
-                </div>
             </div>
         </div>
 
