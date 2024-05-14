@@ -537,7 +537,7 @@ footer ul {
     color:#fff;
     padding:0;
     margin:0;
-    height:280px;
+    height:350px;
     justify-content:space-around;
     align-self:center
 }
@@ -1309,7 +1309,7 @@ br{
 
 
   
-  .acumatica_row_two .acumatica_circle_graph {
+  .acumatica_circle_graph  {
     width: 550px;
   }
   
@@ -1321,7 +1321,7 @@ br{
     padding-top: 50px;
     border-top: dashed lightgray 1px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .acumatica_row_three .text_left {
@@ -1377,9 +1377,6 @@ br{
     padding: 0;
   }
 
-.map_aspect_ration {
-	padding-top: 0;
-}
 
 
 
@@ -1401,28 +1398,41 @@ br{
         border-top: dashed lightgray 1px;
         display: flex;
         flex-wrap: wrap;
-        height: 600px;
+        height: 500px;
+      }
+
+      .acumatica_circle_graph {
+        width: 400px;
       }
     
       .acumatica_row_three .text_left {
         max-width: 600px;
-    
       }
 }
 
-@media (max-width:1700px) {
-    
-    .acumatica_circle_graph {
-        display: none;
-    }
+@media (max-width:1700px) {    
 
     .acumatica_row_two {
-        display: block;
         width: 100%;
+        margin: 0;
+        justify-content: space-between;
     }
+
+    .acumatica_row_one {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
 
     .acumatica_group_one {
         justify-content: center;
+        
+    }
+
+    .acumatica_content{
+        margin: 50px 10%;
+        
     }
     
 }
@@ -1450,9 +1460,6 @@ br{
         width: 550px
     }
 
-
-    
-
 }
 
 
@@ -1475,17 +1482,14 @@ br{
         gap:50px
     }
 
-    .acumatica_img_one {
-        display: none;
-    }
-
-    .acumatica_row_one {
-        display: block;
-        width: 100%;
-    }
 
     .acumatica_group_one {
         justify-content: center;
+    }
+
+    .acumatica_content{
+        margin: 50px 5%;
+        
     }
 
    
@@ -1506,7 +1510,7 @@ br{
         margin-bottom:0
     }
     footer{
-        min-height:600px;
+        min-height:800px;
         grid-template-columns:auto 10% 5% 35% 5% 30% auto
     }
 }
@@ -1533,15 +1537,17 @@ br{
     .subpage_header_img{
         display: none;
     }
+    .acumatica_row_three .text_left{
+        width: 450px;
+    }
+    
 }
 
 @media (max-width:1250px){
     .blog_thumbnails{
         width:80%
     }
-    
 }
-
 
 @media (max-width:1220px){
     .software_links,.software_links2,.software_links2_closed{
@@ -1566,8 +1572,38 @@ br{
         width: 100px;
     }
 
+
+
+}
+
+@media (max-width:1200px){
+    .acumatica_img_one {
+        display: none;
+    }
+
+    .acumatica_row_one {
+        justify-content: center;
+    }
+
+    .acumatica_circle_graph {
+        display: none;
+    }
+
+    .acumatica_row_two {
+        justify-content: center;
+    }
+
+    .acumatica_row_three {
+        justify-content: center;
+        height: 800px;
+    }
+
+    .acumatica_row_three .text_left {
+        width: 600px;
+    }
+
     .map_container {
-        width: 100%;
+        width: 95%;
     }
 
 }
@@ -1869,7 +1905,8 @@ br{
 
 @media (max-width:955px){
     .software_links{
-        padding:0 10
+        padding:0 10;
+        height: 1000px;
     }
     .software_heading{
         font-size:28pt;
@@ -1914,6 +1951,7 @@ br{
 
     .footer_form {
         height: 600px;
+        width: 300px;
     }
     
     
@@ -1923,7 +1961,9 @@ br{
         grid-row:5
     }
 
-    
+    .hbspt-form {
+        width: 300px;
+    }
 
     .vertical_logo {
         display: none;
@@ -2009,6 +2049,43 @@ br{
     }
 
    
+    .acumatica_row_one {
+        width: auto;
+        margin: 0;
+        height: max-content;
+        margin-bottom: 30px;
+    }
+
+    .acumatica_group_one {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .acumatica_row_two {
+        width: auto;
+        margin: 0;
+        height: max-content;
+    }
+
+    .acumatica_group_two {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .acumatica_row_three {
+        width: auto;
+        margin: 0;
+        height: max-content;
+        
+    }
+
+    .acumatica_group_three {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
     
 }
 
@@ -2097,36 +2174,13 @@ br{
         justify-content: center;
     }
 
-    .acumatica_row_one {
-        height: 1000px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .acumatica_row_two {
-        height: 850px;
-        
-    }
-
-    .acumatica_row_three {
-        height: 1200px;
-    }
-
     .acumatica_grow_heading {
         font-size: 26pt;
     }
 
-    .acumatica_group_one {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    
+ 
 
     .acumatica_center_text {
-        width: 100%;
-        margin: 0;
         padding: 0;
     }
 
@@ -2134,15 +2188,23 @@ br{
         width: 350px;
     } 
 
+    .software_heading {
+        margin: 0;
+        padding: 0;
+        font-size: 24pt;
+    }
     
-    
+    .map_container {
+        width: 98%;
+    }
 }
 
 
 @media (max-width:710px){
     .sos_info{
         padding:0 10px;
-        height:800px
+        height:800px;
+        margin: 50px 0;
     }
     .sos_info_heading{
         font-size:28pt;
