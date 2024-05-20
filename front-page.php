@@ -111,7 +111,7 @@
             <img
                 src="<?php echo get_template_directory_uri(); ?>'/images/hrmslogo.png'"
                 class="acumatica_front_logo supp_software_logo"/>
-                
+
         </div>
         <div class="carousel-cell">
             <img
@@ -131,10 +131,23 @@
     </div>
 
     <div class="hp_center_banner">
-        <div class="hp_banner_left">
+
+        <a
+            href="<?php echo get_template_directory_uri(); ?>'/2024/04/22/nagigating-erp-implementation-pitfalls/'"
+            class="hp_banner_left">
             <h2>ERP Implementation Success Guide</h2>
-        </div>
-        <div class="hp_banner_right"></div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <button class="hp_read_more">Read More</button>
+        </a>
+        <a
+            href="<?php echo get_template_directory_uri(); ?>'/2024/05/09/comprehensive-guide-to-selecting-the-right-erp-for-your-business/'"
+            class="hp_banner_right">
+            <h2>How to Choose the Right ERP</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <button class="hp_read_more">Read More</button>
+        </a>
     </div>
 
     <h2 class="software_heading">
