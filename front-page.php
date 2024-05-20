@@ -136,16 +136,14 @@
             href="<?php echo get_template_directory_uri(); ?>'/2024/04/22/nagigating-erp-implementation-pitfalls/'"
             class="hp_banner_left">
             <h2>ERP Implementation Success Guide</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>Ensure a seamless and successful ERP migration with SOS Consulting Services' proven method, backed by decades of experience and a track record of success.</p>
             <button class="hp_read_more">Read More</button>
         </a>
         <a
             href="<?php echo get_template_directory_uri(); ?>'/2024/05/09/comprehensive-guide-to-selecting-the-right-erp-for-your-business/'"
             class="hp_banner_right">
             <h2>How to Choose the Right ERP</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>Achieve a successful ERP implementation by following our comprehensive guide to selecting the right ERP solution for your business.</p>
             <button class="hp_read_more">Read More</button>
         </a>
     </div>
