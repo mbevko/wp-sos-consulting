@@ -880,7 +880,7 @@ footer a{
     flex-direction:column;
     justify-content:space-around;
     align-items:space-around;
-    width:340;
+    width:340px;
     height:500px;
     font-size:10pt;
     font-weight:700;
@@ -891,24 +891,29 @@ footer a{
 
 .card_body:hover {
     transform: scale(1.1)
-    
 }
 
 .card_body img {
-    width: 338px;
+    width: 340px;
+    border-radius: 30px 30px 0 0;
+
 }
 .card_bottom{
-    padding:10px;
-    height:250px;
+    height:240px;
     background:#fff;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     font-weight:lighter;
-    margin: 0;
-
+    margin: auto;
+    width: 320px;
 }
 
+.archive_btn {
+    height: 500px;
+    display: block;
+    border-radius: 30px;
+}
 
 .header_archive_cont{
     color:var(--main-bg-color);
@@ -923,17 +928,19 @@ footer a{
     margin:0;
     width:100%
 }
-
+ 
 .read_more {
     width: 150px;
-    border: solid var(--sos-red) 1px;
     color: var(--sos-red);
     width: 150px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 12pt;
     background-color: white;;
+    text-align: left;
+    border: solid var(--sos-red) 1px;
 }
+
 
 .compatibility{
     color:var(--sos-red)
@@ -2259,7 +2266,7 @@ br{
 
     .acumatica_logo {
         width: 350px;
-    }
+    } 
 
     .software_heading {
         margin: 0;
@@ -2317,6 +2324,11 @@ br{
         font-size: 36pt;
     }
 
+    .map_section {
+        height: 400px;
+        width: 100%;
+        margin-top: 30px;
+    }
 
 }
 @media (max-width:600px){
@@ -2338,5 +2350,15 @@ br{
     .hp_center_banner button {
         display: none;
     }
+	
+	.hp_center_banner {
+		height: 800px;
+	}
+	
+	.hp_banner_left, .hp_banner_right {
+		height: 395px
+	}
+
+    
 
 }

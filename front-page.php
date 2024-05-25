@@ -148,10 +148,14 @@
         </a>
     </div>
 
+    <div class="map_section">
     <h2 class="software_heading">
         Helping Clients Around the Globe
     </h2>
     <?php the_content();?>
+    </div>
+
+
     <article class="articles">
         <!-- <h2 class="articles_heading"></h2> -->
         <div class="subpage_article">
