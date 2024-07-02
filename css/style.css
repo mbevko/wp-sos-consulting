@@ -476,7 +476,8 @@ nav{
     font-size:32pt;
     margin:0;
     text-align:left;
-    font-weight:bolder
+    font-weight:bolder;
+    color: var(--heading-color);
 }
 .sos_info p{
     font-size:14pt;
