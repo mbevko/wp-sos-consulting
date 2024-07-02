@@ -46,45 +46,36 @@ Template Name: subpage_customPrograms
 
     </div>
 
-   <div class="third_party_banner">
-            <img
-                class="third_party_banner_icon customui"
-                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/customui.png">
-            <p class="third_party_banner_p">Custom UI</p>
-            <img
-                class="third_party_banner_icon databaseintegration"
-                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/databaseintegration.png">
-            <p class="third_party_banner_p">Database<br>Integration</p>
-            <img
-                class="third_party_banner_icon integration"
-                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/sage300integration.png">
-            <p class="third_party_banner_p">Sage 300<br>Integration</p>
-            <img
-                class="third_party_banner_icon tailoredsolutions"
-                src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/tailoredsolutions.png">   
-            <p class="third_party_banner_p">Tailored<br>Solutions</p>      
+    <div class="third_party_banner">
+        <img
+            class="third_party_banner_icon customui"
+            src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/customui.png">
+        <p class="third_party_banner_p"><strong>Custom UI</strong><br>Create bespoke user interfaces tailored to your ERP</p>
+        <img
+            class="third_party_banner_icon databaseintegration"
+            src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/databaseintegration.png">
+        <p class="third_party_banner_p"><strong>Database Integration</strong><br>Integrate your ERP with existing databases for efficiency.</p>
+        <img
+            class="third_party_banner_icon integration"
+            src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/sage300integration.png">
+        <p class="third_party_banner_p"><strong>ERP Integration</strong><br>Connect your ERP seamlessly with essential business applications.</p>
+        <img
+            class="third_party_banner_icon tailoredsolutions"
+            src="<?php echo get_template_directory_uri(); ?>/images/CustomProgrammingPage/tailoredsolutions.png">
+        <p class="third_party_banner_p"><strong>Tailored Solutions</strong><br>Custom programming solutions tailored to your business ERP needs.</p>
 
         <p class="third_party_banner_title">Make it your own</p>
     </div>
 
     <div class="thirdparty_solutions_desc">
-        <h3>Streamline Your Business Operations and Enhance User Experience</h3>        
-        <p>Our work involves collaborating closely with clients to identify their unique
-            requirements and pain points within Sage 300. Whether it's automating repetitive
-            tasks, generating insightful reports, or adding entirely new features, we
-            leverage VB.NET for creating intuitive user interfaces and SQL for managing and
-            retrieving data from the Sage 300 database. This combination of technologies
-            allows me to develop solutions that are user-friendly, reliable, and fully
-            aligned with the existing Sage 300 environment.</p>
-
-        <p>With years of experience in Sage 300 customization, we have successfully
-            helped businesses across various industries optimize their operations and
-            maximize the value of their software investment. Our passion lies in empowering
-            organizations to harness the full potential of Sage 300 by tailoring it to their
-            specific needs. If you're seeking to simplify complex processes, improve
-            productivity, or add functionalities that Sage 300 lacks, we are here to provide
-            expert VB.NET and SQL development services to transform your Sage 300 experience
-            and drive business growth.</p>
+            <h3>Streamline Your Business Operations and Enhance User Experience</h3>
+        <p>With years of experience in ERP customization, we have successfully helped
+            businesses across various industries optimize their operations and maximize the
+            value of their software investment. Our passion lies in empowering organizations
+            to harness the full potential of their ERP by tailoring it to their specific
+            needs. If you're seeking to simplify complex processes, improve productivity, or
+            add functionalities, we are here to provide expert custom programming services
+            to transform your experience and drive business growth.</p>
     </div>
 
     <div class="subpage_archive">

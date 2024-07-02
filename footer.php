@@ -41,7 +41,7 @@
 
         <a href="tel:18442448869" class="contact_footer_link contact_footer_link3">
             <img
-                src="<?php echo get_template_directory_uri(); ?>/images/icons8-ringer-volume-50.png">+1(844)-244-8869</a>
+                src="<?php echo get_template_directory_uri();?>'/images/icons8-ringer-volume-50.png'">+1(844)-244-8869</a>
     </div>
     <div class="icon-credit">
         <a target="_blank" href="https://icons8.com">
@@ -76,11 +76,8 @@
         var b = document.createElement("script");
         b.type = "text/javascript";
         b.async = true;
-        b.src = "
- https : //snap.licdn.com/li.lms-analytics/insight.min.js";
-        s
-            .parentNode
-            .insertBefore(b, s);
+        b.src = "https : //snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
     })(window.lintrk);
 </script>
 <noscript>
@@ -89,8 +86,7 @@
         width="1"
         style="display:none;"
         alt=""
-        src="
-        https://px.ads.linkedin.com/collect/?pid=6736929&fmt=gif"/>
+        src="https://px.ads.linkedin.com/collect/?pid=6736929&fmt=gif"/>
 </noscript>
 
 </body>

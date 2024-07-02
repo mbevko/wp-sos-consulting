@@ -48,12 +48,13 @@ mobBack.addEventListener('click', () => {
 })
 
 //Discover more button in software links
-let serviceMenuItem = document.querySelectorAll("nav .menu-item-has-children");
+let serviceMenuItem = document.querySelectorAll(".nav .menu-item-has-children");
 let subMenu = document.querySelectorAll("ul .sub-menu");
 
 
 
 serviceMenuItem.forEach((dropDown, id) => {
+
     dropDown.addEventListener('mouseover', () => {
 
         subMenu[id].style.display = "flex"
@@ -85,5 +86,6 @@ serviceMenuItem.forEach((dropDown, id) => {
 
     })
 });
+
 
 
