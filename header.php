@@ -113,7 +113,7 @@
             class="hamburger_menu"
             src="<?php echo get_template_directory_uri(); ?>/images/icons8-menu-48.png"
             width="50px"/>
-        <nav class="index_nav">
+        <nav class="index_nav nav">
             <a href="<?php echo site_url(); ?>" class="logo_link">
                 <img
                     src="<?php echo get_template_directory_uri(); ?>/images/3.png"

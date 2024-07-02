@@ -35,10 +35,10 @@ Template Name: subpage_acumatica
             proud to offer a complete set of business management applications that can help
             you streamline your operations, improve productivity, and reduce costs.
             Acumatica is a cloud-based ERP software that provides a complete set of business
-            management applications, including financials, distribution, project accounting,
+            management applications, including financials, manufacturing, distribution, project accounting,
             and CRM.</p>
         <div class="acumatica_banner_icons">
-            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Manufacturing_Edition_Applications-BR-MFG-20240229.pdf" target="_blank" class="acumatica_banner_links">
+            <a href="https://info.sosconsultingservices.net/acumatica-manufacturing" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-manufacturing-100.png"
@@ -46,7 +46,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Manufacturing Management</p>
                 </div>
             </a>
-            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Distribution_Edition_Applications-BR-DST-20240229.pdf" target="_blank" class="acumatica_banner_links">
+            <a href="https://info.sosconsultingservices.net/acumatica-distribution" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-inventory-100.png"
@@ -54,7 +54,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Distribution Management</p>
                 </div>
             </a>
-            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Construction_Edition-BR-CON-20240229.pdf" target="_blank" class="acumatica_banner_links">
+            <a href="https://info.sosconsultingservices.net/acumatica-construction" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-construction-100.png"
@@ -62,7 +62,7 @@ Template Name: subpage_acumatica
                     <p class="acumatica_banner_icon_text">Construction Management</p>
                 </div>
             </a>
-            <a href="https://sosconsultingservices.net/wp-content/uploads/2024/03/Project_Accounting-DS-GBE-20240320.pdf" target="_blank" class="acumatica_banner_links">
+            <a href="https://info.sosconsultingservices.net/acumatica-project-accounting" class="acumatica_banner_links">
                 <div class="acumatica_banner_link_cont">
                     <img
                         src="<?php echo get_template_directory_uri(); ?>/images/acumatica_images/icons8-estimate-100.png"

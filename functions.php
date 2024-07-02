@@ -36,10 +36,12 @@ add_filter('excerpt_length', 'my_excerpt_length');
 register_nav_menus(
 
         array(
-
+                
+                'home-nav' => 'Home Nav Location',
                 'main-nav' => 'Main Nav Location',
                 'mobile-nav' => 'Mobile Nav Location',
                 'footer-nav' => 'Footer Nav Location'
+                
         )
 
 );

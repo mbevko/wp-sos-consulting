@@ -1,10 +1,19 @@
 <?php get_header();?>
 
 <header class="main_header">
+<div class="index_nav_home nav">
+            <a href="<?php echo site_url(); ?>" class="logo_link">
+                <img
+                    src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"
+                    class="logo"/>
+            </a>
+            <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_class' =>
+            'nav_links' ) ); ?>
+        </div>
     <div class="overlay">
-        <h1 class="header_title">Enterprise Management Software & Technology Provider</h1>
-        <p>Providing end-to-end solutions for businesses looking for greater efficiency,
-            flexibility, and insight.</p>
+        
+        <h1 class="header_title">Your ERP Software & Service Provider</h1>
+        <p>Optimize Workflow | Reduce Costs | Accelerate growth</p>
         <div class="more_info_btns">
             <a href="<?php echo site_url('/about'); ?>">
                 <button class="header_learn_more_btn">Learn More</button>
@@ -73,6 +82,20 @@
 
         </div>
     </article>
+    <article class="hp_services">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/Services.png" class="hp_services_img"/>
+        <div class="hp_services_right">
+            <h2 class="sos_info_heading">SOS Services</h2>
+            <ul>
+                <li><strong>Business Process analysis and Design</strong>: We identify inefficiencies and implement solutions that enhance productivity and drive growth.</li>
+                <li><strong>Reports & Dashboards</strong>: We design and implement intuitive, data-driven tools that give you real-time insights into your business performance.</li>
+                <li><strong>Implementation & Migration</strong>: We ensure a smooth, efficient process that minimizes downtime and maximizes productivity. </li>
+                <li><strong>Training & Support</strong>: Our tailored programs ensure your staff is proficient and confident in using new systems and tools.</li>
+                <li><strong> Sub Ledger Reconciliation</strong>: Ensure accuracy and integrity in your financial data with our sub-ledger reconciliation services.</li>
+                <li><strong>Custom Software Development</strong>: Our expert developers create custom applications that streamline processes and boost efficiency.</li>
+            </ul>
+        </div>
+    </article>
     <article class="sos_info">
         <div class="sos_info_content">
             <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
@@ -87,7 +110,7 @@
             <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
         </div>
         <img
-            src="<?php echo get_template_directory_uri(); ?>/images/homepagebannergraphic.png"
+            src="<?php echo get_template_directory_uri(); ?>'/images/homepagebannergraphic.png'"
             class="sos_info_graphic">
     </article>
     <h2 class="software_heading">
@@ -136,24 +159,26 @@
             href="<?php echo get_template_directory_uri(); ?>'/2024/04/22/nagigating-erp-implementation-pitfalls/'"
             class="hp_banner_left">
             <h2>ERP Implementation Success Guide</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>Ensure a seamless and successful ERP migration with SOS Consulting Services' proven method, backed by decades of experience and a track record of success.</p>
             <button class="hp_read_more">Read More</button>
         </a>
         <a
             href="<?php echo get_template_directory_uri(); ?>'/2024/05/09/comprehensive-guide-to-selecting-the-right-erp-for-your-business/'"
             class="hp_banner_right">
             <h2>How to Choose the Right ERP</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p>Achieve a successful ERP implementation by following our comprehensive guide to selecting the right ERP solution for your business.</p>
             <button class="hp_read_more">Read More</button>
         </a>
     </div>
 
+    <div class="map_section">
     <h2 class="software_heading">
         Helping Clients Around the Globe
     </h2>
     <?php the_content();?>
+    </div>
+
+
     <article class="articles">
         <!-- <h2 class="articles_heading"></h2> -->
         <div class="subpage_article">
@@ -189,7 +214,66 @@
         </div>
 
     </article>
+   
 
 </section>
+
+<script>
+    let mainNav = document.querySelector("nav");
+
+    mainNav.style = "transform: translateY(-150); display: none;"
+
+    //if(window.innerHeight < 981px){
+    //mainNav.style = "display: none;"
+
+    window.addEventListener("scroll", () => {
+
+        if(window.scrollY > 100 && window.innerWidth > 981){
+            mainNav.style = "display: flex; transform: translateY(0);"
+        }else if(window.scrollY < 100 || window.innerWidth < 981){
+            mainNav.style = "display: none;"
+        }
+
+    });
+
+
+    let serviceMenuItem2 = document.querySelectorAll(".index_nav_home .menu-item-has-children");
+    let subMenu2 = document.querySelectorAll(".index_nav_home ul .sub-menu");
+
+
+
+serviceMenuItem2.forEach((dropDown, id) => {
+
+    dropDown.addEventListener('mouseover', () => {
+
+        subMenu2[id].style.display = "flex"
+
+        if(subMenu2[id].hasChildNodes()){
+            subMenu2[id].childNodes.forEach((child) => {
+                    if(child.nodeType === 1){
+                        if(child.hasChildNodes()){
+                            child.childNodes.forEach((smallChild) => {
+                                if(smallChild.nodeType === 1){
+                                smallChild.style ="display: block;k"
+                                //console.log(smallChild)
+                                }
+                            })
+                    }
+                }
+            })
+        }
+    })
+})
+
+
+
+serviceMenuItem2.forEach((dropDown, id) => {
+    dropDown.addEventListener('mouseleave', () => {
+        subMenu2.forEach(menu => menu.style.display = "none")
+
+    })
+});
+
+</script>
 
 <?php get_footer();?>
