@@ -87,12 +87,12 @@
         <div class="hp_services_right">
             <h2 class="sos_info_heading">SOS Services</h2>
             <ul>
-                <li><strong>Business Process analysis and Design</strong>: We identify inefficiencies and implement solutions that enhance productivity and drive growth.</li>
-                <li><strong>Reports & Dashboards</strong>: We design and implement intuitive, data-driven tools that give you real-time insights into your business performance.</li>
-                <li><strong>Implementation & Migration</strong>: We ensure a smooth, efficient process that minimizes downtime and maximizes productivity. </li>
-                <li><strong>Training & Support</strong>: Our tailored programs ensure your staff is proficient and confident in using new systems and tools.</li>
-                <li><strong> Sub Ledger Reconciliation</strong>: Ensure accuracy and integrity in your financial data with our sub-ledger reconciliation services.</li>
-                <li><strong>Custom Software Development</strong>: Our expert developers create custom applications that streamline processes and boost efficiency.</li>
+                <li><strong><a href="<?php echo site_url('/services/workflow-analysis-and-process-automation/');?>">Business Process analysis and Design</a></strong>: We identify inefficiencies and implement solutions that enhance productivity and drive growth.</li>
+                <li><strong><a href="<?php echo site_url('/services/custom-reports-dashboards/');?>">Reports & Dashboards</a></strong>: We design and implement intuitive, data-driven tools that give you real-time insights into your business performance.</li>
+                <li><strong><a href="<?php echo site_url('/services/erp-implementation-migration/');?>">Implementation & Migration</a></strong>: We ensure a smooth, efficient process that minimizes downtime and maximizes productivity. </li>
+                <li><strong><a href="<?php echo site_url('/services/erp-training-support/');?>">Training & Support</a></strong>: Our tailored programs ensure your staff is proficient and confident in using new systems and tools.</li>
+                <li><strong><a href="<?php echo site_url('/services/subledger-reconciliation-services/');?>">Sub Ledger Reconciliation</a></strong>: Ensure accuracy and integrity in your financial data with our sub-ledger reconciliation services.</li>
+                <li><strong><a href="<?php echo site_url('/services/custom-programming/');?>">Custom Software Development</a></strong>: Our expert developers create custom applications that streamline processes and boost efficiency.</li>
             </ul>
         </div>
     </article>
