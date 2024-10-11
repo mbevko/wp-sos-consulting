@@ -297,6 +297,15 @@ nav{
     list-style-type: circle;
 }
 
+.hp_services_right a {
+    color: black;
+    text-decoration: none;
+}
+
+.hp_services_right a:hover{
+    text-decoration: underline;
+}
+
 .more_info_btns{
     display:flex;
     width:350px;
@@ -1012,12 +1021,10 @@ footer a{
     height: 30px;
     border-radius: 10px;
     font-size: 12pt;
-    background-color: white;;
+    background-color: white;
     text-align: left;
     border: solid var(--sos-red) 1px;
 }
-
-
 .compatibility{
     color:var(--sos-red)
 }
@@ -1033,8 +1040,13 @@ footer a{
     font-size:14pt;
 }
 .jp-relatedposts{
-    position: fixed;
+    position: absolute !important;
     right: 30px;
+}
+.jp-relatedposts-headline {
+	font-size: 24pt !important;
+	margin: 0 !important; 
+	padding: 0 !important;
 }
 .article_tags{
     color:#fff;
@@ -2175,6 +2187,14 @@ br{
         grid-column-start: 1;
         font-size: 40pt;
     }
+
+    .contact_body_container{
+        height: 800px;
+    }
+
+    .contact_container_right {
+        height: 800px;
+    }
 }
 
 
@@ -2291,7 +2311,7 @@ br{
         font-size:32px
     }
 
-    demo_form {
+    .demo_form {
         width: 80%;
         position: fixed;
         background: white;
@@ -2301,6 +2321,10 @@ br{
         transform: translate(-50%, -50%);
         border-radius: 30px;
       }
+      .contact_body_container{
+        height: 1000px;
+    }
+
 }
 
 @media (max-width:800px){
@@ -2474,4 +2498,23 @@ br{
     .software_links {
         height: 1100px;
     }
+    .sos_info_heading {
+        font-size: 20pt;
+    }
+
+    .sos_info_content {
+        margin-bottom: 50px;
+        height: 800px;
+    }
+	
+	.software_heading {
+		margin-top: 30px;
+	}
+
+    .hp_services_right {
+        height: 1000px;
+    }
+
+	
+	
 }
