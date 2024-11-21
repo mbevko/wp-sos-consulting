@@ -895,14 +895,14 @@ footer a{
 }
 .back_banner{
     width:100%;
-    height:400px;
+    height:600px;
     display:flex;
     justify-content:center;
     align-items:center;
     margin-bottom:150px
 }
 .contact_container_left{
-    height:315px;
+    height:500px;
     width:400px;
     display:flex;
     align-items:flex-start;
@@ -2230,7 +2230,7 @@ br{
         width:95%
     }
     .contact_container_left{
-        height:400px;
+        height:500px;
         padding:25px;
         width:80vw;
         color:var(--font-color)

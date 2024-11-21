@@ -24,6 +24,13 @@ Template Name: Contact
                         src="<?php echo get_template_directory_uri(); ?>/images/mail.png"/>
                     <p>info@sosconsultingservices.net</p>
                 </a>
+                <p class="page_info_headings">Locations</p>
+                <a href="mailto:info@sosconsultingservices.net" class="contact_page_info">
+                    <img
+                        class="contact_page_icons"
+                        src="<?php echo get_template_directory_uri(); ?>/images/map-point.png"/>
+                    <p>Long Island, New York &#x2022 Albany, New York &#x2022 Ft. Lauderdale, FLorida &#x2022 Nashville, Tennessee</p>
+                </a>
                 <p class="page_info_headings">Linkedin</p>
                 <a
                     href="https://www.linkedin.com/company/sos-consulting-services-inc-"
