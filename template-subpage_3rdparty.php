@@ -16,8 +16,8 @@ Template Name: subpage_3rdparty
                     src="<?php echo get_template_directory_uri(); ?>/images/SOS Morse Code.png">
             </div>
             <div class="more_info_btns_subpage">
-                <a href="<?php echo site_url('/about'); ?>" class="subpage_learn_more_link">
-                    <button class="subpage_learn_more_btn">Schedule Demo</button>
+                <a class="subpage_learn_more_link">
+                    <button class="subpage_learn_more_btn schedule_demo">Schedule Demo</button>
                 </a>
                 <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
                     <button class="subpage_contact_us_btn">Contact Us</button>
@@ -36,7 +36,7 @@ Template Name: subpage_3rdparty
                     <!-- <button class="contact_us_btn">Contact Us</button> -->
                 </a>
             </div>
-            <div class="subject_container_right"><?php if(has_post_thumbnail()):?> 
+            <div class="subject_container_right"><?php if(has_post_thumbnail()):?>
                 <img
                     src="<?php the_post_thumbnail_url('medium_large');?>"
                     alt="<?php the_title();?>+"
@@ -47,33 +47,50 @@ Template Name: subpage_3rdparty
     </div>
 
     <div class="third_party_banner">
-            <img
-                class="third_party_banner_icon integrate"
-                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Integrate.png">
-                <p class="third_party_banner_p"><strong>Integrate</strong> <br> All your tools to work together in one ERP</p>
-            <img
-                class="third_party_banner_icon customize"
-                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/CustomizeIII.png">
-                <p class="third_party_banner_p"><strong>Customize</strong><br>Your ERP to match your company's workflow and requirements</p>
-                
-            <img
-                class="third_party_banner_icon automate"
-                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Automate.png">
-                <p class="third_party_banner_p"><strong>Automate</strong><br>your business needs, cutting manual work, reducing errors and freeing up time</p>
-            <img
-                class="third_party_banner_icon streamline"
-                src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Streamline.png">   
-                <p class="third_party_banner_p"><strong>Streamline</strong><br>Your process, creating a nimble system that adapts to your business</p>      
+        <img
+            class="third_party_banner_icon integrate"
+            src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Integrate.png">
+        <p class="third_party_banner_p">
+            <strong>Integrate</strong>
+            <br>
+            All your tools to work together in one ERP</p>
+        <img
+            class="third_party_banner_icon customize"
+            src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/CustomizeIII.png">
+        <p class="third_party_banner_p">
+            <strong>Customize</strong><br>Your ERP to match your company's workflow and requirements</p>
+
+        <img
+            class="third_party_banner_icon automate"
+            src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Automate.png">
+        <p class="third_party_banner_p">
+            <strong>Automate</strong><br>your business needs, cutting manual work, reducing errors and freeing up time</p>
+        <img
+            class="third_party_banner_icon streamline"
+            src="<?php echo get_template_directory_uri(); ?>/images/3rdPartyPage/Streamline.png">
+        <p class="third_party_banner_p">
+            <strong>Streamline</strong><br>Your process, creating a nimble system that adapts to your business</p>
 
         <p class="third_party_banner_title">Supercharge your ERP</p>
     </div>
-    
-    
+
+    <div class="demo_modal">
+        <div class="demo_form" data-type="form">
+            <script
+                charset="utf-8"
+                type="text/javascript"
+                src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+                hbspt
+                    .forms
+                    .create({portalId: "45057611", formId: "03197c2b-edbf-42cc-ab0b-652dd296661c", region: "na1"});
+            </script>
+        </div>
+    </div>
+
     <?php echo do_shortcode('[wptabs id="585"]'); ?>
 
-    <div class="see_more">
-        
-    </div>
+    <div class="see_more"></div>
 
     <div class="subpage_archive">
         <!-- 
@@ -112,5 +129,20 @@ Template Name: subpage_3rdparty
     </div>
 </section>
 
-<?php get_footer();?>
+<script>
+    let schedDemo = document.querySelector(".schedule_demo");
+    const modal = document.querySelector(".demo_modal")
 
+    schedDemo.addEventListener('click', () => {
+        modal.style = "display: block;"
+    })
+
+    modal.addEventListener('click', (e) => {
+        if (e.target.getAttribute("data-type") !== document.querySelector(".schedule_demo").getAttribute("data-type")) {
+            return
+        } else 
+            modal.style = "display: hidden"
+    })
+</script>
+
+<?php get_footer();?>

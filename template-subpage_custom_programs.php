@@ -16,7 +16,7 @@ Template Name: subpage_customPrograms
                     src="<?php echo get_template_directory_uri(); ?>/images/SOS Morse Code.png">
             </div>
             <div class="more_info_btns_subpage">
-                <a href="<?php echo site_url('/about'); ?>" class="subpage_learn_more_link">
+                <a class="subpage_learn_more_link">
                     <button class="subpage_learn_more_btn">Schedule Demo</button>
                 </a>
                 <a href="<?php echo site_url('/contact'); ?>" class="subpage_contact_us_link">
@@ -114,5 +114,21 @@ Template Name: subpage_customPrograms
         </div>
     </div>
 </section>
+
+<script>
+    let schedDemo = document.querySelector(".schedule_demo");
+    const modal = document.querySelector(".demo_modal")
+
+    schedDemo.addEventListener('click', () => {
+        modal.style = "display: block;"
+    })
+
+    modal.addEventListener('click', (e) => {
+        if (e.target.getAttribute("data-type") !== document.querySelector(".schedule_demo").getAttribute("data-type")) {
+            return
+        } else 
+            modal.style = "display: hidden"
+    })
+</script>
 
 <?php get_footer();?>
