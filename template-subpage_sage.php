@@ -163,9 +163,17 @@ Template Name: subpage_sage
     </div>
 
     <div class="subject_article">
-        <img
-            class="subpage_intacct_partner"
-            src="<?php echo get_template_directory_uri(); ?>/images/intacctpartner.png">
+        <div class="partner_images">
+            <img
+                class="subpage_intacct_partner"
+                src="<?php echo get_template_directory_uri(); ?>/images/intacctpartner.png">
+                <img
+                class="subpage_intacct_partner"
+                src="https://sosconsultingservices.net/wp-content/uploads/2025/05/acumatica-partner.png">
+                <img
+                class="subpage_intacct_partner"
+                src="https://sosconsultingservices.net/wp-content/uploads/2025/05/sage-intacct-partner.png">
+        </div>
         <div class="subject_container">
             <div class="subject_container_left"><?php get_template_part('includes/section', 'content');?>
                 <a href="<?php echo site_url('/contact'); ?>">
