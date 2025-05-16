@@ -828,6 +828,19 @@ footer a{
     width:85%;
     margin:auto
 }
+
+.partner_images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.partner_images img {
+    margin-left: 2em;
+}
+
 .back_banner,.contact_us_btn{
     background:var(--heading-color)
 }
@@ -1243,6 +1256,105 @@ br{
     font-weight: 300;
     width: 200px
 }
+
+.outer-container {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+
+  .table-section {
+    flex: 1 1 55%;
+    min-width: 300px;
+  }
+
+  .info-section {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  th {
+    background: #f8f8f8;
+    font-weight: 600;
+  }
+
+  .total-row td {
+    font-weight: bold;
+  }
+
+  .total-label {
+    color: #2962FF; /* Matched from image */
+  }
+
+  .profit-label {
+    color: #2E7D32; /* Matched from image */
+  }
+
+  details {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #fdfdfd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+
+  details[open] {
+    border-color: #2962FF33;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    padding-right: 1.5rem;
+    position: relative;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: '\25BC';
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+
+  details[open] summary::after {
+    transform: rotate(180deg);
+  }
+
+  @media (max-width: 768px) {
+    .table-section {
+      display: none;
+    }
+  }
 
 .customize, .streamline{
     width: 60px
@@ -2472,6 +2584,9 @@ br{
     }
     .subject_article{
         width:95%
+    }
+    .partner_images{
+        display: none;
     }
 }
 
