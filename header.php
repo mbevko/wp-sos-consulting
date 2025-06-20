@@ -80,7 +80,9 @@
                 style="display:none;visibility:hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
-
+<div class="header_banner">
+<a href="https://sosconsultingservices.net/2025/06/13/sos-consulting-services-and-information-innovators-announce-strategic-partnership-to-deliver-enhanced-erp-solutions/"><h3>SOS Announces Partnership with Information Innovators</h3></a>
+</div>
         <div class="contact_header">
             <div class="contact_head_cont">
                 <!--  <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"> -->
