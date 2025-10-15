@@ -98,15 +98,8 @@
     </article>
     <article class="sos_info">
         <div class="sos_info_content">
-            <h2 class="sos_info_heading">Why SOS Consulting Services?</h2>
-            <p>Welcome to SOS Consulting Services, where expertise meets innovation. We are
-                a dynamic consulting practice comprised of seasoned professionals in accounting,
-                software engineering, IT, and project management, with over 25 years of industry
-                experience. Our mission is to deliver top-tier ERP solutions to a wide array of
-                clients across diverse sectors, including financial services,
-                manufacturing/distribution, retail, agriculture, food services, electronics,
-                real estate, maintenance, and healthcare, among others. Join us as we transform
-                the way businesses excel in the digital era.</p>
+            <h2 class="sos_info_heading">See why SOS Consulting Services is one of the top-rated ERP solution providers for customer satisfaction and long-term client success</h2>
+            <p>At SOS Consulting Services, our mission is to deliver top-tier ERP solutions that empower businesses to thrive in the digital era. With over 25 years of industry experience, our team of seasoned professionals in accounting, software engineering, IT, and project management is dedicated to helping organizations achieve their goals through innovative technology and tailored solutions.</p>
             <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
         </div>
         <img
@@ -114,7 +107,7 @@
             class="sos_info_graphic">
     </article>
     <h2 class="software_heading">
-        Our Supported Softwares
+        Our Supported Software
     </h2>
 
     <div
@@ -122,7 +115,20 @@
         data-flickity='{ "groupCells": true, "wrapAround": true}'>
         <div class="carousel-cell">
             <img
-                src="<?php echo get_template_directory_uri(); ?>'/images/acumatica_images/acumatica-logo-2024.png'"
+                src="https://sosconsultingservices.net/wp-content/uploads/2025/05/acumatica-partner.png"
+                class="acumatica_front_logo supp_software_logo"/>
+			
+			
+        </div>
+		<div class="carousel-cell">
+            <img
+                src="https://sosconsultingservices.net/wp-content/uploads/2025/09/sage-intacct-partner.png"
+                class="acumatica_front_logo supp_software_logo"/>
+
+        </div>
+		 <div class="carousel-cell">
+            <img
+                src="https://sosconsultingservices.net/wp-content/themes/wpSOS/images/intacctpartner.png"
                 class="acumatica_front_logo supp_software_logo"/>
         </div>
         <div class="carousel-cell">
@@ -130,17 +136,7 @@
                 src="<?php echo get_template_directory_uri(); ?>'/images/intacctlogo.png'"
                 class="acumatica_front_logo supp_software_logo"/>
         </div>
-        <div class="carousel-cell">
-            <img
-                src="<?php echo get_template_directory_uri(); ?>'/images/hrmslogo.png'"
-                class="acumatica_front_logo supp_software_logo"/>
-
-        </div>
-        <div class="carousel-cell">
-            <img
-                src="<?php echo get_template_directory_uri(); ?>'/images/sage300.png'"
-                class="acumatica_front_logo supp_software_logo"/>
-        </div>
+       
         <div class="carousel-cell">
             <img
                 src="<?php echo get_template_directory_uri(); ?>'/images/TrueCommerce-logo.svg'"
