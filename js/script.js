@@ -48,8 +48,9 @@ mobBack.addEventListener('click', () => {
 })
 
 //Discover more button in software links
-let serviceMenuItem = document.querySelectorAll(".nav .menu-item-has-children");
-let subMenu = document.querySelectorAll("ul .sub-menu");
+let serviceMenuItem = document.querySelectorAll(".index_nav.nav .menu-item-has-children");
+let subMenu = document.querySelectorAll(".index_nav.nav ul .sub-menu");
+
 
 
 

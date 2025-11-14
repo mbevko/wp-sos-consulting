@@ -1,6 +1,7 @@
 <?php get_header();?>
 
 <header class="main_header">
+    <div class="main_overlay">
 <div class="index_nav_home nav">
             <a href="<?php echo site_url(); ?>" class="logo_link">
                 <img
@@ -12,101 +13,139 @@
         </div>
     <div class="overlay">
         
-        <h1 class="header_title">Your ERP Software & Service Provider</h1>
-        <p>Optimize Workflow | Reduce Costs | Accelerate growth</p>
-        <div class="more_info_btns">
-            <a href="<?php echo site_url('/about'); ?>">
-                <button class="header_learn_more_btn">Learn More</button>
-            </a>
-            <a href="<?php echo site_url('/contact'); ?>">
-                <button class="header_contact_us_btn">Contact Us</button>
-            </a>
-        </div>
+        <h1 class="header_title">ERP Solutions Built For Your Industry</h1>
+        <p>For manufacturers, distributors, and professional services - tailored ERP solutions that tackle your toughest challenges.</p>
+       
         <!-- <img src="./images/3.png" class="header_logo"/> -->
-    </div>
-</header>
-
-<section class="index_main_body">
-    <article class="software">
-        <h2 class="software_heading">Supported Solutions</h2>
-        <div class="software_links">
+        <a class="hp_learn_more_link">
+                    <button class="hp_learn_more_btn schedule_demo">Learn More</button>
+                </a>
+         <div class="software_links">
             <a
                 href="<?php echo site_url('/enterprise-resource-planning-erp'); ?>"
                 title="ERP Solutions"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/erp.png"
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/Manufacturing.png"
                     alt="ERP Solutions">
-                <p class="software_links_p">ERP Solutions</p>
+                <p class="software_links_p">Manufacturing</p>
             </a>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
-                class="vertical_logo"
-                style="width: 5px;">
 
             <a
                 href="<?php echo site_url('/human-resource-management'); ?>"
                 title="Human Resource Management"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/hrms.png"
-                    alt="Human Resource Management">
-                <p class="software_links_p">Human Resource Management</p>
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/Distribution.png"
+                    alt="Distribution">
+                <p class="software_links_p">Distribution</p>
             </a>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
-                class="vertical_logo"
-                style="width: 5px;">
+           
             <a
                 href="<?php echo site_url('/custom-programming'); ?>"
                 title="Custom Programming"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/customprogram.png"
-                    alt="Custom Programming">
-                <p class="software_links_p">Custom Programming</p>
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/ProfessionalServices.png"
+                    alt="Professional Services">
+                <p class="software_links_p">Professional Services</p>
             </a>
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/SOS More Code Vertical.png"
-                class="vertical_logo"
-                style="width: 5px;">
+           
             <a
                 href="<?php echo site_url('/3rd-party-solutions'); ?>"
-                title="Custom Screens and Applications"
+                title="Custom Programming"
                 class="sf_link_cont">
                 <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/3rdparty.png"
-                    alt="3rd Party Supported Solutions"/>
-                <p class="software_links_p">3rd Party Solutions</p>
+                    src="<?php echo get_template_directory_uri(); ?>/images/homepage/CustomPrograms.png"
+                    alt="Custom Programming"/>
+                <p class="software_links_p">Custom Programming</p>
             </a>
 
         </div>
-    </article>
-    <article class="hp_services">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/homepage/Services.png" class="hp_services_img"/>
-        <div class="hp_services_right">
-            <h2 class="sos_info_heading">SOS Services</h2>
-            <ul>
-                <li><strong><a href="<?php echo site_url('/services/workflow-analysis-and-process-automation/');?>">Business Process analysis and Design</a></strong>: We identify inefficiencies and implement solutions that enhance productivity and drive growth.</li>
-                <li><strong><a href="<?php echo site_url('/services/custom-reports-dashboards/');?>">Reports & Dashboards</a></strong>: We design and implement intuitive, data-driven tools that give you real-time insights into your business performance.</li>
-                <li><strong><a href="<?php echo site_url('/services/erp-implementation-migration/');?>">Implementation & Migration</a></strong>: We ensure a smooth, efficient process that minimizes downtime and maximizes productivity. </li>
-                <li><strong><a href="<?php echo site_url('/services/erp-training-support/');?>">Training & Support</a></strong>: Our tailored programs ensure your staff is proficient and confident in using new systems and tools.</li>
-                <li><strong><a href="<?php echo site_url('/services/subledger-reconciliation-services/');?>">Sub Ledger Reconciliation</a></strong>: Ensure accuracy and integrity in your financial data with our sub-ledger reconciliation services.</li>
-                <li><strong><a href="<?php echo site_url('/services/custom-programming/');?>">Custom Software Development</a></strong>: Our expert developers create custom applications that streamline processes and boost efficiency.</li>
-            </ul>
+    </div>
+    </div>
+</header>
+
+<section class="index_main_body">
+    <article class="software">
+        <div class="software_left">
+            <h2 class="software_heading">25+ Years of ERP Expertise. Built on Client Trust.</h2>
+            <p>SOS Consulting Services is one of the top-rated ERP partners for customer satisfaction and long-term success. We specialize in delivering world-class ERP applications for Manufacturing, Distribution and Professional Services firms, tailored to help them optimize workflows, reduce costs, and accelerate growth.</p>
+            <button>Learn More</button>
         </div>
-    </article>
-    <article class="sos_info">
-        <div class="sos_info_content">
-            <h2 class="sos_info_heading">See why SOS Consulting Services is one of the top-rated ERP solution providers for customer satisfaction and long-term client success</h2>
-            <p>At SOS Consulting Services, our mission is to deliver top-tier ERP solutions that empower businesses to thrive in the digital era. With over 25 years of industry experience, our team of seasoned professionals in accounting, software engineering, IT, and project management is dedicated to helping organizations achieve their goals through innovative technology and tailored solutions.</p>
-            <a href="<?php echo site_url('/about');?>" class="sos_info_link">See More</a>
+        <div class="software_right">
+            <div class="stat_cont top_row">
+                <p>99.5%</p>
+                <small>Succesful Implementation Rate</small>
+            </div>
+            <div class="stat_cont top_row">
+                <p>10.5</p>
+                <small>Avg. client relationship length</small>
+            </div>
+            <div class="stat_cont bottom_row">
+                <p>25+</p>
+                <small>Years of experience</small>
+            </div>
+            <div class="stat_cont bottom_row">
+                <p><1%</p>
+                <small>Billing disputes</small>
+            </div>
         </div>
-        <img
-            src="<?php echo get_template_directory_uri(); ?>'/images/homepagebannergraphic.png'"
-            class="sos_info_graphic">
+       
     </article>
-    <h2 class="software_heading">
+    <section class="problems-section">
+  <div class="container">
+    <h2>We Don’t Just Sell ERP. We Solve Industry Problems</h2>
+
+    <div class="problem-row open">
+      <div class="problem-title">Processes slow you down</div>
+      <div class="problem-text">
+        We manage implementations and migrations to keep your operations moving smoothly,
+        minimizing downtime and ensuring teams stay productive.
+      </div>
+    </div>
+
+    <div class="problem-row">
+      <div class="problem-title">You don’t have the data you need</div>
+      <div class="problem-text">
+        <strong>Reports &amp; Dashboards:</strong> We create intuitive dashboards and reports that show real-time insights,
+        from inventory levels to project profitability, so you can make faster, smarter decisions.
+      </div>
+    </div>
+
+    <div class="problem-row">
+      <div class="problem-title">System changes risk disruption</div>
+      <div class="problem-text">
+        <strong>Business Process &amp; Design:</strong> We uncover bottlenecks in your workflows, whether it’s production delays,
+        shipping errors, or lost billable hours, and redesign them to drive efficiency and growth.
+      </div>
+    </div>
+
+    <div class="problem-row">
+      <div class="problem-title">Teams struggle to adopt new tools</div>
+      <div class="problem-text">
+        We provide tailored training and ongoing support so your staff feel confident using your ERP system,
+        helping you realize value faster.
+      </div>
+    </div>
+
+    <div class="problem-row">
+      <div class="problem-title">Financials don't add up</div>
+      <div class="problem-text">
+        We reconcile your sub-ledgers with precision, ensuring your financial data is accurate, consistent, and audit-ready.
+      </div>
+    </div>
+
+    <div class="problem-row">
+      <div class="problem-title">Out-of-the-box ERP isn’t enough</div>
+      <div class="problem-text">
+        We develop custom applications and integrations that fill the gaps, streamlining unique manufacturing, distribution, or service processes.
+      </div>
+    </div>
+  </div>
+</section>
+
+    <h2 class="supported_software_heading">
         Our Supported Software
     </h2>
 
@@ -168,7 +207,7 @@
     </div>
 
     <div class="map_section">
-    <h2 class="software_heading">
+    <h2 class="supported_software_heading">
         Helping Clients Around the Globe
     </h2>
     <?php the_content();?>
@@ -215,60 +254,72 @@
 </section>
 
 <script>
-    let mainNav = document.querySelector("nav");
+     let mainNav = document.querySelector("nav");
 
-    mainNav.style = "transform: translateY(-150); display: none;"
+mainNav.style = "transform: translateY(-150); display: none;"
 
-    //if(window.innerHeight < 981px){
-    //mainNav.style = "display: none;"
+//if(window.innerHeight < 981px){
+//mainNav.style = "display: none;"
 
-    window.addEventListener("scroll", () => {
+window.addEventListener("scroll", () => {
 
-        if(window.scrollY > 100 && window.innerWidth > 981){
-            mainNav.style = "display: flex; transform: translateY(0);"
-        }else if(window.scrollY < 100 || window.innerWidth < 981){
-            mainNav.style = "display: none;"
-        }
+    if(window.scrollY > 100 && window.innerWidth > 981){
+        mainNav.style = "display: flex; transform: translateY(0);"
+    }else if(window.scrollY < 100 || window.innerWidth < 981){
+        mainNav.style = "display: none;"
+    }
 
-    });
+});
 
 
-    let serviceMenuItem2 = document.querySelectorAll(".index_nav_home .menu-item-has-children");
-    let subMenu2 = document.querySelectorAll(".index_nav_home ul .sub-menu");
+let serviceMenuItem2 = document.querySelectorAll(".index_nav_home .menu-item-has-children");
+let subMenu2 = document.querySelectorAll(".index_nav_home ul .sub-menu");
 
 
 
 serviceMenuItem2.forEach((dropDown, id) => {
 
-    dropDown.addEventListener('mouseover', () => {
+dropDown.addEventListener('mouseover', () => {
 
-        subMenu2[id].style.display = "flex"
+    subMenu2[id].style.display = "flex"
 
-        if(subMenu2[id].hasChildNodes()){
-            subMenu2[id].childNodes.forEach((child) => {
-                    if(child.nodeType === 1){
-                        if(child.hasChildNodes()){
-                            child.childNodes.forEach((smallChild) => {
-                                if(smallChild.nodeType === 1){
-                                smallChild.style ="display: block;k"
-                                //console.log(smallChild)
-                                }
-                            })
-                    }
+    if(subMenu2[id].hasChildNodes()){
+        subMenu2[id].childNodes.forEach((child) => {
+                if(child.nodeType === 1){
+                    if(child.hasChildNodes()){
+                        child.childNodes.forEach((smallChild) => {
+                            if(smallChild.nodeType === 1){
+                            smallChild.style ="display: block;k"
+                            //console.log(smallChild)
+                            }
+                        })
                 }
-            })
-        }
-    })
+            }
+        })
+    }
+})
 })
 
 
 
 serviceMenuItem2.forEach((dropDown, id) => {
-    dropDown.addEventListener('mouseleave', () => {
-        subMenu2.forEach(menu => menu.style.display = "none")
+dropDown.addEventListener('mouseleave', () => {
+    subMenu2.forEach(menu => menu.style.display = "none")
 
-    })
+})
 });
+
+// === Problem rows (leave this as-is) ===
+document.querySelectorAll(".problem-row").forEach((row, i) => {
+  const text = row.querySelector(".problem-text");
+  if (i === 0) row.classList.add("open");
+
+  row.addEventListener("mouseenter", () => row.classList.add("open"));
+  row.addEventListener("mouseleave", () => {
+    if (i !== 0) row.classList.remove("open");
+  });
+});
+
 
 </script>
 

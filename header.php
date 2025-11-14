@@ -3,6 +3,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="https://sosconsultingservices.net/wp-content/uploads/2025/09/faviconLogo.png" sizes="32x32" />
+		<link rel="apple-touch-icon" href="https://sosconsultingservices.net/wp-content/uploads/2025/09/faviconLogo.png" />
+
         <a
             href='http://www.mindmatrix.net'
             title='Marketing Automation'
@@ -14,12 +17,14 @@
         </a>
 
         <title>SOS Consulting Services</title>
+		 
         <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
+		
         <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet">
@@ -81,36 +86,9 @@
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
 <div class="header_banner">
-<a href="https://sosconsultingservices.net/2025/06/13/sos-consulting-services-and-information-innovators-announce-strategic-partnership-to-deliver-enhanced-erp-solutions/"><h3>SOS Announces Partnership with Information Innovators</h3></a>
+<a href="https://sosconsultingservices.net/2025/06/13/sos-consulting-services-and-information-innovators-announce-strategic-partnership-to-deliver-enhanced-erp-solutions/">SOS Announces Partnership with Information Innovators <img src="https://sosconsultingservices.net/wp-content/uploads/2025/09/icons8-right-arrow-50.png" alt="arrow" title="arrow"/></a>
 </div>
-        <div class="contact_header">
-            <div class="contact_head_cont">
-                <!--  <img class="mobile_logo" src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"> -->
-                <a href="tel:18442448869">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/images/phone.png"
-                        class="phone-icon contact_header_icon">
-                    <p>+1 (844)-244-8869</p>
-                </a>
-
-                <a href="mailto:info@sosconsultingservices.net">
-                    <img
-                        src="<?php echo get_template_directory_uri(); ?>/images/mail.png"
-                        class="mail-icon contact_header_icon">
-                    info@sosconsultingservices.net
-                </a>
-            </div>
-
-            <a
-                href="https://www.linkedin.com/company/sos-consulting-services-inc-"
-                target="_blank">
-                <img
-                    src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png"
-                    class="linkedin-icon contact_header_icon">
-                linkedin.com/sosconsultingservices
-            </a>
-
-        </div>
+    
         <img
             class="hamburger_menu"
             src="<?php echo get_template_directory_uri(); ?>/images/icons8-menu-48.png"
