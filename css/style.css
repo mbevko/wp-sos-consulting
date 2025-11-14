@@ -313,8 +313,7 @@ section.whatever {
     display:flex;
     justify-content:center;
     align-items:center;
-    justify-content:space-between; 
-    border: solid red 1px;
+    justify-content:space-between;
 }
 
 .index_nav_home  a{
