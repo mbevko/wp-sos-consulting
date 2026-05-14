@@ -60,10 +60,7 @@
     <!-- Logo -->
     <a href="<?php echo esc_url( home_url('/') ); ?>" class="nav-logo" aria-label="SOS Consulting Services home">
       <div class="nav-logo-icon">
-        <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="9" cy="9" r="7" stroke="white" stroke-width="1.4"/>
-          <path d="M5.5 9h7M9 5.5v7" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
-        </svg>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/SOSMorseCodeVertical.png" alt="SOS Consulting Services">
       </div>
       <div>
         <div class="nav-logo-name">SOS Consulting Services</div>
