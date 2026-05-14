@@ -1,93 +1,87 @@
-<?php wp_footer();?>
 <footer>
-    <img
-        src="<?php echo get_template_directory_uri(); ?>/images/logo_lite.png"
-        class="footer_logo"/>
-    <div class="footer_sitemap">
-
-        <?php wp_nav_menu( array( 'theme_location' => 'footer-nav', 'menu_class' =>
-        'footer_sitemap_container1' ) ); ?>
-
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo-row">
+        <div class="footer-logo-icon">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="white" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="white" stroke-width="1.2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="footer-logo-name">SOS Consulting Services</div>
+      </div>
+      <p class="footer-tagline">The ERP partner who stays after go-live. 25 years of implementations built on client trust.</p>
+      <div class="footer-contact">
+        <a href="tel:18442448869">+1 (844) 244-8869</a>
+        <a href="mailto:info@sosconsultingservices.net">info@sosconsultingservices.net</a>
+        <a href="https://www.linkedin.com/company/sos-consulting-services-inc-" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
-    <div class="footer_form form">
-        <script
-            charset="utf-8"
-            type="text/javascript"
-            src="//js.hsforms.net/forms/embed/v2.js"></script>
-        <script>
-            hbspt
-                .forms
-                .create({region: "na1", portalId: "45057611", formId: "1ebd865c-a9a0-4bce-a098-11e4c846b77c"});
-        </script>
+    <div>
+      <div class="footer-col-title">Solutions</div>
+      <div class="footer-links">
+        <a href="<?php echo esc_url( home_url('/acumatica') ); ?>">Acumatica · Manufacturing</a>
+        <a href="<?php echo esc_url( home_url('/distribution') ); ?>">Acumatica · Distribution</a>
+        <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>">Sage Intacct · Professional Services</a>
+        <a href="<?php echo esc_url( home_url('/sage-300') ); ?>">Sage 300</a>
+        <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>">Sage HRMS</a>
+        <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="footer-ai-link">AI ERP Intelligence ✦ New</a>
+      </div>
     </div>
-    <p class="footer_form_title">Send Us a Message</p>
-    <div class="contact_footer">
-
-        <a
-            href="https://www.linkedin.com/company/sos-consulting-services-inc-"
-            target="_blank"
-            class="contact_footer_link contact_footer_link1">
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/icons8-linkedin-50.png">
-            <span>Follow Us</span>
-        </a>
-        <a
-            href="mailto:info@sosconsultingservices.net"
-            class="contact_footer_link contact_footer_link2">
-            <img
-                src="<?php echo get_template_directory_uri(); ?>/images/icons8-mail-50.png">
-            info@sosconsultingservices.net
-        </a>
-
-        <a href="tel:18442448869" class="contact_footer_link contact_footer_link3">
-            <img
-                src="<?php echo get_template_directory_uri();?>'/images/icons8-ringer-volume-50.png'">+1(844)-244-8869</a>
+    <div>
+      <div class="footer-col-title">Services</div>
+      <div class="footer-links">
+        <a href="<?php echo esc_url( home_url('/services/implementation') ); ?>">ERP Implementation</a>
+        <a href="<?php echo esc_url( home_url('/services/implementation') ); ?>">Migration & Upgrade</a>
+        <a href="<?php echo esc_url( home_url('/services/workflow') ); ?>">Workflow Automation</a>
+        <a href="<?php echo esc_url( home_url('/services/reports') ); ?>">Custom Reports & Dashboards</a>
+        <a href="<?php echo esc_url( home_url('/services/training') ); ?>">ERP Training & Support</a>
+        <a href="<?php echo esc_url( home_url('/services/subledger') ); ?>">Subledger Reconciliation</a>
+        <a href="<?php echo esc_url( home_url('/services/adp') ); ?>">ADP Integration</a>
+      </div>
     </div>
-    <div class="icon-credit">
-        <a target="_blank" href="https://icons8.com">
-            Footer and header icons by Icons8</a>
+    <div>
+      <div class="footer-col-title">Company</div>
+      <div class="footer-links">
+        <a href="<?php echo esc_url( home_url('/about') ); ?>">About SOS</a>
+        <a href="<?php echo esc_url( home_url('/meet-the-partners') ); ?>">Meet the Partners</a>
+        <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>">Client Spotlights</a>
+        <a href="<?php echo esc_url( home_url('/blog') ); ?>">Blog</a>
+        <a href="<?php echo esc_url( home_url('/contact') ); ?>">Contact</a>
+        <a href="<?php echo esc_url( home_url('/assessment') ); ?>">Book Free Assessment</a>
+      </div>
+      <div style="margin-top:24px;">
+        <div class="footer-col-title">Locations</div>
+        <p style="font-size:12px;color:rgba(255,255,255,0.3);line-height:1.8;">
+          Albany, NY · Long Island, NY<br>
+          Ft. Lauderdale, FL · Nashville, TN<br>
+          Mooresville, NC
+        </p>
+      </div>
     </div>
-
-    <!--  <div class="copyright">© 2022 SOS CONSULTING SERVICES  ALL RIGHTS RESERVED </div> -->
-
-    <script></script>
+  </div>
+  <div class="footer-bottom">
+    <span>© <?php echo date('Y'); ?> SOS Consulting Services, Inc. All rights reserved.</span>
+    <div class="footer-bottom-links">
+      <a href="<?php echo esc_url( home_url('/privacy-policy') ); ?>">Privacy Policy</a>
+      <a href="<?php echo esc_url( home_url('/terms-of-service') ); ?>">Terms of Service</a>
+    </div>
+  </div>
 </footer>
-<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 
+<?php wp_footer(); ?>
+
+<!-- LinkedIn Insight Tag -->
 <script type="text/javascript">
-    _linkedin_partner_id = "6736929";
-    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-    window
-        ._linkedin_data_partner_ids
-        .push(_linkedin_partner_id);
+  _linkedin_partner_id = "6736929";
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
 </script>
 <script type="text/javascript">
-    (function (l) {
-        if (!l) {
-            window.lintrk = function (a, b) {
-                window
-                    .lintrk
-                    .q
-                    .push([a, b])
-            };
-            window.lintrk.q = []
-        }
-        var s = document.getElementsByTagName("script")[0];
-        var b = document.createElement("script");
-        b.type = "text/javascript";
-        b.async = true;
-        b.src = "https : //snap.licdn.com/li.lms-analytics/insight.min.js";
-        s.parentNode.insertBefore(b, s);
-    })(window.lintrk);
+  (function(l){if(!l){window.lintrk=function(a,b){window.lintrk.q.push([a,b])};window.lintrk.q=[]}
+  var s=document.getElementsByTagName("script")[0];var b=document.createElement("script");
+  b.type="text/javascript";b.async=true;
+  b.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";
+  s.parentNode.insertBefore(b,s);})(window.lintrk);
 </script>
-<noscript>
-    <img
-        height="1"
-        width="1"
-        style="display:none;"
-        alt=""
-        src="https://px.ads.linkedin.com/collect/?pid=6736929&fmt=gif"/>
-</noscript>
+<noscript><img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=6736929&fmt=gif"/></noscript>
 
 </body>
 </html>
