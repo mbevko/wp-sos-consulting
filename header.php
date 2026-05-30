@@ -339,7 +339,7 @@
             <div class="drop-featured-cta">Start the assessment →</div>
           </a>
           <div class="drop-simple" style="padding-top:4px;">
-            <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Blog & Articles</span>
             </a>
             <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="drop-link" role="menuitem">
@@ -452,7 +452,7 @@
   <div class="mobile-section">
     <div class="mobile-section-title">Resources</div>
     <a href="<?php echo esc_url( home_url('/erp-selection-guide') ); ?>" class="mobile-link">ERP Selection Guide — Free Tool</a>
-    <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="mobile-link">Blog & Articles</a>
+    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="mobile-link">Blog & Articles</a>
     <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="mobile-link">Client Spotlights</a>
     <a href="<?php echo esc_url( home_url('/erp-partner-checklist') ); ?>" class="mobile-link">ERP Partner Checklist</a>
   </div>

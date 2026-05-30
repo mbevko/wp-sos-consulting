@@ -312,7 +312,7 @@
 <section class="blog-strip">
   <div class="blog-strip-head">
     <h2 class="blog-strip-title">From the <em>managing partner</em></h2>
-    <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="blog-strip-link">Read all articles →</a>
+    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-strip-link">Read all articles →</a>
   </div>
   <div class="blog-grid">
     <?php
@@ -342,7 +342,7 @@
       wp_reset_postdata();
     else :
     ?>
-    <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
       <div class="blog-icp">ERP Rescue · Acumatica · Sage</div>
       <div class="blog-title">Your ERP Has Been Live for 18 Months. Here's How to Know Whether It's Broken — or Just Unfinished.</div>
       <div class="blog-excerpt">Most ERP problems aren't broken implementations — they're unfinished ones. The distinction matters because the path forward looks completely different depending on which one you're dealing with.</div>
@@ -351,7 +351,7 @@
         <span class="blog-read">Read →</span>
       </div>
     </a>
-    <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
       <div class="blog-icp">Manufacturing · Acumatica</div>
       <div class="blog-title">Why Manufacturers Miss Margin Even When Sales Are Strong</div>
       <div class="blog-excerpt">Strong sales hide weak margins when the ERP isn't configured to surface real cost data. Here's what to look at first — and what it usually means when the numbers don't add up.</div>
@@ -360,7 +360,7 @@
         <span class="blog-read">Read →</span>
       </div>
     </a>
-    <a href="<?php echo esc_url( home_url('/blog') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
       <div class="blog-icp">ERP Partner Selection · VAR Evaluation</div>
       <div class="blog-title">You Met the Senior Partner at the Sales Meeting. Here's What Happens After You Sign.</div>
       <div class="blog-excerpt">There's a moment in almost every large ERP sales process that nobody talks about. You sign the contract. Somewhere around week two, you realize you're not talking to that person anymore.</div>

@@ -43,7 +43,7 @@
         <a href="<?php echo esc_url( home_url('/about') ); ?>">About SOS</a>
         <a href="<?php echo esc_url( home_url('/meet-the-partners') ); ?>">Meet the Partners</a>
         <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>">Client Spotlights</a>
-        <a href="<?php echo esc_url( home_url('/blog') ); ?>">Blog</a>
+        <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>">Blog</a>
         <a href="<?php echo esc_url( home_url('/contact') ); ?>">Contact</a>
         <a href="<?php echo esc_url( home_url('/assessment') ); ?>">Book Free Assessment</a>
       </div>
