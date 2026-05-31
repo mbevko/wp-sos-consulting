@@ -18,7 +18,7 @@
       <div class="footer-col-title">Solutions</div>
       <div class="footer-links">
         <a href="<?php echo esc_url( home_url('/acumatica') ); ?>">Acumatica · Manufacturing</a>
-        <a href="<?php echo esc_url( home_url('/distribution') ); ?>">Acumatica · Distribution</a>
+        <a href="<?php echo esc_url( home_url('/acumatica-distribution') ); ?>">Acumatica · Distribution</a>
         <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>">Sage Intacct · Professional Services</a>
         <a href="<?php echo esc_url( home_url('/sage-300') ); ?>">Sage 300</a>
         <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>">Sage HRMS</a>
@@ -34,7 +34,7 @@
         <a href="<?php echo esc_url( home_url('/services/reports') ); ?>">Custom Reports & Dashboards</a>
         <a href="<?php echo esc_url( home_url('/services/training') ); ?>">ERP Training & Support</a>
         <a href="<?php echo esc_url( home_url('/services/subledger') ); ?>">Subledger Reconciliation</a>
-        <a href="<?php echo esc_url( home_url('/services/adp') ); ?>">ADP Integration</a>
+        <a href="<?php echo esc_url( home_url('/adp') ); ?>">ADP Integration</a>
       </div>
     </div>
     <div>

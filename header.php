@@ -126,21 +126,21 @@
             <!-- Column 2: By Industry -->
             <div class="mega-col">
               <div class="mega-col-header">By Industry</div>
-              <a href="<?php echo esc_url( home_url('/manufacturing') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/acumatica-manufacturing') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#fff4ec;">🏭</div>
                 <div>
                   <div class="mega-link-name">Manufacturing</div>
                   <div class="mega-link-desc">Production, BOM, shop floor, costing</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/distribution') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/acumatica-distribution') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#fff4ec;">📦</div>
                 <div>
                   <div class="mega-link-name">Distribution</div>
                   <div class="mega-link-desc">Warehouse, fulfillment, inventory</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/professional-services') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/sage-intacct-professional-services') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#e8f7ee;">💼</div>
                 <div>
                   <div class="mega-link-name">Professional Services</div>
@@ -298,7 +298,7 @@
                 <div class="svc-sol-also">Related services</div>
                 <div class="svc-sol-tags">
                   <a href="<?php echo esc_url( home_url('/services/reports') ); ?>" class="svc-sol-tag">Custom Reports</a>
-                  <a href="<?php echo esc_url( home_url('/services/adp') ); ?>" class="svc-sol-tag">ADP Integration</a>
+                  <a href="<?php echo esc_url( home_url('/adp') ); ?>" class="svc-sol-tag">ADP Integration</a>
                 </div>
               </div>
               <div class="svc-solution" id="svc-custom">
@@ -309,7 +309,7 @@
                 <div class="svc-sol-divider"></div>
                 <div class="svc-sol-also">Certified integrations</div>
                 <div class="svc-sol-tags">
-                  <a href="<?php echo esc_url( home_url('/services/adp') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">ADP Workforce Now ✓</a>
+                  <a href="<?php echo esc_url( home_url('/adp') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">ADP Workforce Now ✓</a>
                   <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">AI ERP Intelligence ✦</a>
                 </div>
               </div>
@@ -447,7 +447,7 @@
     <a href="<?php echo esc_url( home_url('/services/workflow') ); ?>" class="mobile-link">Workflow Automation</a>
     <a href="<?php echo esc_url( home_url('/services/reports') ); ?>" class="mobile-link">Custom Reports & Dashboards</a>
     <a href="<?php echo esc_url( home_url('/services/training') ); ?>" class="mobile-link">Training & Support</a>
-    <a href="<?php echo esc_url( home_url('/services/adp') ); ?>" class="mobile-link">ADP Integration</a>
+    <a href="<?php echo esc_url( home_url('/adp') ); ?>" class="mobile-link">ADP Integration</a>
   </div>
   <div class="mobile-section">
     <div class="mobile-section-title">Resources</div>
