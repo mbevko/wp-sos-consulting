@@ -3,7 +3,7 @@
 //Load Stylesheets
 function load_css() {
         
-        wp_register_style('stylesheet', get_template_directory_uri() . '/css/style.css', array(), false, 'all' );
+        wp_register_style('stylesheet', get_template_directory_uri() . '/css/style.css', array(), '2.0', 'all' );
         wp_enqueue_style('stylesheet');
 
 }
@@ -27,6 +27,11 @@ add_action('wp_enqueue_scripts', 'load_js');
 add_theme_support('menus');
 add_theme_support('post-thumbnails');
 add_post_type_support( 'page', 'excerpt' );
+
+// Gutenberg / Block Editor support
+add_theme_support('align-wide');
+add_theme_support('editor-styles');
+add_theme_support('wp-block-styles');
 
 function my_excerpt_length($length){ return 10; } 
 
