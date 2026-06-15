@@ -113,7 +113,7 @@ get_header();
     <div style="font-size:14px;color:var(--muted);font-weight:300;line-height:1.65;max-width:580px;margin-top:4px">Three core editions — each a full platform built for how that business type actually operates. SOS implements all three.</div>
 
     <div class="ed-grid">
-      <a href="<?php echo esc_url(home_url('/acumatica-manufacturing')); ?>" class="ed mfg">
+      <a href="<?php echo esc_url(home_url('/solutions/acumatica/manufacturing')); ?>" class="ed mfg">
         <div class="ed-top">
           <div class="ed-icon">🏭</div>
           <div class="ed-type">Manufacturing Edition</div>
@@ -130,7 +130,7 @@ get_header();
         </div>
         <div class="ed-bot"><span class="ed-bot-label">Explore Manufacturing →</span><div class="ed-arrow">→</div></div>
       </a>
-      <a href="<?php echo esc_url(home_url('/acumatica-distribution')); ?>" class="ed dist">
+      <a href="<?php echo esc_url(home_url('/solutions/acumatica/distribution')); ?>" class="ed dist">
         <div class="ed-top">
           <div class="ed-icon">📦</div>
           <div class="ed-type">Distribution Edition</div>
@@ -147,7 +147,7 @@ get_header();
         </div>
         <div class="ed-bot"><span class="ed-bot-label">Explore Distribution →</span><div class="ed-arrow">→</div></div>
       </a>
-      <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="ed gb">
+      <a href="<?php echo esc_url(home_url('/solutions/acumatica/general-business')); ?>" class="ed gb">
         <div class="ed-top">
           <div class="ed-icon">💼</div>
           <div class="ed-type">General Business Edition</div>
@@ -172,17 +172,17 @@ get_header();
         <div class="modules-header-desc">These modules extend any Acumatica edition — connect them to whichever foundation fits your business.</div>
       </div>
       <div class="modules-grid">
-        <a href="<?php echo esc_url(home_url('/acumatica-field-service')); ?>" class="mod-card">
+        <a href="<?php echo esc_url(home_url('/solutions/acumatica/field-service')); ?>" class="mod-card">
           <div class="mod-icon">🛠️</div>
           <div class="mod-name">Field Service</div>
           <div class="mod-body">Scheduling, dispatch, work orders, mobile time capture, and billing — connected to inventory and financials across any edition.</div>
         </a>
-        <a href="<?php echo esc_url(home_url('/acumatica-project-accounting')); ?>" class="mod-card">
+        <a href="<?php echo esc_url(home_url('/solutions/acumatica/project-accounting')); ?>" class="mod-card">
           <div class="mod-icon">📊</div>
           <div class="mod-name">Project Accounting</div>
           <div class="mod-body">Track project costs, budgets, time, and billing in real time. Used by manufacturers, distributors, and service-driven businesses across every edition.</div>
         </a>
-        <a href="<?php echo esc_url(home_url('/acumatica-payments')); ?>" class="mod-card">
+        <a href="<?php echo esc_url(home_url('/solutions/acumatica/payments')); ?>" class="mod-card">
           <div class="mod-icon">💳</div>
           <div class="mod-name">Acumatica Payments</div>
           <div class="mod-body">Native credit card and ACH payment processing built directly into AR — faster collections, no manual reconciliation.</div>
@@ -276,7 +276,7 @@ get_header();
       <p class="final-body">Every SOS demo is built around your specific industry, your production model, and the problems you're actually trying to solve. You'll see Acumatica configured for how your business works.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide</a>
+        <a href="<?php echo esc_url(home_url('/resources/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide</a>
       </div>
     </div>
     <div class="ac">

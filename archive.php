@@ -251,7 +251,7 @@
       <div style="font-size:10px; font-weight:700; color:var(--blue); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:8px;">Free Tool</div>
       <div class="sdb-card-title" style="color:var(--blue); margin-bottom:8px;">Not sure which ERP fits your business?</div>
       <p style="font-size:12px; color:var(--muted); font-weight:300; line-height:1.6; margin-bottom:14px;">10 questions. Platform recommendation + readiness score. 5 minutes.</p>
-      <a href="<?php echo esc_url( home_url( '/erp-selection-guide' ) ); ?>" style="display:block; background:var(--blue); color:#fff; text-align:center; padding:10px; border-radius:6px; font-size:13px; font-weight:700; text-decoration:none;">Take the ERP Selection Guide →</a>
+      <a href="<?php echo esc_url( home_url( '/resources/erp-selection-guide' ) ); ?>" style="display:block; background:var(--blue); color:#fff; text-align:center; padding:10px; border-radius:6px; font-size:13px; font-weight:700; text-decoration:none;">Take the ERP Selection Guide →</a>
     </div>
 
   </aside>
@@ -266,6 +266,20 @@ document.addEventListener('DOMContentLoaded', function() {
   var cards = getCards();
   document.getElementById('visibleCount').textContent  = cards.length;
   document.getElementById('count-all').textContent     = cards.length;
+
+  // Hash-based filter: #spotlight, #article, #tips, #news
+  var hash = window.location.hash.replace('#', '');
+  var validTypes = ['spotlight', 'article', 'tips', 'news'];
+  if (hash && validTypes.indexOf(hash) !== -1) {
+    archiveState.type = hash;
+    var btn = document.querySelector('[data-filter="type"][data-val="' + hash + '"]');
+    if (btn) {
+      document.querySelectorAll('[data-filter="type"]').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+    }
+    applyFilters();
+    return;
+  }
   // Show first page only if more than pageSize
   if (cards.length > pageSize) {
     cards.forEach(function(card, i) { if (i >= pageSize) card.style.display = 'none'; });

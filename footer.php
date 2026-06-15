@@ -2,10 +2,7 @@
   <div class="footer-top">
     <div class="footer-brand">
       <div class="footer-logo-row">
-        <div class="footer-logo-icon">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="white" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="white" stroke-width="1.2" stroke-linecap="round"/></svg>
-        </div>
-        <div class="footer-logo-name">SOS Consulting Services</div>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/favicon.png" alt="SOS Consulting Services" class="footer-logo-img">
       </div>
       <p class="footer-tagline">The ERP partner who stays after go-live. 25 years of implementations built on client trust.</p>
       <div class="footer-contact">
@@ -17,12 +14,12 @@
     <div>
       <div class="footer-col-title">Solutions</div>
       <div class="footer-links">
-        <a href="<?php echo esc_url( home_url('/acumatica') ); ?>">Acumatica · Manufacturing</a>
-        <a href="<?php echo esc_url( home_url('/acumatica-distribution') ); ?>">Acumatica · Distribution</a>
-        <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>">Sage Intacct · Professional Services</a>
-        <a href="<?php echo esc_url( home_url('/sage-300') ); ?>">Sage 300</a>
-        <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>">Sage HRMS</a>
-        <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="footer-ai-link">AI ERP Intelligence ✦ New</a>
+        <a href="<?php echo esc_url( home_url('/solutions/acumatica/manufacturing') ); ?>">Acumatica · Manufacturing</a>
+        <a href="<?php echo esc_url( home_url('/solutions/acumatica/distribution') ); ?>">Acumatica · Distribution</a>
+        <a href="<?php echo esc_url( home_url('/solutions/sage-intacct') ); ?>">Sage Intacct · Professional Services</a>
+        <a href="<?php echo esc_url( home_url('/solutions/sage-300') ); ?>">Sage 300</a>
+        <a href="<?php echo esc_url( home_url('/solutions/sage-hrms') ); ?>">Sage HRMS</a>
+        <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="footer-ai-link">AI ERP Intelligence ✦ New</a>
       </div>
     </div>
     <div>
@@ -40,11 +37,11 @@
     <div>
       <div class="footer-col-title">Company</div>
       <div class="footer-links">
-        <a href="<?php echo esc_url( home_url('/about') ); ?>">About SOS</a>
-        <a href="<?php echo esc_url( home_url('/meet-the-partners') ); ?>">Meet the Partners</a>
-        <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>">Client Spotlights</a>
-        <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>">Blog</a>
-        <a href="<?php echo esc_url( home_url('/contact') ); ?>">Contact</a>
+        <a href="<?php echo esc_url( home_url('/company/about') ); ?>">About SOS</a>
+        <a href="<?php echo esc_url( home_url('/company/meet-the-partners') ); ?>">Meet the Partners</a>
+        <a href="<?php echo esc_url( home_url('/resources/client-spotlights') ); ?>">Client Spotlights</a>
+        <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>">Blog</a>
+        <a href="<?php echo esc_url( home_url('/company/contact') ); ?>">Contact</a>
         <a href="<?php echo esc_url( home_url('/assessment') ); ?>">Book Free Assessment</a>
       </div>
       <div style="margin-top:24px;">

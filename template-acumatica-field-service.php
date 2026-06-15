@@ -37,7 +37,7 @@ get_header();
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
   <a href="<?php echo esc_url(home_url('/solutions')); ?>">Solutions</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
+  <a href="<?php echo esc_url(home_url('/solutions/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
   <span class="bc-cur">Field Service Management</span>
 </div></div>
 
@@ -231,7 +231,7 @@ get_header();
       <p class="final-body">Every SOS demo is configured around your specific dispatch model, service types, and billing requirements. You'll see Field Service the way your team would use it — not a prebuilt script.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/acumatica')); ?>" class="btn-out">Back to Acumatica Overview →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/acumatica')); ?>" class="btn-out">Back to Acumatica Overview →</a>
       </div>
     </div>
     <div class="ac">

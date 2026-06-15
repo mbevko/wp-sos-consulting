@@ -170,28 +170,28 @@ get_header();
         <div class="ind-card-title">Professional Services</div>
         <div class="ind-card-body">Consulting, IT services, agencies, engineering, staffing, and MSPs. Purpose-built for firms that sell expertise and time — AI-powered time capture, flexible project billing, and real-time margin visibility.</div>
         <div class="ind-card-tags"><span class="ind-tag">Project Billing</span><span class="ind-tag">Intelligent Time</span><span class="ind-tag">PSA Integration</span></div>
-        <a href="<?php echo esc_url(home_url('/sage-intacct-professional-services')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/sage-intacct/professional-services')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
       </div>
       <div class="ind-card">
         <div class="ind-card-icon">🤝</div>
         <div class="ind-card-title">Nonprofits</div>
         <div class="ind-card-body">The AICPA's only preferred nonprofit accounting platform. Native fund accounting, grant tracking, FASB-compliant financial statements, and dimensional reporting by program, fund, and location.</div>
         <div class="ind-card-tags"><span class="ind-tag">Fund Accounting</span><span class="ind-tag">Grant Tracking</span><span class="ind-tag">FASB Compliant</span></div>
-        <a href="<?php echo esc_url(home_url('/sage-intacct-nonprofits')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/sage-intacct/nonprofits')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
       </div>
       <div class="ind-card">
         <div class="ind-card-icon">💻</div>
         <div class="ind-card-title">SaaS &amp; Subscription</div>
         <div class="ind-card-body">The only mid-market platform combining subscription billing, revenue recognition, and financial management in one system. 500+ billing models, ASC 606 and IFRS 15 compliance, and 200+ real-time SaaS metrics.</div>
         <div class="ind-card-tags"><span class="ind-tag">ASC 606</span><span class="ind-tag">MRR / ARR</span><span class="ind-tag">500+ Billing Models</span></div>
-        <a href="<?php echo esc_url(home_url('/sage-intacct-saas-subscription')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/sage-intacct/saas')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
       </div>
       <div class="ind-card">
         <div class="ind-card-icon">🏥</div>
         <div class="ind-card-title">Healthcare</div>
         <div class="ind-card-body">HIPAA-compliant financial management for healthcare organizations, medical groups, behavioral health, and specialty practices. Multi-entity consolidations, compliance reporting, and real-time visibility across locations.</div>
         <div class="ind-card-tags"><span class="ind-tag">HIPAA Compliant</span><span class="ind-tag">Multi-Entity</span><span class="ind-tag">Compliance Reporting</span></div>
-        <a href="<?php echo esc_url(home_url('/sage-intacct-healthcare')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/sage-intacct/healthcare')); ?>" style="display:inline-flex;align-items:center;gap:5px;margin-top:14px;font-size:13px;font-weight:600;color:var(--teal);text-decoration:none">Learn more →</a>
       </div>
       <div class="ind-card">
         <div class="ind-card-icon">💰</div>
@@ -294,7 +294,7 @@ get_header();
       <p class="final-body">Every SOS demo is configured around your specific reporting structure, billing model, and organizational complexity. You'll see Sage Intacct the way your finance team would actually use it — not a generic walkthrough.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
+        <a href="<?php echo esc_url(home_url('/resources/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
       </div>
     </div>
     <div class="ac">

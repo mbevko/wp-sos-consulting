@@ -37,7 +37,7 @@ get_header();
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
   <a href="<?php echo esc_url(home_url('/solutions')); ?>">Solutions</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
+  <a href="<?php echo esc_url(home_url('/solutions/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
   <span class="bc-cur">Manufacturing Edition</span>
 </div></div>
 
@@ -410,7 +410,7 @@ get_header();
       <p class="final-body">Every SOS demo is configured around your specific production model, your manufacturing type, and the problems you're actually trying to solve. You'll see Acumatica the way your team would use it — not a generic walkthrough.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
+        <a href="<?php echo esc_url(home_url('/resources/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
       </div>
     </div>
     <div class="ac">

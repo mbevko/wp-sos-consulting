@@ -269,7 +269,7 @@ get_header();
       <p class="final-body">Whether you're evaluating ADP Workforce Now for the first time or need the integration to your ERP properly configured, SOS has the expertise on both sides of the connection.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/acumatica')); ?>" class="btn-out">Explore Acumatica →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/acumatica')); ?>" class="btn-out">Explore Acumatica →</a>
       </div>
     </div>
     <div class="ac">

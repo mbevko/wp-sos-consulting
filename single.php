@@ -261,7 +261,7 @@
       <div style="font-size:10px; font-weight:700; color:var(--blue); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:8px;">Free Tool</div>
       <div class="sdb-title" style="color:var(--blue); margin-bottom:8px;">Not sure which ERP is right for you?</div>
       <p style="font-size:12px; color:var(--muted); font-weight:300; line-height:1.6; margin-bottom:14px;">5 minutes. Platform recommendation + readiness score.</p>
-      <a href="<?php echo esc_url( home_url( '/erp-selection-guide' ) ); ?>" style="display:block; background:var(--blue); color:#fff; text-align:center; padding:9px; border-radius:6px; font-size:12px; font-weight:700; text-decoration:none;">Take the ERP Selection Guide →</a>
+      <a href="<?php echo esc_url( home_url( '/resources/erp-selection-guide' ) ); ?>" style="display:block; background:var(--blue); color:#fff; text-align:center; padding:9px; border-radius:6px; font-size:12px; font-weight:700; text-decoration:none;">Take the ERP Selection Guide →</a>
     </div>
 
   </aside>

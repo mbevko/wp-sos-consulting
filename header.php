@@ -49,7 +49,7 @@
   <span class="ann-pill">New</span>
   <span class="ann-dot"></span>
   <span>SOS is now an ADP-certified integration partner.</span>
-  <a href="<?php echo esc_url( home_url('/acumatica') ); ?>">See what this means for your Acumatica implementation →</a>
+  <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>">See what this means for your Acumatica implementation →</a>
   <button class="ann-close" onclick="dismissAnn()" aria-label="Dismiss">✕</button>
 </div>
 
@@ -59,13 +59,7 @@
 
     <!-- Logo -->
     <a href="<?php echo esc_url( home_url('/') ); ?>" class="nav-logo" aria-label="SOS Consulting Services home">
-      <div class="nav-logo-icon">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/SOSMorseCodeVertical.png" alt="SOS Consulting Services">
-      </div>
-      <div>
-        <div class="nav-logo-name">SOS Consulting Services</div>
-        <div class="nav-logo-tagline">ERP Specialists</div>
-      </div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/3.png" alt="SOS Consulting Services" class="nav-logo-img">
     </a>
 
     <!-- Desktop Links -->
@@ -85,35 +79,35 @@
             <!-- Column 1: By Platform -->
             <div class="mega-col">
               <div class="mega-col-header">By Platform</div>
-              <a href="<?php echo esc_url( home_url('/acumatica') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#fff4ec;">⚙️</div>
                 <div>
                   <div class="mega-link-name">Acumatica Cloud ERP</div>
                   <div class="mega-link-desc">Manufacturing & Distribution</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/sage-intacct') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#e8f7ee;">📊</div>
                 <div>
                   <div class="mega-link-name">Sage Intacct</div>
                   <div class="mega-link-desc">Professional Services & Finance</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/sage-300') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/sage-300') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#e8eefb;">🗄️</div>
                 <div>
                   <div class="mega-link-name">Sage 300</div>
                   <div class="mega-link-desc">Optimization & Support</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>" class="mega-link" role="menuitem">
+              <a href="#" class="mega-link" role="menuitem" style="opacity:0.5; pointer-events:none; cursor:default;">
                 <div class="mega-link-icon" style="background:#f5f3ef;">👥</div>
                 <div>
-                  <div class="mega-link-name">Sage HRMS</div>
+                  <div class="mega-link-name">Sage HRMS <span style="font-size:10px;font-weight:600;background:#e5e5e5;color:#888;padding:1px 6px;border-radius:4px;margin-left:4px;">Coming Soon</span></div>
                   <div class="mega-link-desc">HR & Payroll</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="mega-link" role="menuitem"
+              <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="mega-link" role="menuitem"
                  style="background:rgba(26,79,160,0.04); border:1px solid rgba(26,79,160,0.12); border-radius:8px; margin-top:8px;">
                 <div class="mega-link-icon" style="background:rgba(26,79,160,0.1);">🤖</div>
                 <div>
@@ -126,21 +120,21 @@
             <!-- Column 2: By Industry -->
             <div class="mega-col">
               <div class="mega-col-header">By Industry</div>
-              <a href="<?php echo esc_url( home_url('/acumatica-manufacturing') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/acumatica/manufacturing') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#fff4ec;">🏭</div>
                 <div>
                   <div class="mega-link-name">Manufacturing</div>
                   <div class="mega-link-desc">Production, BOM, shop floor, costing</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/acumatica-distribution') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/acumatica/distribution') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#fff4ec;">📦</div>
                 <div>
                   <div class="mega-link-name">Distribution</div>
                   <div class="mega-link-desc">Warehouse, fulfillment, inventory</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/sage-intacct-professional-services') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/solutions/sage-intacct/professional-services') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:#e8f7ee;">💼</div>
                 <div>
                   <div class="mega-link-name">Professional Services</div>
@@ -150,14 +144,14 @@
               <div style="margin-top:16px; padding:14px; background:var(--stone); border-radius:10px;">
                 <div style="font-size:11px; font-weight:700; color:var(--muted); letter-spacing:0.06em; text-transform:uppercase; margin-bottom:8px;">Not sure which fits?</div>
                 <p style="font-size:11.5px; color:var(--muted); line-height:1.55; font-weight:300; margin-bottom:10px;">Take our 5-minute ERP Selection Guide. Get a platform recommendation tailored to your business.</p>
-                <a href="<?php echo esc_url( home_url('/erp-selection-guide') ); ?>" style="font-size:12px; font-weight:600; color:var(--red); text-decoration:none;">Take the assessment →</a>
+                <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" style="font-size:12px; font-weight:600; color:var(--red); text-decoration:none;">Take the assessment →</a>
               </div>
             </div>
 
             <!-- Column 3: Your Situation -->
             <div class="mega-col">
               <div class="mega-col-header">Your Situation</div>
-              <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="mega-link" role="menuitem"
+              <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="mega-link" role="menuitem"
                  style="background:rgba(192,57,43,0.04); border:1px solid rgba(192,57,43,0.12); border-radius:8px; margin-bottom:8px;">
                 <div class="mega-link-icon" style="background:rgba(192,57,43,0.1);">🔧</div>
                 <div>
@@ -165,21 +159,21 @@
                   <div class="mega-link-desc">ERP live but not working right</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:var(--stone);">🔍</div>
                 <div>
                   <div class="mega-link-name">Evaluating Partners</div>
                   <div class="mega-link-desc">Comparing implementation firms</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:var(--stone);">⚡</div>
                 <div>
                   <div class="mega-link-name">Optimization</div>
                   <div class="mega-link-desc">Getting more from existing ERP</div>
                 </div>
               </a>
-              <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="mega-link" role="menuitem">
+              <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="mega-link" role="menuitem">
                 <div class="mega-link-icon" style="background:var(--stone);">🚀</div>
                 <div>
                   <div class="mega-link-name">New Implementation</div>
@@ -195,7 +189,7 @@
           </div>
           <div class="mega-footer">
             <div class="mega-footer-text"><strong>99.5% implementation rate</strong> · 10.5yr avg. client relationship · &lt;1% billing disputes</div>
-            <a href="<?php echo esc_url( home_url('/about') ); ?>" class="mega-footer-link">Why SOS →</a>
+            <a href="<?php echo esc_url( home_url('/company/about') ); ?>" class="mega-footer-link">Why SOS →</a>
           </div>
         </div>
       </div>
@@ -247,10 +241,10 @@
                 <div class="svc-sol-divider"></div>
                 <div class="svc-sol-also">Platforms we implement</div>
                 <div class="svc-sol-tags">
-                  <a href="<?php echo esc_url( home_url('/acumatica') ); ?>" class="svc-sol-tag">Acumatica</a>
-                  <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>" class="svc-sol-tag">Sage Intacct</a>
-                  <a href="<?php echo esc_url( home_url('/sage-300') ); ?>" class="svc-sol-tag">Sage 300</a>
-                  <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>" class="svc-sol-tag">Sage HRMS</a>
+                  <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>" class="svc-sol-tag">Acumatica</a>
+                  <a href="<?php echo esc_url( home_url('/solutions/sage-intacct') ); ?>" class="svc-sol-tag">Sage Intacct</a>
+                  <a href="<?php echo esc_url( home_url('/solutions/sage-300') ); ?>" class="svc-sol-tag">Sage 300</a>
+                  <span class="svc-sol-tag" style="opacity:0.5; cursor:default;">Sage HRMS</span>
                 </div>
               </div>
               <div class="svc-solution" id="svc-reports">
@@ -261,7 +255,7 @@
                 <div class="svc-sol-divider"></div>
                 <div class="svc-sol-also">Also consider</div>
                 <div class="svc-sol-tags">
-                  <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="svc-sol-tag" style="background:rgba(26,79,160,0.08); color:var(--blue);">AI ERP Intelligence ✦</a>
+                  <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="svc-sol-tag" style="background:rgba(26,79,160,0.08); color:var(--blue);">AI ERP Intelligence ✦</a>
                   <a href="<?php echo esc_url( home_url('/services/workflow') ); ?>" class="svc-sol-tag">Workflow Automation</a>
                 </div>
               </div>
@@ -310,7 +304,7 @@
                 <div class="svc-sol-also">Certified integrations</div>
                 <div class="svc-sol-tags">
                   <a href="<?php echo esc_url( home_url('/adp') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">ADP Workforce Now ✓</a>
-                  <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">AI ERP Intelligence ✦</a>
+                  <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="svc-sol-tag" style="color:var(--blue); background:rgba(26,79,160,0.08);">AI ERP Intelligence ✦</a>
                 </div>
               </div>
             </div>
@@ -332,21 +326,21 @@
           </svg>
         </button>
         <div class="dropdown dropdown-resources" id="drop-resources" role="menu">
-          <a href="<?php echo esc_url( home_url('/erp-selection-guide') ); ?>" class="drop-featured" role="menuitem">
+          <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="drop-featured" role="menuitem">
             <div class="drop-featured-label">Free Interactive Tool</div>
             <div class="drop-featured-name">ERP Selection Guide</div>
             <div class="drop-featured-desc">10 questions. Platform recommendation + readiness score. Personalized result in 5 minutes.</div>
             <div class="drop-featured-cta">Start the assessment →</div>
           </a>
           <div class="drop-simple" style="padding-top:4px;">
-            <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Blog & Articles</span>
             </a>
-            <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>#spotlight" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Client Spotlights</span>
             </a>
             <div class="drop-divider"></div>
-            <a href="<?php echo esc_url( home_url('/erp-partner-checklist') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/resources/erp-partner-checklist') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span>
               <span class="drop-link-name">ERP Partner Checklist <span style="font-size:9.5px; color:var(--muted);">— Free PDF</span></span>
             </a>
@@ -383,17 +377,17 @@
             </div>
           </div>
           <div class="drop-simple">
-            <a href="<?php echo esc_url( home_url('/about') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/company/about') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">About SOS</span>
             </a>
-            <a href="<?php echo esc_url( home_url('/meet-the-partners') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/company/meet-the-partners') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Meet the Partners</span>
             </a>
-            <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>#spotlight" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Client Spotlights</span>
             </a>
             <div class="drop-divider"></div>
-            <a href="<?php echo esc_url( home_url('/contact') ); ?>" class="drop-link" role="menuitem">
+            <a href="<?php echo esc_url( home_url('/company/contact') ); ?>" class="drop-link" role="menuitem">
               <span class="drop-link-dot"></span><span class="drop-link-name">Contact</span>
             </a>
             <a href="tel:18442448869" class="drop-link" role="menuitem">
@@ -408,7 +402,7 @@
 
     <!-- CTA Buttons -->
     <div class="nav-actions">
-      <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="btn-nav-ai">
+      <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="btn-nav-ai">
         <span class="ai-live-dot"></span>Try AI ERP Tool
       </a>
       <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="btn-nav-primary">
@@ -435,11 +429,11 @@
   </div>
   <div class="mobile-section">
     <div class="mobile-section-title">Solutions</div>
-    <a href="<?php echo esc_url( home_url('/acumatica') ); ?>" class="mobile-link">Acumatica — Manufacturing & Distribution</a>
-    <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>" class="mobile-link">Sage Intacct — Professional Services</a>
-    <a href="<?php echo esc_url( home_url('/sage-300') ); ?>" class="mobile-link">Sage 300 — Optimization & Support</a>
-    <a href="<?php echo esc_url( home_url('/sage-hrms') ); ?>" class="mobile-link">Sage HRMS — HR & Payroll</a>
-    <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="mobile-link" style="color:var(--blue); font-weight:600;">AI ERP Intelligence ✦ New</a>
+    <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>" class="mobile-link">Acumatica — Manufacturing & Distribution</a>
+    <a href="<?php echo esc_url( home_url('/solutions/sage-intacct') ); ?>" class="mobile-link">Sage Intacct — Professional Services</a>
+    <a href="<?php echo esc_url( home_url('/solutions/sage-300') ); ?>" class="mobile-link">Sage 300 — Optimization & Support</a>
+    <span class="mobile-link" style="opacity:0.45; pointer-events:none;">Sage HRMS — HR & Payroll (Coming Soon)</span>
+    <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="mobile-link" style="color:var(--blue); font-weight:600;">AI ERP Intelligence ✦ New</a>
   </div>
   <div class="mobile-section">
     <div class="mobile-section-title">Services</div>
@@ -447,23 +441,25 @@
     <a href="<?php echo esc_url( home_url('/services/workflow') ); ?>" class="mobile-link">Workflow Automation</a>
     <a href="<?php echo esc_url( home_url('/services/reports') ); ?>" class="mobile-link">Custom Reports & Dashboards</a>
     <a href="<?php echo esc_url( home_url('/services/training') ); ?>" class="mobile-link">Training & Support</a>
+    <a href="<?php echo esc_url( home_url('/services/subledger') ); ?>" class="mobile-link">Subledger Reconciliation</a>
+    <a href="<?php echo esc_url( home_url('/services/custom') ); ?>" class="mobile-link">Custom Software Development</a>
     <a href="<?php echo esc_url( home_url('/adp') ); ?>" class="mobile-link">ADP Integration</a>
   </div>
   <div class="mobile-section">
     <div class="mobile-section-title">Resources</div>
-    <a href="<?php echo esc_url( home_url('/erp-selection-guide') ); ?>" class="mobile-link">ERP Selection Guide — Free Tool</a>
-    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="mobile-link">Blog & Articles</a>
-    <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="mobile-link">Client Spotlights</a>
-    <a href="<?php echo esc_url( home_url('/erp-partner-checklist') ); ?>" class="mobile-link">ERP Partner Checklist</a>
+    <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="mobile-link">ERP Selection Guide — Free Tool</a>
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="mobile-link">Blog & Articles</a>
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>#spotlight" class="mobile-link">Client Spotlights</a>
+    <a href="<?php echo esc_url( home_url('/resources/erp-partner-checklist') ); ?>" class="mobile-link">ERP Partner Checklist</a>
   </div>
   <div class="mobile-section">
     <div class="mobile-section-title">Company</div>
-    <a href="<?php echo esc_url( home_url('/about') ); ?>" class="mobile-link">About SOS</a>
-    <a href="<?php echo esc_url( home_url('/meet-the-partners') ); ?>" class="mobile-link">Meet the Partners</a>
-    <a href="<?php echo esc_url( home_url('/contact') ); ?>" class="mobile-link">Contact</a>
+    <a href="<?php echo esc_url( home_url('/company/about') ); ?>" class="mobile-link">About SOS</a>
+    <a href="<?php echo esc_url( home_url('/company/meet-the-partners') ); ?>" class="mobile-link">Meet the Partners</a>
+    <a href="<?php echo esc_url( home_url('/company/contact') ); ?>" class="mobile-link">Contact</a>
   </div>
   <div class="mobile-ctas">
-    <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="mobile-cta-ai">Try AI ERP Tool</a>
+    <a href="<?php echo esc_url( home_url('/ai-erp-intelligence') ); ?>" class="mobile-cta-ai">Try AI ERP Tool</a>
     <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="mobile-cta-primary">Book Free Assessment</a>
   </div>
 </div>

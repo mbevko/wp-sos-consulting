@@ -8,7 +8,7 @@
     <p class="hero-sub">Your ERP should run your business — not the other way around. We implement Acumatica and Sage Intacct for manufacturers, distributors, and professional services firms who need it done right — <strong>and a team that doesn't disappear after signing.</strong></p>
     <div class="hero-actions">
       <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="hero-btn-primary">Book a Free Technology Assessment</a>
-      <a href="<?php echo esc_url( home_url('/about') ); ?>" class="hero-btn-ghost">
+      <a href="<?php echo esc_url( home_url('/company/about') ); ?>" class="hero-btn-ghost">
         See how we work
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
@@ -41,35 +41,35 @@
 <section class="routing">
   <p class="routing-label">What brings you here today?</p>
   <div class="routing-grid">
-    <a href="<?php echo esc_url( home_url('/acumatica-manufacturing') ); ?>" class="route-card route-mfg">
+    <a href="<?php echo esc_url( home_url('/solutions/acumatica/manufacturing') ); ?>" class="route-card route-mfg">
       <span class="route-badge badge-acu">Acumatica</span>
       <div class="route-industry">Manufacturing</div>
       <div class="route-title">We need a modern ERP built for how manufacturing actually runs</div>
       <div class="route-cta">Schedule a demo →</div>
       <div class="route-meta">30 min · No obligation</div>
     </a>
-    <a href="<?php echo esc_url( home_url('/acumatica-distribution') ); ?>" class="route-card route-dist">
+    <a href="<?php echo esc_url( home_url('/solutions/acumatica/distribution') ); ?>" class="route-card route-dist">
       <span class="route-badge badge-acu">Acumatica</span>
       <div class="route-industry">Distribution</div>
       <div class="route-title">We're outgrowing our current system as a distributor</div>
       <div class="route-cta">Schedule a demo →</div>
       <div class="route-meta">30 min · No obligation</div>
     </a>
-    <a href="<?php echo esc_url( home_url('/sage-intacct-professional-services') ); ?>" class="route-card route-svc">
+    <a href="<?php echo esc_url( home_url('/solutions/sage-intacct/professional-services') ); ?>" class="route-card route-svc">
       <span class="route-badge badge-int">Sage Intacct</span>
       <div class="route-industry">Professional Services</div>
       <div class="route-title">We need real financial visibility across projects and entities</div>
       <div class="route-cta">Schedule a demo →</div>
       <div class="route-meta">30 min · No obligation</div>
     </a>
-    <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="route-card route-rescue">
+    <a href="<?php echo esc_url( home_url('/resources/erp-selection-guide') ); ?>" class="route-card route-rescue">
       <span class="route-badge badge-sos">Any Platform</span>
       <div class="route-industry">ERP Rescue</div>
       <div class="route-title">Our ERP is live — but it's not working the way it should</div>
       <div class="route-cta">Get a free diagnosis →</div>
       <div class="route-meta">60 min · Free · No sales pitch</div>
     </a>
-    <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="route-card route-ai">
+    <a href="https://ai.sosconsultingservices.net" target="_blank" rel="noopener" class="route-card route-ai">
       <span class="route-badge badge-ai">AI Tool · New</span>
       <div class="route-industry">Sage 300 Clients</div>
       <div class="route-title">I want real-time answers from my Sage 300 database</div>
@@ -122,22 +122,22 @@
         </div>
       </div>
       <div class="why-software">
-        <a href="<?php echo esc_url( home_url('/acumatica') ); ?>" class="why-sw-card">
+        <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>" class="why-sw-card">
           <div class="why-sw-name">Acumatica Cloud ERP</div>
           <div class="why-sw-for">Manufacturing & Distribution</div>
           <div class="why-sw-link">Explore implementation →</div>
         </a>
-        <a href="<?php echo esc_url( home_url('/sage-intacct') ); ?>" class="why-sw-card">
+        <a href="<?php echo esc_url( home_url('/solutions/sage-intacct') ); ?>" class="why-sw-card">
           <div class="why-sw-name">Sage Intacct</div>
           <div class="why-sw-for">Professional Services</div>
           <div class="why-sw-link">Explore implementation →</div>
         </a>
-        <a href="<?php echo esc_url( home_url('/sage-300') ); ?>" class="why-sw-card">
+        <a href="<?php echo esc_url( home_url('/solutions/sage-300') ); ?>" class="why-sw-card">
           <div class="why-sw-name">Sage 300</div>
           <div class="why-sw-for">Optimization & Support</div>
           <div class="why-sw-link">See support services →</div>
         </a>
-        <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="why-sw-card why-sw-ai">
+        <a href="https://ai.sosconsultingservices.net" target="_blank" rel="noopener" class="why-sw-card why-sw-ai">
           <div class="why-sw-name">AI ERP Intelligence ✦</div>
           <div class="why-sw-for">Sage 300 · Exclusive · New</div>
           <div class="why-sw-link">Request early access →</div>
@@ -179,8 +179,8 @@
       <div class="ai-check"><div class="ai-check-icon">✓</div><div class="ai-check-text">Available exclusively through SOS Consulting Services</div></div>
     </div>
     <div class="ai-btns">
-      <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="ai-btn-primary">Request Early Access →</a>
-      <a href="<?php echo esc_url( home_url('/ai-erp-tool') ); ?>" class="ai-btn-ghost">See a live demo</a>
+      <a href="https://ai.sosconsultingservices.net" target="_blank" rel="noopener" class="ai-btn-primary">Request Early Access →</a>
+      <a href="https://ai.sosconsultingservices.net" target="_blank" rel="noopener" class="ai-btn-ghost">See a live demo</a>
     </div>
   </div>
   <div class="ai-demo">
@@ -223,7 +223,7 @@
       <div class="spots-eyebrow">Client Spotlights</div>
       <h2 class="spots-headline">Real implementations.<br><em>Real results.</em></h2>
     </div>
-    <a href="<?php echo esc_url( home_url('/client-spotlights') ); ?>" class="spots-all">View all client stories →</a>
+    <a href="<?php echo esc_url( home_url('/resources/client-spotlights') ); ?>" class="spots-all">View all client stories →</a>
   </div>
   <div class="spots-grid">
 
@@ -312,7 +312,7 @@
 <section class="blog-strip">
   <div class="blog-strip-head">
     <h2 class="blog-strip-title">From the <em>managing partner</em></h2>
-    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-strip-link">Read all articles →</a>
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="blog-strip-link">Read all articles →</a>
   </div>
   <div class="blog-grid">
     <?php
@@ -342,7 +342,7 @@
       wp_reset_postdata();
     else :
     ?>
-    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="blog-card">
       <div class="blog-icp">ERP Rescue · Acumatica · Sage</div>
       <div class="blog-title">Your ERP Has Been Live for 18 Months. Here's How to Know Whether It's Broken — or Just Unfinished.</div>
       <div class="blog-excerpt">Most ERP problems aren't broken implementations — they're unfinished ones. The distinction matters because the path forward looks completely different depending on which one you're dealing with.</div>
@@ -351,7 +351,7 @@
         <span class="blog-read">Read →</span>
       </div>
     </a>
-    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="blog-card">
       <div class="blog-icp">Manufacturing · Acumatica</div>
       <div class="blog-title">Why Manufacturers Miss Margin Even When Sales Are Strong</div>
       <div class="blog-excerpt">Strong sales hide weak margins when the ERP isn't configured to surface real cost data. Here's what to look at first — and what it usually means when the numbers don't add up.</div>
@@ -360,7 +360,7 @@
         <span class="blog-read">Read →</span>
       </div>
     </a>
-    <a href="<?php echo esc_url( home_url('/category/articles/') ); ?>" class="blog-card">
+    <a href="<?php echo esc_url( home_url('/resources/articles') ); ?>" class="blog-card">
       <div class="blog-icp">ERP Partner Selection · VAR Evaluation</div>
       <div class="blog-title">You Met the Senior Partner at the Sales Meeting. Here's What Happens After You Sign.</div>
       <div class="blog-excerpt">There's a moment in almost every large ERP sales process that nobody talks about. You sign the contract. Somewhere around week two, you realize you're not talking to that person anymore.</div>
@@ -385,15 +385,8 @@
       <div class="assess-card-title">Book your free assessment</div>
       <div class="assess-card-sub">Senior partner-led. 60 minutes. No preparation needed.</div>
 
-      <!-- CALENDLY EMBED — replace this block with your Calendly inline widget -->
-      <div class="assess-calendly-placeholder">
-        <div style="font-size:13px; color:var(--muted); margin-bottom:8px; font-weight:500;">📅 Calendly embed goes here</div>
-        <div style="font-size:12px; color:var(--muted); font-weight:300; line-height:1.5;">Replace this block with your<br><code style="font-size:11px;background:var(--stone);padding:2px 6px;border-radius:4px;">Calendly inline widget</code></div>
-      </div>
-      <!-- END CALENDLY EMBED -->
-
       <a href="<?php echo esc_url( home_url('/assessment') ); ?>" class="assess-btn">Book a No-Cost Assessment →</a>
-      <a href="tel:18442448869" class="assess-phone">📞 +1 (844) 244-8869</a>
+      <a href="tel:18442448869" class="assess-phone" style="color:var(--teal);">📞 +1 (844) 244-8869</a>
       <div class="assess-note">Every assessment is run by a senior partner — not a salesperson.</div>
     </div>
   </div>

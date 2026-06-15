@@ -37,7 +37,7 @@ get_header();
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
   <a href="<?php echo esc_url(home_url('/solutions')); ?>">Solutions</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/sage-intacct')); ?>">Sage Intacct</a><span class="bc-sep">/</span>
+  <a href="<?php echo esc_url(home_url('/solutions/sage-intacct')); ?>">Sage Intacct</a><span class="bc-sep">/</span>
   <span class="bc-cur">Healthcare</span>
 </div></div>
 
@@ -231,7 +231,7 @@ get_header();
       <p class="final-body">Every SOS demo is configured around your specific entity structure, compliance requirements, and the financial visibility your leadership needs. You'll see Sage Intacct the way your finance team would use it — not a generic walkthrough.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/sage-intacct')); ?>" class="btn-out">Back to Sage Intacct Overview →</a>
+        <a href="<?php echo esc_url(home_url('/solutions/sage-intacct')); ?>" class="btn-out">Back to Sage Intacct Overview →</a>
       </div>
     </div>
     <div class="ac">

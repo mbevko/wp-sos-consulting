@@ -38,7 +38,7 @@ get_header();
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
   <a href="<?php echo esc_url(home_url('/solutions')); ?>">Solutions</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
+  <a href="<?php echo esc_url(home_url('/solutions/acumatica')); ?>">Acumatica Cloud ERP</a><span class="bc-sep">/</span>
   <span class="bc-cur">General Business Edition</span>
 </div></div>
 
@@ -171,7 +171,7 @@ get_header();
           <div class="calc-card-label">ERP Cost of Inaction Calculator</div>
           <div class="calc-card-title">See your estimated savings <em>before you talk to anyone.</em></div>
           <div class="calc-card-body">Eight sliders. Three minutes. A specific dollar figure — based on your hours, your team, your operation.</div>
-          <a href="<?php echo esc_url(home_url('/roi-calculator')); ?>" class="calc-card-btn">🧮 Run the Calculator →</a>
+          <a href="<?php echo esc_url(home_url('/roi-calculator-general-business')); ?>" class="calc-card-btn">🧮 Run the Calculator →</a>
           <div class="calc-card-note">Free · No spreadsheet required · Results emailed to you instantly</div>
         </div>
       </div>
@@ -414,7 +414,7 @@ get_header();
       <p class="final-body">Every SOS demo is configured around how your business actually operates — your billing model, your entities, your reporting needs. You'll see Acumatica the way your team would use it — not a generic walkthrough.</p>
       <div class="final-actions">
         <a href="<?php echo esc_url(home_url('/assessment')); ?>" class="btn-white">Book a Free Assessment →</a>
-        <a href="<?php echo esc_url(home_url('/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
+        <a href="<?php echo esc_url(home_url('/resources/erp-selection-guide')); ?>" class="btn-out">Take the ERP Selection Guide →</a>
       </div>
     </div>
     <div class="ac">
