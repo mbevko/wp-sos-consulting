@@ -16,7 +16,7 @@ get_header();
 
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/company')); ?>">Company</a><span class="bc-sep">/</span>
+  <span class="bc-nolink">Company</span><span class="bc-sep">/</span>
   <span class="bc-cur">Meet the Partners</span>
 </div></div>
 
@@ -91,9 +91,8 @@ get_header();
       </div>
       <div class="mtp-divider"></div>
       <div class="mtp-bio">
-        <p>Michael leads custom development at SOS, building the tools, integrations, and backend systems that extend ERP platforms beyond what they do out of the box. His technical work spans SQL, VB.NET, and JavaScript &mdash; with a foundation in front-end development, HTML/CSS, and JS libraries that means he can own a build end-to-end, from the database layer to the interface a client actually uses.</p>
-        <p>Before moving into software, Michael spent years in network and IT infrastructure &mdash; managing everything from firewalls, switching, and cabling to security cameras and enterprise-level systems across entire school districts. That background in how real networks and systems fit together informs how he approaches integration work: he understands what sits on both sides of the connection, not just the API in between.</p>
-        <p>When a client needs something the standard ERP cannot do, Michael builds it &mdash; and builds it to last.</p>
+        <p>Michael leads custom development at SOS, building the integrations, tools, and backend systems that extend ERP platforms beyond what they do out of the box. His work spans SQL, VB.NET, JavaScript, and front-end development, giving him the ability to own a build from the database layer to the client-facing interface.</p>
+        <p>Before moving into software, Michael spent years managing IT infrastructure across school districts, including firewalls, switching, cabling, and enterprise-level systems. That background means he understands what sits on both sides of an integration, not just the API in between.</p>
       </div>
     </div>
 

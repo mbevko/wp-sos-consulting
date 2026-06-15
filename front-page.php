@@ -223,7 +223,7 @@
       <div class="spots-eyebrow">Client Spotlights</div>
       <h2 class="spots-headline">Real implementations.<br><em>Real results.</em></h2>
     </div>
-    <a href="<?php echo esc_url( home_url('/resources/client-spotlights') ); ?>" class="spots-all">View all client stories →</a>
+    <a href="<?php echo esc_url( home_url('/resources/articles/') ); ?>#spotlight" class="spots-all">View all client stories →</a>
   </div>
   <div class="spots-grid">
 
@@ -239,16 +239,6 @@
         <div class="spot-result">
           <div class="spot-result-num">8 mo</div>
           <div class="spot-result-label">of Excel workarounds eliminated in one engagement</div>
-        </div>
-        <div class="spot-quote">
-          <div class="spot-quote-text">"We went live and thought we were done. SOS found what our original partner missed and finished the job. I wish we'd called them first."</div>
-          <div class="spot-quote-attr">
-            <div class="spot-quote-avatar">JS</div>
-            <div>
-              <div class="spot-quote-name">Jake Sandoval</div>
-              <div class="spot-quote-title">VP of Operations · Outlaw Snax</div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -266,16 +256,6 @@
           <div class="spot-result-num">Year 3</div>
           <div class="spot-result-label">of an ongoing partnership — still the same team</div>
         </div>
-        <div class="spot-quote">
-          <div class="spot-quote-text">"The senior partner who scoped our project ran our project. After our last ERP experience, that was everything. We knew exactly who to call — and they picked up."</div>
-          <div class="spot-quote-attr">
-            <div class="spot-quote-avatar" style="background:var(--teal-mid);">MR</div>
-            <div>
-              <div class="spot-quote-name">Michelle Reyes</div>
-              <div class="spot-quote-title">CFO · Mid-Market Distributor</div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
@@ -291,16 +271,6 @@
         <div class="spot-result">
           <div class="spot-result-num">12 → 4</div>
           <div class="spot-result-label">days to close month-end</div>
-        </div>
-        <div class="spot-quote">
-          <div class="spot-quote-text">"SOS was the only firm that asked about our billing workflows before talking about the software. That told us everything. Two years later, close is down from 12 days to 4."</div>
-          <div class="spot-quote-attr">
-            <div class="spot-quote-avatar" style="background:var(--teal-mid);">DK</div>
-            <div>
-              <div class="spot-quote-name">David Kim</div>
-              <div class="spot-quote-title">Controller · Professional Services Firm</div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -49,7 +49,7 @@
   <span class="ann-pill">New</span>
   <span class="ann-dot"></span>
   <span>SOS is now an ADP-certified integration partner.</span>
-  <a href="<?php echo esc_url( home_url('/solutions/acumatica') ); ?>">See what this means for your Acumatica implementation →</a>
+  <a href="<?php echo esc_url( home_url('/adp') ); ?>">Learn about our ADP integration →</a>
   <button class="ann-close" onclick="dismissAnn()" aria-label="Dismiss">✕</button>
 </div>
 

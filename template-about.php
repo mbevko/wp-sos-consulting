@@ -39,7 +39,7 @@ get_header();
 
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/company')); ?>">Company</a><span class="bc-sep">/</span>
+  <span class="bc-nolink">Company</span><span class="bc-sep">/</span>
   <span class="bc-cur">About Us</span>
 </div></div>
 

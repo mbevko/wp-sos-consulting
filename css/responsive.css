@@ -811,7 +811,8 @@
   .page-header h1 { font-size: 28px; }
   .article-hero { height: 240px; }
 
-  .ann-bar { font-size: 10px; padding: 0 16px; }
+  .ann-bar { display: none; }
+  .btn-nav-ai, .btn-nav-primary { display: none; }
   .nav { padding: 0 16px; }
 
   .spots-headline, .blog-strip-title { font-size: 22px; }

@@ -36,7 +36,7 @@ get_header();
 
 <div class="bc"><div class="bc-inner">
   <a href="<?php echo esc_url(home_url('/')); ?>">Home</a><span class="bc-sep">/</span>
-  <a href="<?php echo esc_url(home_url('/solutions')); ?>">Solutions</a><span class="bc-sep">/</span>
+  <span class="bc-nolink">Solutions</span><span class="bc-sep">/</span>
   <span class="bc-cur">Sage Intacct</span>
 </div></div>
 
